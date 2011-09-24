@@ -18,28 +18,28 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="1=Hindbrain" Type="Folder" URL="../1=Hindbrain">
+		<Item Name="1-Hindbrain" Type="Folder" URL="../1-Hindbrain">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="2-3=MidbrainForebrain Neurons" Type="Folder" URL="../2-3=MidbrainForebrain Neurons">
+		<Item Name="2-Midbrain" Type="Folder" URL="../2-Midbrain">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="2=Midbrain" Type="Folder" URL="../2=Midbrain">
+		<Item Name="2x3-MidbrainForebrain Neurons" Type="Folder" URL="../2x3-MidbrainForebrain Neurons">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="3-4=ForebrainOCU Neurons" Type="Folder" URL="../3-4=ForebrainOCU Neurons">
+		<Item Name="3-Forebrain" Type="Folder" URL="../3-Forebrain">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="3=Forebrain" Type="Folder" URL="../3=Forebrain">
+		<Item Name="3x4-ForebrainOCU Neurons" Type="Folder" URL="../3x4-ForebrainOCU Neurons">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="4=OCU" Type="Folder" URL="../4=OCU">
+		<Item Name="4-OCU" Type="Folder" URL="../4-OCU">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="1=Hindbrain.vi" Type="VI" URL="../1=Hindbrain.vi"/>
-		<Item Name="2=Midbrain.vi" Type="VI" URL="../2=Midbrain.vi"/>
-		<Item Name="3=Forebrain.vi" Type="VI" URL="../3=Forebrain.vi"/>
-		<Item Name="4=OCU.vi" Type="VI" URL="../4=OCU.vi"/>
+		<Item Name="1-Hindbrain.vi" Type="VI" URL="../1-Hindbrain.vi"/>
+		<Item Name="2-Midbrain.vi" Type="VI" URL="../2-Midbrain.vi"/>
+		<Item Name="3-Forebrain.vi" Type="VI" URL="../3-Forebrain.vi"/>
+		<Item Name="4-OCU.vi" Type="VI" URL="../4-OCU.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
