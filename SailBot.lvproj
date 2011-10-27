@@ -43,8 +43,8 @@
 			</Item>
 			<Item Name="2 Global.vi" Type="VI" URL="../../../../SailBot/ProgrammingRepo/Software/2-RIO/2 Globals/2 Global.vi"/>
 			<Item Name="Endurance PMW Initialization.vi" Type="VI" URL="../Software/3-OCU/3 Code/Endurance PMW Initialization.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
-			<Item Name="lvinput.dll" Type="Document" URL="../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvinput.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="lvinput.dll" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvinput.dll"/>
 			<Item Name="manual override.ctl" Type="VI" URL="../../../../SailBot/ProgrammingRepo/Software/2-RIO/2 Typedefs/manual override.ctl"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
