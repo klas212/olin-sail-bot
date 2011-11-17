@@ -1,5 +1,37 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="11008008">
+	<Property Name="varPersistentID:{0D773FDE-4367-4A46-B634-C4F4C06929C1}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO21</Property>
+	<Property Name="varPersistentID:{17AF81D6-641F-494B-B452-F01430E5C97A}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO5</Property>
+	<Property Name="varPersistentID:{2BDF5244-59DE-4FEA-A325-67F42A46AC6D}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO0</Property>
+	<Property Name="varPersistentID:{2CDAEA5F-8A09-40B9-9441-B74BD2FD64B4}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO4</Property>
+	<Property Name="varPersistentID:{3406097D-F22F-4A40-B2FA-6BF294025938}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO8</Property>
+	<Property Name="varPersistentID:{3C761E71-0305-4CAF-B5FF-B08B297966A8}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO18</Property>
+	<Property Name="varPersistentID:{42639F75-7964-4645-B4FC-0BB8A3AA0C2F}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO23</Property>
+	<Property Name="varPersistentID:{4C491988-2368-4B08-BE45-A5212F0E85C2}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO24</Property>
+	<Property Name="varPersistentID:{52394B0E-FB4C-48DE-9347-C91E6CF6F313}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO30</Property>
+	<Property Name="varPersistentID:{5A84C1E3-66A0-4C0A-A5D6-D6C6D840A56D}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO7</Property>
+	<Property Name="varPersistentID:{5BD1F137-126B-4933-B48D-F92D1A972228}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO22</Property>
+	<Property Name="varPersistentID:{6D3913EE-FDD6-4EA4-980F-038E8ED8367A}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO20</Property>
+	<Property Name="varPersistentID:{6F2B114C-BD24-4215-9A44-1AAA48FA32A6}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO31</Property>
+	<Property Name="varPersistentID:{7784F248-383D-4FC0-A40B-836ADEB14FD2}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO14</Property>
+	<Property Name="varPersistentID:{78701415-ED22-4939-BA16-1A1E38092F22}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO10</Property>
+	<Property Name="varPersistentID:{89E96B39-1B72-4E8E-9513-5908D67E2508}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO6</Property>
+	<Property Name="varPersistentID:{91368391-99F5-443A-9566-B642785CD8BF}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO15</Property>
+	<Property Name="varPersistentID:{983CDF78-B164-4A59-AE93-32EE345B284B}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO28</Property>
+	<Property Name="varPersistentID:{9A60DC19-D8A3-4ED2-881F-27E104B3BF69}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO13</Property>
+	<Property Name="varPersistentID:{A40BE3D9-A04E-47EC-8F93-45C7D071E341}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO11</Property>
+	<Property Name="varPersistentID:{A78B0F51-FB0D-4D25-83F2-CFD0BBFB936F}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO19</Property>
+	<Property Name="varPersistentID:{AC6DAFE5-0D51-4AC4-A2E9-8378B78E9C4A}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO12</Property>
+	<Property Name="varPersistentID:{B226B588-F732-4DA1-8E8C-FC08F2A345A6}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO27</Property>
+	<Property Name="varPersistentID:{B4B0AA2E-AA6D-4500-AA22-0C86BCE48388}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO17</Property>
+	<Property Name="varPersistentID:{C4AF144C-FB35-4D13-9050-1146330CDD78}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO9</Property>
+	<Property Name="varPersistentID:{D1A692D1-539E-44D8-BFD4-7EBF3D15EC69}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO3</Property>
+	<Property Name="varPersistentID:{D9346CBA-1AE6-45FC-B61A-02CB247ADEF9}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO26</Property>
+	<Property Name="varPersistentID:{DF9CE0AE-16DC-4ACA-9E5D-03FCF1907AAB}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO16</Property>
+	<Property Name="varPersistentID:{F551CFBF-72E2-429C-9196-30CAE94207EC}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO1</Property>
+	<Property Name="varPersistentID:{F6AD7716-604A-4D80-A3B7-507D252233F2}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO25</Property>
+	<Property Name="varPersistentID:{F911B54C-B73A-4452-A559-5DD996B7DC14}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO2</Property>
+	<Property Name="varPersistentID:{FDF298D2-A1FF-4028-9723-BFB51DEC9E87}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO29</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -101,7 +133,6 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="visarc" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/visarc"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -157,15 +188,120 @@
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Property Name="TargetOSID" Type="Str">VxWorks-PPC603</Property>
 		<Item Name="Chassis" Type="cRIO Chassis">
-			<Property Name="crio.ProgrammingMode" Type="Str">express</Property>
+			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
 			<Property Name="crio.Type" Type="Str">cRIO-9113</Property>
+			<Item Name="FPGA Target" Type="FPGA Target">
+				<Property Name="AutoRun" Type="Bool">false</Property>
+				<Property Name="configString.guid" Type="Str">{30CEE6AD-C88B-452E-A6C2-3F5A022D9A3B}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{3478DBFA-D450-460F-8073-47355AA3C4BE}resource=/Chassis Temperature;0;ReadMethodType=i16{3BF84954-58AA-4E0A-88E8-1CE549B6BBAE}[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{614D5C80-EE34-4B83-9CF6-F503786513E5}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{858CD645-E9DB-473B-BF5D-01EEABB03944}"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;WriteArbs=Arbitrate if Multiple Requestors Only;Implementation=2;FIFO Port1 Read;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"{9A2A589D-EAD3-4D18-BBD1-637023AFD45D}resource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{B6E1D127-B460-4F79-BC18-60BC0C745E25}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E{B983E3C4-3C48-4F9D-BED2-D7047DCF3D5E}resource=/Scan Clock;0;ReadMethodType=bool{FF32FD7B-7C20-4D57-A8E5-D789678FF7EA}[crioConfig.Begin]crio.Location=Slot 4,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]cRIO-9113/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGA</Property>
+				<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EChassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9113/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGAFIFO Port1 Read"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;WriteArbs=Arbitrate if Multiple Requestors Only;Implementation=2;FIFO Port1 Read;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"FPGA LEDresource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolMod1[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod4[crioConfig.Begin]crio.Location=Slot 4,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool</Property>
+				<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">cRIO-9113/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGA</Property>
+				<Property Name="NI.LV.FPGA.Version" Type="Int">5</Property>
+				<Property Name="Resource Name" Type="Str">RIO0</Property>
+				<Property Name="Target Class" Type="Str">cRIO-9113</Property>
+				<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
+				<Property Name="Top-Level Timing Source Is Default" Type="Bool">true</Property>
+				<Item Name="Chassis I/O" Type="Folder">
+					<Item Name="Chassis Temperature" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="resource">
+   <Value>/Chassis Temperature</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{3478DBFA-D450-460F-8073-47355AA3C4BE}</Property>
+					</Item>
+					<Item Name="FPGA LED" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="resource">
+   <Value>/FPGA LED</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{9A2A589D-EAD3-4D18-BBD1-637023AFD45D}</Property>
+					</Item>
+					<Item Name="Scan Clock" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="resource">
+   <Value>/Scan Clock</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{B983E3C4-3C48-4F9D-BED2-D7047DCF3D5E}</Property>
+					</Item>
+					<Item Name="Sleep" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="resource">
+   <Value>/Sleep</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{30CEE6AD-C88B-452E-A6C2-3F5A022D9A3B}</Property>
+					</Item>
+					<Item Name="System Reset" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="resource">
+   <Value>/System Reset</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{614D5C80-EE34-4B83-9CF6-F503786513E5}</Property>
+					</Item>
+				</Item>
+				<Item Name="40 MHz Onboard Clock" Type="FPGA Base Clock">
+					<Property Name="FPGA.PersistentID" Type="Str">{B6E1D127-B460-4F79-BC18-60BC0C745E25}</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig" Type="Str">ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.Accuracy" Type="Dbl">100</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.ClockSignalName" Type="Str">Clk40</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.MaxDutyCycle" Type="Dbl">50</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.MaxFrequency" Type="Dbl">40000000</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.MinDutyCycle" Type="Dbl">50</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.MinFrequency" Type="Dbl">40000000</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.NominalFrequency" Type="Dbl">40000000</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.PeakPeriodJitter" Type="Dbl">250</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.ResourceName" Type="Str">40 MHz Onboard Clock</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.SupportAndRequireRuntimeEnableDisable" Type="Bool">false</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.TopSignalConnect" Type="Str">Clk40</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.VariableFrequency" Type="Bool">false</Property>
+					<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
+					<Property Name="NI.LV.FPGA.Version" Type="Int">5</Property>
+				</Item>
+				<Item Name="FIFO Port1 Read" Type="FPGA FIFO">
+					<Property Name="Actual Number of Elements" Type="UInt">1023</Property>
+					<Property Name="Arbitration for Read" Type="UInt">1</Property>
+					<Property Name="Arbitration for Write" Type="UInt">1</Property>
+					<Property Name="Control Logic" Type="UInt">0</Property>
+					<Property Name="Data Type" Type="UInt">2</Property>
+					<Property Name="Disable on Overflow/Underflow" Type="Bool">false</Property>
+					<Property Name="fifo.configuration" Type="Str">"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;WriteArbs=Arbitrate if Multiple Requestors Only;Implementation=2;FIFO Port1 Read;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"</Property>
+					<Property Name="fifo.configured" Type="Bool">true</Property>
+					<Property Name="fifo.projectItemValid" Type="Bool">true</Property>
+					<Property Name="fifo.valid" Type="Bool">true</Property>
+					<Property Name="fifo.version" Type="Int">11</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{858CD645-E9DB-473B-BF5D-01EEABB03944}</Property>
+					<Property Name="Local" Type="Bool">false</Property>
+					<Property Name="Memory Type" Type="UInt">2</Property>
+					<Property Name="Requested Number of Elements" Type="UInt">1023</Property>
+					<Property Name="Type" Type="UInt">2</Property>
+					<Property Name="Type Descriptor" Type="Str">100080000000000100094002000349313600010000000000000000</Property>
+				</Item>
+				<Item Name="WriteToFIFO.vi" Type="VI" URL="../Software/1A-FPGA/1A Code/WriteToFIFO.vi">
+					<Property Name="configString.guid" Type="Str">{30CEE6AD-C88B-452E-A6C2-3F5A022D9A3B}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{3478DBFA-D450-460F-8073-47355AA3C4BE}resource=/Chassis Temperature;0;ReadMethodType=i16{3BF84954-58AA-4E0A-88E8-1CE549B6BBAE}[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{614D5C80-EE34-4B83-9CF6-F503786513E5}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{858CD645-E9DB-473B-BF5D-01EEABB03944}"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;WriteArbs=Arbitrate if Multiple Requestors Only;Implementation=2;FIFO Port1 Read;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"{9A2A589D-EAD3-4D18-BBD1-637023AFD45D}resource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{B6E1D127-B460-4F79-BC18-60BC0C745E25}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E{B983E3C4-3C48-4F9D-BED2-D7047DCF3D5E}resource=/Scan Clock;0;ReadMethodType=bool{FF32FD7B-7C20-4D57-A8E5-D789678FF7EA}[crioConfig.Begin]crio.Location=Slot 4,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]cRIO-9113/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGA</Property>
+					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EChassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9113/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGAFIFO Port1 Read"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;WriteArbs=Arbitrate if Multiple Requestors Only;Implementation=2;FIFO Port1 Read;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"FPGA LEDresource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolMod1[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod4[crioConfig.Begin]crio.Location=Slot 4,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool</Property>
+				</Item>
+				<Item Name="Dependencies" Type="Dependencies"/>
+				<Item Name="Build Specifications" Type="Build"/>
+			</Item>
 			<Item Name="Mod1" Type="RIO C Series Module">
 				<Property Name="crio.Calibration" Type="Str">1</Property>
 				<Property Name="crio.Location" Type="Str">Slot 1</Property>
 				<Property Name="crio.RequiresValidation" Type="Bool">false</Property>
+				<Property Name="crio.SDcounterSlaveChannelMask" Type="Str">0</Property>
+				<Property Name="crio.SDCounterSlaveMasterSlot" Type="Str">0</Property>
+				<Property Name="crio.SDInputFilter" Type="Str">128</Property>
 				<Property Name="crio.SupportsDynamicRes" Type="Bool">false</Property>
 				<Property Name="crio.Type" Type="Str">NI 9870</Property>
+				<Property Name="cRIOModule.DigitalIOMode" Type="Str">0</Property>
 				<Property Name="cRIOModule.EnableSpecialtyDigital" Type="Str">false</Property>
 				<Property Name="cRIOModule.kBaudRateDivider1" Type="Str">384</Property>
 				<Property Name="cRIOModule.kBaudRateDivider2" Type="Str">384</Property>
@@ -195,6 +331,7 @@
 				<Property Name="cRIOModule.kStopBits2" Type="Str">1</Property>
 				<Property Name="cRIOModule.kStopBits3" Type="Str">1</Property>
 				<Property Name="cRIOModule.kStopBits4" Type="Str">1</Property>
+				<Property Name="FPGA.PersistentID" Type="Str">{3BF84954-58AA-4E0A-88E8-1CE549B6BBAE}</Property>
 			</Item>
 			<Item Name="Mod4" Type="RIO C Series Module">
 				<Property Name="crio.Calibration" Type="Str">1</Property>
@@ -205,6 +342,7 @@
 				<Property Name="cRIOModule.DisableArbitration" Type="Str">false</Property>
 				<Property Name="cRIOModule.EnableSpecialtyDigital" Type="Str">false</Property>
 				<Property Name="cRIOModule.Initial Line Direction" Type="Str">00000000000000000000000000000000</Property>
+				<Property Name="FPGA.PersistentID" Type="Str">{FF32FD7B-7C20-4D57-A8E5-D789678FF7EA}</Property>
 				<Item Name="DIO0" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
