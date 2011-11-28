@@ -1,37 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="11008008">
-	<Property Name="varPersistentID:{0D773FDE-4367-4A46-B634-C4F4C06929C1}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO21</Property>
-	<Property Name="varPersistentID:{17AF81D6-641F-494B-B452-F01430E5C97A}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO5</Property>
-	<Property Name="varPersistentID:{2BDF5244-59DE-4FEA-A325-67F42A46AC6D}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO0</Property>
-	<Property Name="varPersistentID:{2CDAEA5F-8A09-40B9-9441-B74BD2FD64B4}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO4</Property>
-	<Property Name="varPersistentID:{3406097D-F22F-4A40-B2FA-6BF294025938}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO8</Property>
-	<Property Name="varPersistentID:{3C761E71-0305-4CAF-B5FF-B08B297966A8}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO18</Property>
-	<Property Name="varPersistentID:{42639F75-7964-4645-B4FC-0BB8A3AA0C2F}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO23</Property>
-	<Property Name="varPersistentID:{4C491988-2368-4B08-BE45-A5212F0E85C2}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO24</Property>
-	<Property Name="varPersistentID:{52394B0E-FB4C-48DE-9347-C91E6CF6F313}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO30</Property>
-	<Property Name="varPersistentID:{5A84C1E3-66A0-4C0A-A5D6-D6C6D840A56D}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO7</Property>
-	<Property Name="varPersistentID:{5BD1F137-126B-4933-B48D-F92D1A972228}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO22</Property>
-	<Property Name="varPersistentID:{6D3913EE-FDD6-4EA4-980F-038E8ED8367A}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO20</Property>
-	<Property Name="varPersistentID:{6F2B114C-BD24-4215-9A44-1AAA48FA32A6}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO31</Property>
-	<Property Name="varPersistentID:{7784F248-383D-4FC0-A40B-836ADEB14FD2}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO14</Property>
-	<Property Name="varPersistentID:{78701415-ED22-4939-BA16-1A1E38092F22}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO10</Property>
-	<Property Name="varPersistentID:{89E96B39-1B72-4E8E-9513-5908D67E2508}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO6</Property>
-	<Property Name="varPersistentID:{91368391-99F5-443A-9566-B642785CD8BF}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO15</Property>
-	<Property Name="varPersistentID:{983CDF78-B164-4A59-AE93-32EE345B284B}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO28</Property>
-	<Property Name="varPersistentID:{9A60DC19-D8A3-4ED2-881F-27E104B3BF69}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO13</Property>
-	<Property Name="varPersistentID:{A40BE3D9-A04E-47EC-8F93-45C7D071E341}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO11</Property>
-	<Property Name="varPersistentID:{A78B0F51-FB0D-4D25-83F2-CFD0BBFB936F}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO19</Property>
-	<Property Name="varPersistentID:{AC6DAFE5-0D51-4AC4-A2E9-8378B78E9C4A}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO12</Property>
-	<Property Name="varPersistentID:{B226B588-F732-4DA1-8E8C-FC08F2A345A6}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO27</Property>
-	<Property Name="varPersistentID:{B4B0AA2E-AA6D-4500-AA22-0C86BCE48388}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO17</Property>
-	<Property Name="varPersistentID:{C4AF144C-FB35-4D13-9050-1146330CDD78}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO9</Property>
-	<Property Name="varPersistentID:{D1A692D1-539E-44D8-BFD4-7EBF3D15EC69}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO3</Property>
-	<Property Name="varPersistentID:{D9346CBA-1AE6-45FC-B61A-02CB247ADEF9}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO26</Property>
-	<Property Name="varPersistentID:{DF9CE0AE-16DC-4ACA-9E5D-03FCF1907AAB}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO16</Property>
-	<Property Name="varPersistentID:{F551CFBF-72E2-429C-9196-30CAE94207EC}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO1</Property>
-	<Property Name="varPersistentID:{F6AD7716-604A-4D80-A3B7-507D252233F2}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO25</Property>
-	<Property Name="varPersistentID:{F911B54C-B73A-4452-A559-5DD996B7DC14}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO2</Property>
-	<Property Name="varPersistentID:{FDF298D2-A1FF-4028-9723-BFB51DEC9E87}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO29</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -101,6 +69,7 @@
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
+				<Item Name="nirviEmuTemplateMethod_errors.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuTemplateMethod_errors.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="ROI Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/ROI Descriptor"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
@@ -116,8 +85,8 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
-			<Item Name="lvinput.dll" Type="Document" URL="../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvinput.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="lvinput.dll" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvinput.dll"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
