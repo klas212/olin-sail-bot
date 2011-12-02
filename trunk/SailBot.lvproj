@@ -1,5 +1,37 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="11008008">
+	<Property Name="varPersistentID:{0DA23682-D571-4FAF-883F-8CE694C701B3}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO6</Property>
+	<Property Name="varPersistentID:{13CC4963-C3D5-463E-94A1-48D184084247}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO23</Property>
+	<Property Name="varPersistentID:{13D9F0A2-6DAC-4BE1-B935-B100BBF57A33}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO5</Property>
+	<Property Name="varPersistentID:{1E988BA4-3E5C-4E5A-AAEE-DF68B7D82F61}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO28</Property>
+	<Property Name="varPersistentID:{2B8CC817-B9A2-4E57-BC5A-99E527158A53}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO12</Property>
+	<Property Name="varPersistentID:{6965B2F5-7946-4372-9F14-4C3E14B89A0C}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO21</Property>
+	<Property Name="varPersistentID:{70B3B9AF-BF14-4A1E-A349-F22D107DDF99}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO31</Property>
+	<Property Name="varPersistentID:{7249FB4D-9827-4CF6-9749-2C275D7FABE2}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO16</Property>
+	<Property Name="varPersistentID:{8D130D16-C92D-44FD-A144-0CE7E5C0C864}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO14</Property>
+	<Property Name="varPersistentID:{971395FE-DB5C-44F1-87F7-23D93D423A2A}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO29</Property>
+	<Property Name="varPersistentID:{A1345A6E-EDF3-4C85-ADD7-E8C8B151749A}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO20</Property>
+	<Property Name="varPersistentID:{A413721D-094C-4F32-AE24-9F121B50D121}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO25</Property>
+	<Property Name="varPersistentID:{A6EA1138-3C7B-4D4F-91C2-2B6BA1182952}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO1</Property>
+	<Property Name="varPersistentID:{B35312AE-9B6F-48D4-B29A-47488C8FBDB2}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO10</Property>
+	<Property Name="varPersistentID:{B4560489-BCE0-418E-947A-9A8C19AC9BB8}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO30</Property>
+	<Property Name="varPersistentID:{B6ACC2F6-C3A1-4053-B03B-4C1CF77ED673}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO24</Property>
+	<Property Name="varPersistentID:{BE224AC9-9FAC-467A-959E-27073B366EC6}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO3</Property>
+	<Property Name="varPersistentID:{BFF8CAFA-A017-4234-8D68-FF6D5A01882C}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO0</Property>
+	<Property Name="varPersistentID:{C2A078AB-E869-46E2-BE76-4B4959D3F32E}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO15</Property>
+	<Property Name="varPersistentID:{C9A0A96B-AB7F-4A4D-96AB-DA8CB54846F9}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO27</Property>
+	<Property Name="varPersistentID:{CB853A25-0EB0-4BDC-A939-331B3AF106AB}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO7</Property>
+	<Property Name="varPersistentID:{CC2577D8-E2AE-419F-B5FF-62765E7CBD37}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO4</Property>
+	<Property Name="varPersistentID:{CD587B2B-CBA0-42A3-8C37-0EB3F79DC0CD}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO26</Property>
+	<Property Name="varPersistentID:{D1D43C02-A110-42E6-922A-DD747D45CCAB}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO18</Property>
+	<Property Name="varPersistentID:{D28EFDD4-CF07-4EC5-8780-4DBE14668247}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO22</Property>
+	<Property Name="varPersistentID:{D545A55E-8A3C-4D54-942D-B95E91843836}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO8</Property>
+	<Property Name="varPersistentID:{DDF75236-4383-4104-A1BB-8BAB5E75709D}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO9</Property>
+	<Property Name="varPersistentID:{E133ECB9-A2C2-4265-BAD4-735F2859F669}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO17</Property>
+	<Property Name="varPersistentID:{E3F776A6-9CB0-4AD8-BA58-B21A41FFE5DB}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO2</Property>
+	<Property Name="varPersistentID:{E9616618-A8E3-4D35-9F59-B65A35FEFA44}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO19</Property>
+	<Property Name="varPersistentID:{F17799B6-8DDE-4A97-89A7-EBD22335C9FC}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO13</Property>
+	<Property Name="varPersistentID:{F638075D-1E1C-455C-BEF5-98640F160353}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO11</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -52,6 +84,8 @@
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
 				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
+				<Item Name="IMAQ Load Image Dialog" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Load Image Dialog"/>
+				<Item Name="IMAQ Overlay Bitmap" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Bitmap"/>
 				<Item Name="IMAQ Overlay Multiple Lines 2" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Multiple Lines 2"/>
 				<Item Name="IMAQ Overlay Points" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Points"/>
 				<Item Name="IMAQ Overlay ROI" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay ROI"/>
@@ -69,7 +103,6 @@
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
-				<Item Name="nirviEmuTemplateMethod_errors.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuTemplateMethod_errors.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="ROI Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/ROI Descriptor"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
@@ -85,8 +118,8 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
-			<Item Name="lvinput.dll" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvinput.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="lvinput.dll" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvinput.dll"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -311,32 +344,7 @@
 					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EChassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9113/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGAFIFO Port1 Read"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;WriteArbs=Arbitrate if Multiple Requestors Only;Implementation=2;FIFO Port1 Read;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"FPGA LEDresource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolMod1[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9870,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kBaudRateDivider1=384,cRIOModule.kBaudRateDivider2=384,cRIOModule.kBaudRateDivider3=384,cRIOModule.kBaudRateDivider4=384,cRIOModule.kBaudRatePrescaler1=1,cRIOModule.kBaudRatePrescaler2=1,cRIOModule.kBaudRatePrescaler3=1,cRIOModule.kBaudRatePrescaler4=1,cRIOModule.kDataBits1=4,cRIOModule.kDataBits2=4,cRIOModule.kDataBits3=4,cRIOModule.kDataBits4=4,cRIOModule.kDesiredBaudRate1=9.600000E+3,cRIOModule.kDesiredBaudRate2=9.600000E+3,cRIOModule.kDesiredBaudRate3=9.600000E+3,cRIOModule.kDesiredBaudRate4=9.600000E+3,cRIOModule.kFlowControl1=1,cRIOModule.kFlowControl2=1,cRIOModule.kFlowControl3=1,cRIOModule.kFlowControl4=1,cRIOModule.kParity1=1,cRIOModule.kParity2=1,cRIOModule.kParity3=1,cRIOModule.kParity4=1,cRIOModule.kStopBits1=1,cRIOModule.kStopBits2=1,cRIOModule.kStopBits3=1,cRIOModule.kStopBits4=1,cRIOModule.RsiAttributes=[crioConfig.End]Mod4[crioConfig.Begin]crio.Location=Slot 4,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Port1cRIO SubresourcePort2cRIO SubresourcePort3cRIO SubresourcePort4cRIO SubresourceScan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool</Property>
 					<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Users\emahon\Documents\olin-sail-bot\FPGA Bitfiles\SailBot_FPGATarget_WriteToFIFO_EBA82491.lvbitx</Property>
 				</Item>
-				<Item Name="Dependencies" Type="Dependencies">
-					<Item Name="EIO_ResourceConfig.ctl" Type="VI" URL="/&lt;vilib&gt;/eio/EIO_ResourceConfig.ctl"/>
-					<Item Name="niFpgaContainerArbitrationOptionsControl.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/DataTransferAndStorage/Container/Common/niFpgaContainerArbitrationOptionsControl.ctl"/>
-					<Item Name="niFpgaContainerImplementationControl.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/DataTransferAndStorage/Container/Common/niFpgaContainerImplementationControl.ctl"/>
-					<Item Name="niFpgaContainerInitializationParameters.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/DataTransferAndStorage/Container/Common/niFpgaContainerInitializationParameters.ctl"/>
-					<Item Name="niFpgaContainerMethod.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/DataTransferAndStorage/Container/Common/niFpgaContainerMethod.ctl"/>
-					<Item Name="niFpgaContainerState.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/DataTransferAndStorage/Container/Common/niFpgaContainerState.ctl"/>
-					<Item Name="niFpgaDataTypeControl.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/DataTransferAndStorage/Container/Common/niFpgaDataTypeControl.ctl"/>
-					<Item Name="niFpgaExecutionStage.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaExecutionStage.ctl"/>
-					<Item Name="niFpgaFifoControlLogicControl.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/FIFO/Fifo_Types/niFpgaFifoControlLogicControl.ctl"/>
-					<Item Name="niFpgaGetScratchAppInstance.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaGetScratchAppInstance.vi"/>
-					<Item Name="niFpgaMemoryInterfaceConfiguration.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Types/niFpgaMemoryInterfaceConfiguration.ctl"/>
-					<Item Name="niFpgaRandomDataHandleErrors.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/niFpgaRandomDataHandleErrors.vi"/>
-					<Item Name="niFpgaTransferTypeControl.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/DataTransferAndStorage/Container/Common/niFpgaTransferTypeControl.ctl"/>
-					<Item Name="niLvFpgaEmuInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/sdk/emulation/public/niLvFpgaEmuInfo.ctl"/>
-					<Item Name="nirviEmuClasses.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuClasses.ctl"/>
-					<Item Name="nirviEmuReportErrorAndStop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuReportErrorAndStop.vi"/>
-					<Item Name="nirviEmuTemplateMethod_errors.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuTemplateMethod_errors.vi"/>
-					<Item Name="nirviFPGAContextMergeError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/nirviFPGAContextMergeError.vi"/>
-					<Item Name="nirviQueueStoreOperation.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/nirviQueueStoreOperation.ctl"/>
-					<Item Name="nirviRandomDataAcquireLock.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/nirviRandomDataAcquireLock.vi"/>
-					<Item Name="nirviRandomDataCheckExitLoopConditions.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/nirviRandomDataCheckExitLoopConditions.vi"/>
-					<Item Name="nirviRandomDataFPGAFIFO.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/nirviRandomDataFPGAFIFO.vi"/>
-					<Item Name="nirviRandomDataQueueStore.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/nirviRandomDataQueueStore.vi"/>
-					<Item Name="nirviRandomDataReleaseLock.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/nirviRandomDataReleaseLock.vi"/>
-				</Item>
+				<Item Name="Dependencies" Type="Dependencies"/>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="WriteToFIFO" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
