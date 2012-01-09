@@ -1,37 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="11008008">
-	<Property Name="varPersistentID:{0FD8A6A4-FFFB-4AB2-9E9A-94E28385B2F1}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO23</Property>
-	<Property Name="varPersistentID:{1574966E-1C45-4582-9B05-75EC56E7ECC5}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO30</Property>
-	<Property Name="varPersistentID:{158F60E0-C964-4BEF-9485-A759FAB89D8E}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO27</Property>
-	<Property Name="varPersistentID:{19B90FB9-53F0-4040-9181-3AFED93ED7E5}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO16</Property>
-	<Property Name="varPersistentID:{1FEE76D1-1251-4A79-B55A-4930AE4BB224}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO21</Property>
-	<Property Name="varPersistentID:{210C234A-7552-4928-A502-449AE54B8BB4}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO11</Property>
-	<Property Name="varPersistentID:{29720863-D02E-472E-A23E-81CC1E7388F5}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO14</Property>
-	<Property Name="varPersistentID:{51863626-8178-424C-926C-F424563CA003}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO13</Property>
-	<Property Name="varPersistentID:{54832562-2213-41A0-9795-1870EB2BA593}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO5</Property>
-	<Property Name="varPersistentID:{59713763-204B-4171-BCD1-516BBC1A70D5}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO18</Property>
-	<Property Name="varPersistentID:{5AB1AC0A-FB13-4170-885E-585680C72450}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO6</Property>
-	<Property Name="varPersistentID:{5BDBCD43-F1AD-4955-B308-ADB97F540D52}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO12</Property>
-	<Property Name="varPersistentID:{5DA3D35F-1FD0-425A-8300-B5BDBFFB0CF2}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO17</Property>
-	<Property Name="varPersistentID:{5F01FB5A-0341-40E1-A60C-A20EE71B96FD}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO28</Property>
-	<Property Name="varPersistentID:{61ED62E0-ACD8-40CE-9C23-84F4962C0891}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO25</Property>
-	<Property Name="varPersistentID:{687F6DF4-0D2D-405E-BB26-AFC7884405F0}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO15</Property>
-	<Property Name="varPersistentID:{78173312-259D-42D8-B066-41764C055D9C}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO20</Property>
-	<Property Name="varPersistentID:{8089F681-0E20-483B-B357-41272536DAAB}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO10</Property>
-	<Property Name="varPersistentID:{8581C915-7EF1-4A8A-B419-34615D343F37}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO29</Property>
-	<Property Name="varPersistentID:{880AB8B4-2AED-4B92-978D-7C0CACB0E3BE}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO1</Property>
-	<Property Name="varPersistentID:{8BF3EA34-4835-451A-AF60-5C24EAED7602}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO26</Property>
-	<Property Name="varPersistentID:{9BE2E717-0F8F-4D0B-8AE8-7CE1DDA00665}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO2</Property>
-	<Property Name="varPersistentID:{A7A4830F-C81B-4B3F-947C-52CEF0CF6AF4}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO9</Property>
-	<Property Name="varPersistentID:{B1E1BB5C-C3F7-4372-AF70-53C8079092EF}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO22</Property>
-	<Property Name="varPersistentID:{C94A64A4-75DD-44B4-AAF3-BF8D23439022}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO24</Property>
-	<Property Name="varPersistentID:{CA3C70C3-73E8-4AF1-9A39-6D75695BE5E9}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO3</Property>
-	<Property Name="varPersistentID:{D264F31C-D7B9-4BBB-9A8C-1E4707A1FF47}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO7</Property>
-	<Property Name="varPersistentID:{D64D6B20-86A8-4DCC-B1A6-29BBA6D9BE33}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO19</Property>
-	<Property Name="varPersistentID:{D6A48A48-010F-469C-91C9-77CC26E54554}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO4</Property>
-	<Property Name="varPersistentID:{D6B126D4-F664-4DEE-8883-1477690152C7}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO31</Property>
-	<Property Name="varPersistentID:{D8ECD404-9503-4104-81DF-6605ACF3B265}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO8</Property>
-	<Property Name="varPersistentID:{FA79E299-5B51-4D49-91BD-29D06AD90E6C}" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/Mod4/DIO0</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -105,6 +73,14 @@
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
+				<Item Name="nicrio_cRIO-9871_BaudRateEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/cRIO/shared/nicrio_ModuleControls/nicrio_cRIO-9871_BaudRateEnum.ctl"/>
+				<Item Name="nicrio_cRIO-9871_DataBitsEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/cRIO/shared/nicrio_ModuleControls/nicrio_cRIO-9871_DataBitsEnum.ctl"/>
+				<Item Name="niLvFpga_Open_cRIO-9113.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/cRIO-9113/niLvFpga_Open_cRIO-9113.vi"/>
+				<Item Name="nirviEmuTemplateMethod_errors.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuTemplateMethod_errors.vi"/>
+				<Item Name="nirviEmuTemplatePropertyGet_errors.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuTemplatePropertyGet_errors.vi"/>
+				<Item Name="nirviEmuTemplatePropertyGet_noerrors.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuTemplatePropertyGet_noerrors.vi"/>
+				<Item Name="nirviEmuTemplatePropertySet_errors.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuTemplatePropertySet_errors.vi"/>
+				<Item Name="nirviEmuTemplatePropertySet_noerrors.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuTemplatePropertySet_noerrors.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="ROI Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/ROI Descriptor"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
