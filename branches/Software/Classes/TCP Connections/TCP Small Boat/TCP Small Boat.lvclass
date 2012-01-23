@@ -1,5 +1,9 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <LVClass LVVersion="11008008">
+	<Property Name="NI.Lib.Description" Type="Str">Represents the TCP Connection between the host computer and the small RC boat to set the sail value and rudder angle.
+
+Author: Jared Kirschner</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">%1#!#!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+!!!!*Q(C=\:5^DBJ"%%9`7RN9&gt;M1.,'[QKN$"%H!&amp;9G&gt;V"=,&gt;E#P5&amp;&lt;A#A:(D#HQ"*)?/=%\3@NXUY%(,`EAYM#6X5QTT66@6G_[?2GLNH83D]F)\0.OK`\G"S/694;5,Z21V_,`7VPW(UD`^_I4`6@'8[B`+10V[`G/'C].'%T75/7^.KBF/G(L5LP/X'K0[D_/0WDHG/,YUX`#9&amp;_,0HOM*```WL\;(&amp;]_!5@N1NBLM&amp;LOZ?^!HLLL@8I(Q:NC'C18GG,7N82)^U2-^U2-^U1-^U!-^U!-^U"X&gt;U2X&gt;U2X&gt;U1X&gt;U!X&gt;U!X&gt;DC^8%&lt;L1B3ZL\U"30#G5*%U3*)."5@+6]#1]#5`#Q[U3HI1HY5FY%B['+/&amp;*?"+?B#@B)5Q*4]+4]#1]#1_J'EGWDAZ0QE.["4Q"4]!4]!1]F&amp;4!%Q!%R9,%12)Q&amp;$C$(Q&amp;0Q"0Q]&amp;-"4]!4]!1]!1^O"4Q"4]!4]!1]B,2:C5:4/TI]J*($Y`!Y0![0QU.K/4Q/D]0D]$A]F*0$Y`!Y%%Z"*TE)=I+=!=[.Q_0Q=*($Y`!Y0![0QY/LL:#XG;EUN;0$9`!90!;0Q70QE%)'D]&amp;D]"A]"A^J:@!90!;0Q70Q5%I'D]&amp;D]"AA2F(+SUBG""K$$-(AY&gt;.WC\66CE:CL5N^][JP3P8.JL[*V$?(_K+L,[&lt;[)KF0PPKEKE_7_C3I0ZQ[N$K-?B(VY$J1?\ZXW!:&lt;9SNMC3WQ/4&lt;&amp;*D8U$Q`=\`@;\8&lt;;&lt;$:;L^&gt;;L6:;,J&gt;;,";;T_?;4K?;4#;H9_!D`81AH*^,X_^+_@HFN^8\WH\5[`;_P0]]UW#XW^HR80IWO`*=_BP/2LU&gt;`&lt;OX/@I&amp;PX6Q,!!!!!!</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LVClass.ClassNameVisibleInProbe" Type="Bool">true</Property>

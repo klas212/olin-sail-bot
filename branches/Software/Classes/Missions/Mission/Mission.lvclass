@@ -1,5 +1,9 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <LVClass LVVersion="11008008">
+	<Property Name="NI.Lib.Description" Type="Str">Parent class of all defined Missions. This class is meant to be abstract and to define the methods and interfaces of its descendants.
+
+Author: Jared Kirschner</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">%1#!#!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)&lt;!!!*Q(C=\&gt;3^=3*"%-8RJSM:=MHACB4;RC-&amp;5OA5=-]EB:=#+:"#JU!+J,$XX[&amp;"[+YE$/HK:,$$]0&amp;WJ_@(\.2+YXC2HD8&gt;/V9@(F^S`NQP6UZ`HZ`?L4.&gt;RIZW@KWGVQ&amp;P[E_L]_P3`DD@I`L&lt;T@F0`&lt;]\BR\(Y`C`R[_\G`3@\^EHT1]C?N&amp;.4XJIHGIK]C)P]C)P]C)XO=F.&lt;H+4GTT*ETT*ETT*ETT)ATT)ATT)AXQU=J',8/31CMG,C9KC29(C9CAKXAJ0Y3E]B9?@+DS&amp;J`!5HM,$*3I]B;@Q&amp;*\#QT!6HM*4?!J0Y;(5E.2IZ(A+$_6F0-:D0-:D0%QJYT%!-ZEJ&lt;)L!E$FJPBC0]2A08W5]RG-]RG-]H*&lt;R')`R')`R-'3MCI&gt;G&lt;O2Y++0%EXA34_**0*27YEE]C3@R*"[G5_**0!ECG4!J$E(*I/3#Z%@C34R]+0%EHM34?")0J]9&gt;SL%SMW:OZ(A#4_!*0)%H]&amp;"#A3@Q"*\!%XAIK]!4?!*0Y!E]4+8!%XA#4Q!**G6["=7#A=&amp;&amp;12"Y?)X&gt;%O-O?5BC.+EXLXJ4KD?&lt;?B/J.Y@[JKNPJPIGK2&gt;@P;DKR6)PAPL0K&gt;&amp;KD(I3^?$Z1JVY0^)0^$V^2^`3.`1V@5F@T%/`_-,4[;4D];D$Y;$^@K`&gt;&lt;K@N&gt;KP.:K0V?KXF=KH&amp;9H&amp;^$0SE82])X_'Z^#U-0X2&lt;FT8[$=O:MHQ!!!!!</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.2</Property>
 	<Property Name="NI.LVClass.ClassNameVisibleInProbe" Type="Bool">true</Property>
