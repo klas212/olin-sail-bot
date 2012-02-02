@@ -112,7 +112,7 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -125,8 +125,10 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="SailBot_FPGATarget_ReadFromFIFOPort_B155A09E.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_ReadFromFIFOPort_B155A09E.lvbitx"/>
 			<Item Name="SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx"/>
 			<Item Name="SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx"/>
+			<Item Name="visarc" Type="Document" URL="../../../../Program Files/National Instruments/LabVIEW 2011/resource/visarc"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -435,15 +437,7 @@ KeepAliveTimeout 60
 						<Property Name="FPGA.PersistentID" Type="Str">{04269951-DE53-4529-827C-EA2748D5478A}</Property>
 					</Item>
 				</Item>
-				<Item Name="Dependencies" Type="Dependencies">
-					<Item Name="niFpgaGetScratchAppInstance.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaGetScratchAppInstance.vi"/>
-					<Item Name="nirviEmuReportErrorAndStop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuReportErrorAndStop.vi"/>
-					<Item Name="EIO_ResourceConfig.ctl" Type="VI" URL="/&lt;vilib&gt;/eio/EIO_ResourceConfig.ctl"/>
-					<Item Name="niFpgaExecutionStage.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaExecutionStage.ctl"/>
-					<Item Name="nirviEmuClasses.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuClasses.ctl"/>
-					<Item Name="niLvFpgaEmuInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/sdk/emulation/public/niLvFpgaEmuInfo.ctl"/>
-					<Item Name="nirviEmuTemplateMethod_errors.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuTemplateMethod_errors.vi"/>
-				</Item>
+				<Item Name="Dependencies" Type="Dependencies"/>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="WriteToFIFOPort3" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
@@ -1050,28 +1044,20 @@ KeepAliveTimeout 60
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="niLvFpga_Open_cRIO-9113.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/cRIO-9113/niLvFpga_Open_cRIO-9113.vi"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
-			<Item Name="niLvFpgaErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaErrorClusterFromErrorCode.vi"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
-			<Item Name="nirviErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/RVI Host/nirviSupport.llb/nirviErrorClusterFromErrorCode.vi"/>
-			<Item Name="nirviWhatTheDeviceIsDoing.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/nirviWhatTheDeviceIsDoing.ctl"/>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="SailBot_FPGATarget_ReadFromFIFOPort_B155A09E.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_ReadFromFIFOPort_B155A09E.lvbitx"/>
 			<Item Name="SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx"/>
 			<Item Name="SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx"/>
 		</Item>
