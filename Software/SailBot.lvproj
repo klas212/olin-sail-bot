@@ -111,8 +111,6 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="3 OCU.vi" Type="VI" URL="../0-OCU/3 Code/3 OCU.vi"/>
-			<Item Name="helper-points to image.vi" Type="VI" URL="../0-OCU/3 Code/helper-points to image.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -123,11 +121,9 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="rudderKeyControlConfig.ctl" Type="VI" URL="../0-OCU/3 Typedefs/rudderKeyControlConfig.ctl"/>
 			<Item Name="SailBot_FPGATarget_ReadFromFIFOPort_B155A09E.lvbitx" Type="Document" URL="../../FPGA Bitfiles/SailBot_FPGATarget_ReadFromFIFOPort_B155A09E.lvbitx"/>
 			<Item Name="SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx" Type="Document" URL="../../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx"/>
 			<Item Name="SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx" Type="Document" URL="../../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx"/>
-			<Item Name="sailKeyControlConfig.ctl" Type="VI" URL="../0-OCU/3 Typedefs/sailKeyControlConfig.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -217,6 +213,9 @@ KeepAliveTimeout 60
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Property Name="TargetOSID" Type="Str">VxWorks-PPC603</Property>
+		<Item Name="Software" Type="Folder" URL="..">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
@@ -285,6 +284,9 @@ KeepAliveTimeout 60
 </Property>
 						<Property Name="FPGA.PersistentID" Type="Str">{614D5C80-EE34-4B83-9CF6-F503786513E5}</Property>
 					</Item>
+				</Item>
+				<Item Name="1,3 A Code" Type="Folder" URL="../1,3 A-Competition Platform/1,3 A Code">
+					<Property Name="NI.DISK" Type="Bool">true</Property>
 				</Item>
 				<Item Name="40 MHz Onboard Clock" Type="FPGA Base Clock">
 					<Property Name="FPGA.PersistentID" Type="Str">{B6E1D127-B460-4F79-BC18-60BC0C745E25}</Property>
@@ -391,7 +393,73 @@ KeepAliveTimeout 60
 						<Property Name="FPGA.PersistentID" Type="Str">{04269951-DE53-4529-827C-EA2748D5478A}</Property>
 					</Item>
 				</Item>
-				<Item Name="Dependencies" Type="Dependencies"/>
+				<Item Name="Dependencies" Type="Dependencies">
+					<Item Name="vi.lib" Type="Folder">
+						<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
+						<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
+						<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+						<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+						<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+						<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+						<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+						<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
+						<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+						<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+						<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
+						<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+						<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
+						<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
+						<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+						<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+						<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
+						<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+						<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
+						<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
+						<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+						<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
+						<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
+						<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+						<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+						<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+						<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
+						<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
+						<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+						<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
+						<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
+						<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+						<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+						<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+					</Item>
+					<Item Name="UTM Location.ctl" Type="VI" URL="../2-RIO/2 Typedefs/UTM Location.ctl"/>
+					<Item Name="Velocity.ctl" Type="VI" URL="../2-RIO/2 Typedefs/Velocity.ctl"/>
+					<Item Name="apparent wind.ctl" Type="VI" URL="../2-RIO/2 Typedefs/apparent wind.ctl"/>
+					<Item Name="pitch and roll.ctl" Type="VI" URL="../2-RIO/2 Typedefs/pitch and roll.ctl"/>
+					<Item Name="2 Global.vi" Type="VI" URL="../2-RIO/2 Globals/2 Global.vi"/>
+					<Item Name="apparent wind speed.ctl" Type="VI" URL="../2-RIO/2 Typedefs/apparent wind speed.ctl"/>
+					<Item Name="apparent wind direction.ctl" Type="VI" URL="../2-RIO/2 Typedefs/apparent wind direction.ctl"/>
+					<Item Name="heading.ctl" Type="VI" URL="../2-RIO/2 Typedefs/heading.ctl"/>
+					<Item Name="generalized actuator status.ctl" Type="VI" URL="../2-RIO/2 Typedefs/generalized actuator status.ctl"/>
+					<Item Name="indicator LED.ctl" Type="VI" URL="../2-RIO/2 Typedefs/indicator LED.ctl"/>
+					<Item Name="generalized sensor status.ctl" Type="VI" URL="../2-RIO/2 Typedefs/generalized sensor status.ctl"/>
+					<Item Name="Which Boat.ctl" Type="VI" URL="../2-RIO/2 Typedefs/Which Boat.ctl"/>
+					<Item Name="manual override.ctl" Type="VI" URL="../2-RIO/2 Typedefs/manual override.ctl"/>
+					<Item Name="setpoints to boat.ctl" Type="VI" URL="../2-RIO/2 Typedefs/setpoints to boat.ctl"/>
+					<Item Name="sail setpt.ctl" Type="VI" URL="../2-RIO/2 Typedefs/sail setpt.ctl"/>
+					<Item Name="rudder angle.ctl" Type="VI" URL="../2-RIO/2 Typedefs/rudder angle.ctl"/>
+					<Item Name="ocuWaypoints.ctl" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Typedefs/ocuWaypoints.ctl"/>
+					<Item Name="ocuWaypoint.ctl" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Typedefs/ocuWaypoint.ctl"/>
+					<Item Name="waypointTypes.ctl" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Typedefs/waypointTypes.ctl"/>
+					<Item Name="rate of turn.ctl" Type="VI" URL="../2-RIO/2 Typedefs/rate of turn.ctl"/>
+					<Item Name="absolute wind direction.ctl" Type="VI" URL="../2-RIO/2 Typedefs/absolute wind direction.ctl"/>
+					<Item Name="Velocity Converter- Speed-Direction to X-Y.vi" Type="VI" URL="../2-RIO/2 Code/Velocity Converter- Speed-Direction to X-Y.vi"/>
+					<Item Name="Angle Converter- Degrees to Unit Circle Radians.vi" Type="VI" URL="../2-RIO/2 Code/Angle Converter- Degrees to Unit Circle Radians.vi"/>
+					<Item Name="Velocity Converter- magnitude-heading  to dx-dy.vi" Type="VI" URL="../2-RIO/2 Code/Velocity Converter- magnitude-heading  to dx-dy.vi"/>
+					<Item Name="helper - open and config serial port.vi" Type="VI" URL="../2-RIO/2 Code/helper - open and config serial port.vi"/>
+					<Item Name="SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx" Type="Document" URL="../../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx"/>
+					<Item Name="SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx" Type="Document" URL="../../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx"/>
+					<Item Name="SailBot_FPGATarget_ReadFromFIFOPort_B155A09E.lvbitx" Type="Document" URL="../../FPGA Bitfiles/SailBot_FPGATarget_ReadFromFIFOPort_B155A09E.lvbitx"/>
+				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="WriteToFIFOPort3" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
@@ -939,7 +1007,78 @@ KeepAliveTimeout 60
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
+				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
+				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
+				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
+				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
+				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
+				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
+				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
+				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
+				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
+				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
+				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
+				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
+				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
+				<Item Name="IMAQ Load Image Dialog" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Load Image Dialog"/>
+				<Item Name="IMAQ Overlay Bitmap" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Bitmap"/>
+				<Item Name="IMAQ Overlay Multiple Lines 2" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Multiple Lines 2"/>
+				<Item Name="IMAQ Overlay Points" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Points"/>
+				<Item Name="IMAQ Overlay ROI" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay ROI"/>
+				<Item Name="IMAQ Overlay Text" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Text"/>
+				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
+				<Item Name="IMAQ SetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ SetImageSize"/>
+				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
+				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
+				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
+				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
+				<Item Name="NI_AAL_Angle.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_Angle.lvlib"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
+				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
+				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="ROI Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/ROI Descriptor"/>
+				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
+				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="SailBot_FPGATarget_ReadFromFIFOPort_B155A09E.lvbitx" Type="Document" URL="../../FPGA Bitfiles/SailBot_FPGATarget_ReadFromFIFOPort_B155A09E.lvbitx"/>
+			<Item Name="SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx" Type="Document" URL="../../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx"/>
+			<Item Name="SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx" Type="Document" URL="../../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
