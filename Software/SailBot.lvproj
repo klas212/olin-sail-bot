@@ -111,7 +111,6 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="1A ReadFromFIFOPort1.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/1A ReadFromFIFOPort1.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -124,6 +123,7 @@
 			</Item>
 			<Item Name="SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx"/>
 			<Item Name="SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx"/>
+			<Item Name="visarc" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/visarc"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -143,6 +143,7 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
+		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str">1.0,0;</Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -459,6 +460,7 @@ KeepAliveTimeout 60
 					<Item Name="SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx"/>
 					<Item Name="SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx"/>
 					<Item Name="SailBot_FPGATarget_3AFPGAReadFromFI_976E4797.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_3AFPGAReadFromFI_976E4797.lvbitx"/>
+					<Item Name="visarc" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/visarc"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="WriteToFIFOPort3" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -1093,7 +1095,6 @@ KeepAliveTimeout 60
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="1A ReadFromFIFOPort1.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/1A ReadFromFIFOPort1.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
