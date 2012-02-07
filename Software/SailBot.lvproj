@@ -111,7 +111,7 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -431,34 +431,34 @@ KeepAliveTimeout 60
 						<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 						<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 					</Item>
-					<Item Name="UTM Location.ctl" Type="VI" URL="../2-RIO/2 Typedefs/UTM Location.ctl"/>
-					<Item Name="Velocity.ctl" Type="VI" URL="../2-RIO/2 Typedefs/Velocity.ctl"/>
-					<Item Name="apparent wind.ctl" Type="VI" URL="../2-RIO/2 Typedefs/apparent wind.ctl"/>
-					<Item Name="pitch and roll.ctl" Type="VI" URL="../2-RIO/2 Typedefs/pitch and roll.ctl"/>
-					<Item Name="2 Global.vi" Type="VI" URL="../2-RIO/2 Globals/2 Global.vi"/>
-					<Item Name="apparent wind speed.ctl" Type="VI" URL="../2-RIO/2 Typedefs/apparent wind speed.ctl"/>
-					<Item Name="apparent wind direction.ctl" Type="VI" URL="../2-RIO/2 Typedefs/apparent wind direction.ctl"/>
-					<Item Name="heading.ctl" Type="VI" URL="../2-RIO/2 Typedefs/heading.ctl"/>
-					<Item Name="generalized actuator status.ctl" Type="VI" URL="../2-RIO/2 Typedefs/generalized actuator status.ctl"/>
-					<Item Name="indicator LED.ctl" Type="VI" URL="../2-RIO/2 Typedefs/indicator LED.ctl"/>
-					<Item Name="generalized sensor status.ctl" Type="VI" URL="../2-RIO/2 Typedefs/generalized sensor status.ctl"/>
-					<Item Name="Which Boat.ctl" Type="VI" URL="../2-RIO/2 Typedefs/Which Boat.ctl"/>
-					<Item Name="manual override.ctl" Type="VI" URL="../2-RIO/2 Typedefs/manual override.ctl"/>
-					<Item Name="setpoints to boat.ctl" Type="VI" URL="../2-RIO/2 Typedefs/setpoints to boat.ctl"/>
-					<Item Name="sail setpt.ctl" Type="VI" URL="../2-RIO/2 Typedefs/sail setpt.ctl"/>
-					<Item Name="rudder angle.ctl" Type="VI" URL="../2-RIO/2 Typedefs/rudder angle.ctl"/>
 					<Item Name="ocuWaypoints.ctl" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Typedefs/ocuWaypoints.ctl"/>
 					<Item Name="ocuWaypoint.ctl" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Typedefs/ocuWaypoint.ctl"/>
 					<Item Name="waypointTypes.ctl" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Typedefs/waypointTypes.ctl"/>
-					<Item Name="rate of turn.ctl" Type="VI" URL="../2-RIO/2 Typedefs/rate of turn.ctl"/>
-					<Item Name="absolute wind direction.ctl" Type="VI" URL="../2-RIO/2 Typedefs/absolute wind direction.ctl"/>
-					<Item Name="Velocity Converter- Speed-Direction to X-Y.vi" Type="VI" URL="../2-RIO/2 Code/Velocity Converter- Speed-Direction to X-Y.vi"/>
-					<Item Name="Angle Converter- Degrees to Unit Circle Radians.vi" Type="VI" URL="../2-RIO/2 Code/Angle Converter- Degrees to Unit Circle Radians.vi"/>
-					<Item Name="Velocity Converter- magnitude-heading  to dx-dy.vi" Type="VI" URL="../2-RIO/2 Code/Velocity Converter- magnitude-heading  to dx-dy.vi"/>
-					<Item Name="helper - open and config serial port.vi" Type="VI" URL="../2-RIO/2 Code/helper - open and config serial port.vi"/>
 					<Item Name="SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx" Type="Document" URL="../../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx"/>
 					<Item Name="SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx" Type="Document" URL="../../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx"/>
 					<Item Name="SailBot_FPGATarget_ReadFromFIFOPort_B155A09E.lvbitx" Type="Document" URL="../../FPGA Bitfiles/SailBot_FPGATarget_ReadFromFIFOPort_B155A09E.lvbitx"/>
+					<Item Name="UTM Location.ctl" Type="VI" URL="../2-Think/2 Typedefs/UTM Location.ctl"/>
+					<Item Name="Velocity.ctl" Type="VI" URL="../2-Think/2 Typedefs/Velocity.ctl"/>
+					<Item Name="apparent wind.ctl" Type="VI" URL="../2-Think/2 Typedefs/apparent wind.ctl"/>
+					<Item Name="pitch and roll.ctl" Type="VI" URL="../2-Think/2 Typedefs/pitch and roll.ctl"/>
+					<Item Name="2 Global.vi" Type="VI" URL="../2-Think/2 Globals/2 Global.vi"/>
+					<Item Name="apparent wind speed.ctl" Type="VI" URL="../2-Think/2 Typedefs/apparent wind speed.ctl"/>
+					<Item Name="apparent wind direction.ctl" Type="VI" URL="../2-Think/2 Typedefs/apparent wind direction.ctl"/>
+					<Item Name="heading.ctl" Type="VI" URL="../2-Think/2 Typedefs/heading.ctl"/>
+					<Item Name="generalized actuator status.ctl" Type="VI" URL="../2-Think/2 Typedefs/generalized actuator status.ctl"/>
+					<Item Name="indicator LED.ctl" Type="VI" URL="../2-Think/2 Typedefs/indicator LED.ctl"/>
+					<Item Name="generalized sensor status.ctl" Type="VI" URL="../2-Think/2 Typedefs/generalized sensor status.ctl"/>
+					<Item Name="Which Boat.ctl" Type="VI" URL="../2-Think/2 Typedefs/Which Boat.ctl"/>
+					<Item Name="manual override.ctl" Type="VI" URL="../2-Think/2 Typedefs/manual override.ctl"/>
+					<Item Name="setpoints to boat.ctl" Type="VI" URL="../2-Think/2 Typedefs/setpoints to boat.ctl"/>
+					<Item Name="sail setpt.ctl" Type="VI" URL="../2-Think/2 Typedefs/sail setpt.ctl"/>
+					<Item Name="rudder angle.ctl" Type="VI" URL="../2-Think/2 Typedefs/rudder angle.ctl"/>
+					<Item Name="rate of turn.ctl" Type="VI" URL="../2-Think/2 Typedefs/rate of turn.ctl"/>
+					<Item Name="absolute wind direction.ctl" Type="VI" URL="../2-Think/2 Typedefs/absolute wind direction.ctl"/>
+					<Item Name="Velocity Converter- Speed-Direction to X-Y.vi" Type="VI" URL="../2-Think/2 Code/Velocity Converter- Speed-Direction to X-Y.vi"/>
+					<Item Name="Angle Converter- Degrees to Unit Circle Radians.vi" Type="VI" URL="../2-Think/2 Code/Angle Converter- Degrees to Unit Circle Radians.vi"/>
+					<Item Name="Velocity Converter- magnitude-heading  to dx-dy.vi" Type="VI" URL="../2-Think/2 Code/Velocity Converter- magnitude-heading  to dx-dy.vi"/>
+					<Item Name="helper - open and config serial port.vi" Type="VI" URL="../2-Think/2 Code/helper - open and config serial port.vi"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="WriteToFIFOPort3" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -1065,7 +1065,7 @@ KeepAliveTimeout 60
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
