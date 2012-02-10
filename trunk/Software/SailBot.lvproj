@@ -111,7 +111,7 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -123,7 +123,7 @@
 			</Item>
 			<Item Name="SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx"/>
 			<Item Name="SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx"/>
-			<Item Name="visarc" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/visarc"/>
+			<Item Name="visarc" Type="Document" URL="../../../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/visarc"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -214,8 +214,159 @@ KeepAliveTimeout 60
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Property Name="TargetOSID" Type="Str">VxWorks-PPC603</Property>
-		<Item Name="Software" Type="Folder" URL="..">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="Software" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="0-OCU" Type="Folder">
+				<Item Name="0 Code" Type="Folder">
+					<Item Name="0 OCU.vi" Type="VI" URL="../0-OCU/0 Code/0 OCU.vi"/>
+					<Item Name="Helper - InterpretKeyPress.vi" Type="VI" URL="../0-OCU/0 Code/Helper - InterpretKeyPress.vi"/>
+					<Item Name="Helper - ManualRudder.vi" Type="VI" URL="../0-OCU/0 Code/Helper - ManualRudder.vi"/>
+					<Item Name="Helper - ManualSails.vi" Type="VI" URL="../0-OCU/0 Code/Helper - ManualSails.vi"/>
+					<Item Name="helper-points to image.vi" Type="VI" URL="../0-OCU/0 Code/helper-points to image.vi"/>
+					<Item Name="ManualOverrideOCU.vi" Type="VI" URL="../0-OCU/0 Code/ManualOverrideOCU.vi"/>
+				</Item>
+				<Item Name="0 Globals" Type="Folder"/>
+				<Item Name="0 Typedefs" Type="Folder">
+					<Item Name="rudderKeyControlConfig.ctl" Type="VI" URL="../0-OCU/0 Typedefs/rudderKeyControlConfig.ctl"/>
+					<Item Name="sailKeyControlConfig.ctl" Type="VI" URL="../0-OCU/0 Typedefs/sailKeyControlConfig.ctl"/>
+				</Item>
+			</Item>
+			<Item Name="0x2-OCU-Think Comm" Type="Folder">
+				<Item Name="0x2 Code" Type="Folder"/>
+				<Item Name="0x2 Typedefs" Type="Folder">
+					<Item Name="ocuWaypoint.ctl" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Typedefs/ocuWaypoint.ctl"/>
+					<Item Name="ocuWaypoints.ctl" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Typedefs/ocuWaypoints.ctl"/>
+					<Item Name="waypointTypes.ctl" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Typedefs/waypointTypes.ctl"/>
+				</Item>
+			</Item>
+			<Item Name="1,3 A-Competition Platform" Type="Folder">
+				<Item Name="1,3 A Code" Type="Folder">
+					<Item Name="deprecated" Type="Folder">
+						<Item Name="1A FPGA WriteToFIFOPort1.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/1A FPGA WriteToFIFOPort1.vi"/>
+						<Item Name="1A Read Compass.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/1A Read Compass.vi"/>
+						<Item Name="1A ReadFromFIFOPort1.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/1A ReadFromFIFOPort1.vi"/>
+						<Item Name="1A ReadFromFIFOPort3.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/1A ReadFromFIFOPort3.vi"/>
+						<Item Name="Testbench for Read Compass.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/Testbench for Read Compass.vi"/>
+					</Item>
+					<Item Name="1A Helper - Generate RegEx.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/1A Helper - Generate RegEx.vi"/>
+					<Item Name="1A Helper - GPS Mode Parser.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/1A Helper - GPS Mode Parser.vi"/>
+					<Item Name="1A Helper - Init Sensor.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/1A Helper - Init Sensor.vi"/>
+					<Item Name="1A Helper - LatLong to UTM.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/1A Helper - LatLong to UTM.vi"/>
+					<Item Name="1A Helper - UTC to TimeStamp.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/1A Helper - UTC to TimeStamp.vi"/>
+					<Item Name="1A Interpret NMEA Sentence.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/1A Interpret NMEA Sentence.vi"/>
+					<Item Name="1A Read Sensor Data.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/1A Read Sensor Data.vi"/>
+					<Item Name="3A FPGA ReadFromFIFOPort4.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/3A FPGA ReadFromFIFOPort4.vi"/>
+					<Item Name="3A WriteToFIFOPort4.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/3A WriteToFIFOPort4.vi"/>
+				</Item>
+				<Item Name="1,3 A Typedefs" Type="Folder"/>
+			</Item>
+			<Item Name="1,3 B-Simulation" Type="Folder">
+				<Item Name="1,3 B Code" Type="Folder">
+					<Item Name="Self-contained sim" Type="Folder">
+						<Item Name="Andrew_Luis" Type="Folder">
+							<Item Name="angle_difference.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/Self-contained sim/Andrew_Luis/angle_difference.vi"/>
+							<Item Name="angle_iteration.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/Self-contained sim/Andrew_Luis/angle_iteration.vi"/>
+							<Item Name="best_angle.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/Self-contained sim/Andrew_Luis/best_angle.vi"/>
+							<Item Name="deg_to_rad.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/Self-contained sim/Andrew_Luis/deg_to_rad.vi"/>
+							<Item Name="dr_dtheta.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/Self-contained sim/Andrew_Luis/dr_dtheta.vi"/>
+							<Item Name="maximize_this.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/Self-contained sim/Andrew_Luis/maximize_this.vi"/>
+							<Item Name="polar_v_plot.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/Self-contained sim/Andrew_Luis/polar_v_plot.vi"/>
+							<Item Name="wind_degree_shift.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/Self-contained sim/Andrew_Luis/wind_degree_shift.vi"/>
+						</Item>
+						<Item Name="andrew_luis_sim.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/Self-contained sim/andrew_luis_sim.vi"/>
+						<Item Name="headingChooser.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/Self-contained sim/headingChooser.vi"/>
+						<Item Name="HeadingGoodnessAtHeading.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/Self-contained sim/HeadingGoodnessAtHeading.vi"/>
+						<Item Name="Map_-180_179.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/Self-contained sim/Map_-180_179.vi"/>
+						<Item Name="Simulator.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/Self-contained sim/Simulator.vi"/>
+						<Item Name="WaypointGoodnessAtHeading.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/Self-contained sim/WaypointGoodnessAtHeading.vi"/>
+						<Item Name="WindGoodnessAtHeading.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/Self-contained sim/WindGoodnessAtHeading.vi"/>
+					</Item>
+					<Item Name="1,3 B Spoof Reality.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/1,3 B Spoof Reality.vi"/>
+					<Item Name="1B Spoof Centripital Acceleration.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/1B Spoof Centripital Acceleration.vi"/>
+					<Item Name="1B Spoof Position Update.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/1B Spoof Position Update.vi"/>
+					<Item Name="1B Spoof Wind Acceleartation.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/1B Spoof Wind Acceleartation.vi"/>
+					<Item Name="B Spoof Graph.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/B Spoof Graph.vi"/>
+					<Item Name="B Spoof Relative Wind.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/B Spoof Relative Wind.vi"/>
+				</Item>
+				<Item Name="1,3 B Typedefs" Type="Folder">
+					<Item Name="simulation state.ctl" Type="VI" URL="../1,3 B-Simulation/1,3 B Typedefs/simulation state.ctl"/>
+				</Item>
+			</Item>
+			<Item Name="2-Think" Type="Folder">
+				<Item Name="2 Code" Type="Folder">
+					<Item Name="1 Angle to Rotational Velocity.vi" Type="VI" URL="../2-Think/2 Code/1 Angle to Rotational Velocity.vi"/>
+					<Item Name="1 Location to velocity.vi" Type="VI" URL="../2-Think/2 Code/1 Location to velocity.vi"/>
+					<Item Name="2 OverrideHandler.vi" Type="VI" URL="../2-Think/2 Code/2 OverrideHandler.vi"/>
+					<Item Name="2 SailControlFunction.vi" Type="VI" URL="../2-Think/2 Code/2 SailControlFunction.vi"/>
+					<Item Name="2 Steering Chooser.vi" Type="VI" URL="../2-Think/2 Code/2 Steering Chooser.vi"/>
+					<Item Name="2 Think.vi" Type="VI" URL="../2-Think/2 Code/2 Think.vi"/>
+					<Item Name="2 Waypoint Monitor.vi" Type="VI" URL="../2-Think/2 Code/2 Waypoint Monitor.vi"/>
+					<Item Name="ACT_NTS.vi" Type="VI" URL="../2-Think/2 Code/ACT_NTS.vi"/>
+					<Item Name="ACT_ServoControl.vi" Type="VI" URL="../2-Think/2 Code/ACT_ServoControl.vi"/>
+					<Item Name="Angle Converter- Degrees to Unit Circle Radians.vi" Type="VI" URL="../2-Think/2 Code/Angle Converter- Degrees to Unit Circle Radians.vi"/>
+					<Item Name="Angle Converter- Unit Circle Radians to Degrees.vi" Type="VI" URL="../2-Think/2 Code/Angle Converter- Unit Circle Radians to Degrees.vi"/>
+					<Item Name="eStopShared.vi" Type="VI" URL="../2-Think/2 Code/eStopShared.vi"/>
+					<Item Name="Exponential Smooth.vi" Type="VI" URL="../2-Think/2 Code/Exponential Smooth.vi"/>
+					<Item Name="Helper - Distance Between Two Points.vi" Type="VI" URL="../2-Think/2 Code/Helper - Distance Between Two Points.vi"/>
+					<Item Name="Helper - Elapsed Time.vi" Type="VI" URL="../2-Think/2 Code/Helper - Elapsed Time.vi"/>
+					<Item Name="Helper - kph 2 mps.vi" Type="VI" URL="../2-Think/2 Code/Helper - kph 2 mps.vi"/>
+					<Item Name="helper - open and config serial port.vi" Type="VI" URL="../2-Think/2 Code/helper - open and config serial port.vi"/>
+					<Item Name="Helper - Overlay waypoints.vi" Type="VI" URL="../2-Think/2 Code/Helper - Overlay waypoints.vi"/>
+					<Item Name="Low Pass Differentiator.vi" Type="VI" URL="../2-Think/2 Code/Low Pass Differentiator.vi"/>
+					<Item Name="Serial Output Test.vi" Type="VI" URL="../2-Think/2 Code/Serial Output Test.vi"/>
+					<Item Name="Tacking Function.vi" Type="VI" URL="../2-Think/2 Code/Tacking Function.vi"/>
+					<Item Name="Tacking Helper - Arm Lengths.vi" Type="VI" URL="../2-Think/2 Code/Tacking Helper - Arm Lengths.vi"/>
+					<Item Name="Tacking Helper - Data Breakdown.vi" Type="VI" URL="../2-Think/2 Code/Tacking Helper - Data Breakdown.vi"/>
+					<Item Name="Tacking Helper - Filler Tack Point.vi" Type="VI" URL="../2-Think/2 Code/Tacking Helper - Filler Tack Point.vi"/>
+					<Item Name="Tacking Helper - Final (First) Tack Point.vi" Type="VI" URL="../2-Think/2 Code/Tacking Helper - Final (First) Tack Point.vi"/>
+					<Item Name="Tacking Helper - Jump Length.vi" Type="VI" URL="../2-Think/2 Code/Tacking Helper - Jump Length.vi"/>
+					<Item Name="Tacking Helper - Min_Max Angles.vi" Type="VI" URL="../2-Think/2 Code/Tacking Helper - Min_Max Angles.vi"/>
+					<Item Name="Tacking Helper - Starting Angle Determination.vi" Type="VI" URL="../2-Think/2 Code/Tacking Helper - Starting Angle Determination.vi"/>
+					<Item Name="Tacking Helper - Tack Plotter.vi" Type="VI" URL="../2-Think/2 Code/Tacking Helper - Tack Plotter.vi"/>
+					<Item Name="Tacking Helper - Waypoint Array Constructor.vi" Type="VI" URL="../2-Think/2 Code/Tacking Helper - Waypoint Array Constructor.vi"/>
+					<Item Name="Tacking Helper - Wind Plot.vi" Type="VI" URL="../2-Think/2 Code/Tacking Helper - Wind Plot.vi"/>
+					<Item Name="Tacking Helper Helper - Starting Angle Test.vi" Type="VI" URL="../2-Think/2 Code/Tacking Helper Helper - Starting Angle Test.vi"/>
+					<Item Name="Tacking Helper Helper - Waypoint Builder.vi" Type="VI" URL="../2-Think/2 Code/Tacking Helper Helper - Waypoint Builder.vi"/>
+					<Item Name="Testbench for FPGA Read compass.vi" Type="VI" URL="../2-Think/2 Code/Testbench for FPGA Read compass.vi"/>
+					<Item Name="Testbench for Helper - Overlay Waypoints.vi" Type="VI" URL="../2-Think/2 Code/Testbench for Helper - Overlay Waypoints.vi"/>
+					<Item Name="Testbench for Low Pass Differentiator.vi" Type="VI" URL="../2-Think/2 Code/Testbench for Low Pass Differentiator.vi"/>
+					<Item Name="Testbench for Servo.vi" Type="VI" URL="../2-Think/2 Code/Testbench for Servo.vi"/>
+					<Item Name="TestCurrent.vi" Type="VI" URL="../2-Think/2 Code/TestCurrent.vi"/>
+					<Item Name="Velocity Converter- dx-dy to magnitude-heading.vi" Type="VI" URL="../2-Think/2 Code/Velocity Converter- dx-dy to magnitude-heading.vi"/>
+					<Item Name="Velocity Converter- magnitude-heading  to dx-dy.vi" Type="VI" URL="../2-Think/2 Code/Velocity Converter- magnitude-heading  to dx-dy.vi"/>
+					<Item Name="Velocity Converter- Speed-Direction to X-Y.vi" Type="VI" URL="../2-Think/2 Code/Velocity Converter- Speed-Direction to X-Y.vi"/>
+					<Item Name="Velocity Converter- X-Y to Speed-Direction.vi" Type="VI" URL="../2-Think/2 Code/Velocity Converter- X-Y to Speed-Direction.vi"/>
+				</Item>
+				<Item Name="2 Globals" Type="Folder">
+					<Item Name="2 Global.vi" Type="VI" URL="../2-Think/2 Globals/2 Global.vi"/>
+				</Item>
+				<Item Name="2 Typedefs" Type="Folder">
+					<Item Name="absolute wind direction.ctl" Type="VI" URL="../2-Think/2 Typedefs/absolute wind direction.ctl"/>
+					<Item Name="apparent wind direction.ctl" Type="VI" URL="../2-Think/2 Typedefs/apparent wind direction.ctl"/>
+					<Item Name="apparent wind speed.ctl" Type="VI" URL="../2-Think/2 Typedefs/apparent wind speed.ctl"/>
+					<Item Name="apparent wind.ctl" Type="VI" URL="../2-Think/2 Typedefs/apparent wind.ctl"/>
+					<Item Name="eStopCommand.ctl" Type="VI" URL="../2-Think/2 Typedefs/eStopCommand.ctl"/>
+					<Item Name="generalized actuator status.ctl" Type="VI" URL="../2-Think/2 Typedefs/generalized actuator status.ctl"/>
+					<Item Name="generalized sensor status.ctl" Type="VI" URL="../2-Think/2 Typedefs/generalized sensor status.ctl"/>
+					<Item Name="heading.ctl" Type="VI" URL="../2-Think/2 Typedefs/heading.ctl"/>
+					<Item Name="indicator LED.ctl" Type="VI" URL="../2-Think/2 Typedefs/indicator LED.ctl"/>
+					<Item Name="manual override.ctl" Type="VI" URL="../2-Think/2 Typedefs/manual override.ctl"/>
+					<Item Name="pitch and roll.ctl" Type="VI" URL="../2-Think/2 Typedefs/pitch and roll.ctl"/>
+					<Item Name="rate of turn.ctl" Type="VI" URL="../2-Think/2 Typedefs/rate of turn.ctl"/>
+					<Item Name="rudder angle.ctl" Type="VI" URL="../2-Think/2 Typedefs/rudder angle.ctl"/>
+					<Item Name="sail setpt.ctl" Type="VI" URL="../2-Think/2 Typedefs/sail setpt.ctl"/>
+					<Item Name="setpoints to boat.ctl" Type="VI" URL="../2-Think/2 Typedefs/setpoints to boat.ctl"/>
+					<Item Name="UTM Location.ctl" Type="VI" URL="../2-Think/2 Typedefs/UTM Location.ctl"/>
+					<Item Name="Velocity.ctl" Type="VI" URL="../2-Think/2 Typedefs/Velocity.ctl"/>
+					<Item Name="Which Boat.ctl" Type="VI" URL="../2-Think/2 Typedefs/Which Boat.ctl"/>
+				</Item>
+			</Item>
+			<Item Name="FPGA Bitfiles" Type="Folder">
+				<Item Name="SailBot_FPGATarget_3AFPGAReadFromFI_976E4797.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_3AFPGAReadFromFI_976E4797.lvbitx"/>
+			</Item>
+			<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+			<Item Name="SailBot.aliases" Type="Document" URL="../SailBot.aliases"/>
+			<Item Name="SailBot.lvlps" Type="Document" URL="../SailBot.lvlps"/>
 		</Item>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
@@ -460,7 +611,7 @@ KeepAliveTimeout 60
 					<Item Name="SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx"/>
 					<Item Name="SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx"/>
 					<Item Name="SailBot_FPGATarget_3AFPGAReadFromFI_976E4797.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_3AFPGAReadFromFI_976E4797.lvbitx"/>
-					<Item Name="visarc" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/visarc"/>
+					<Item Name="visarc" Type="Document" URL="../../../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/visarc"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="WriteToFIFOPort3" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -1037,6 +1188,7 @@ KeepAliveTimeout 60
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="Main_RIO.vi" Type="VI" URL="../Main_RIO.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -1095,7 +1247,18 @@ KeepAliveTimeout 60
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="1C Camera - find boat given marker locations.vi" Type="VI" URL="../1,3 C-Small RC Platform/1,3 C Code/1C Camera - find boat given marker locations.vi"/>
+			<Item Name="1C Camera - Find Marker.vi" Type="VI" URL="../1,3 C-Small RC Platform/1,3 C Code/1C Camera - Find Marker.vi"/>
+			<Item Name="1C Camera - Mask Pool Edge.vi" Type="VI" URL="../1,3 C-Small RC Platform/1,3 C Code/1C Camera - Mask Pool Edge.vi"/>
+			<Item Name="1C Camera - PixelToUTM.vi" Type="VI" URL="../1,3 C-Small RC Platform/1,3 C Code/1C Camera - PixelToUTM.vi"/>
+			<Item Name="1C Camera - UTMToPixel.vi" Type="VI" URL="../1,3 C-Small RC Platform/1,3 C Code/1C Camera - UTMToPixel.vi"/>
+			<Item Name="1C Camera Interpreter.vi" Type="VI" URL="../1,3 C-Small RC Platform/1,3 C Code/1C Camera Interpreter.vi"/>
+			<Item Name="1C SmallRCSense.vi" Type="VI" URL="../1,3 C-Small RC Platform/1,3 C Code/1C SmallRCSense.vi"/>
+			<Item Name="3C Helper - Convert Given Values To PWM.vi" Type="VI" URL="../1,3 C-Small RC Platform/1,3 C Code/3C Helper - Convert Given Values To PWM.vi"/>
+			<Item Name="3C SetpointsToTCP.vi" Type="VI" URL="../1,3 C-Small RC Platform/1,3 C Code/3C SetpointsToTCP.vi"/>
+			<Item Name="3C SmallRCAct.vi" Type="VI" URL="../1,3 C-Small RC Platform/1,3 C Code/3C SmallRCAct.vi"/>
+			<Item Name="Helper - Add Randomness.vi" Type="VI" URL="../1,3 C-Small RC Platform/1,3 C Code/Helper - Add Randomness.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1107,6 +1270,7 @@ KeepAliveTimeout 60
 			</Item>
 			<Item Name="SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx"/>
 			<Item Name="SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx"/>
+			<Item Name="visarc" Type="Document" URL="../../../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/visarc"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
