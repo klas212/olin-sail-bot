@@ -55,17 +55,21 @@
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Acquire Input Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Acquire Input Data.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Color (U64)" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Color (U64)"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
+				<Item Name="errorList.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/errorList.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
@@ -75,10 +79,13 @@
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
+				<Item Name="IMAQ Clear Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Clear Overlay"/>
+				<Item Name="IMAQ ColorImageToArray" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ColorImageToArray"/>
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
 				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
 				<Item Name="IMAQ Load Image Dialog" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Load Image Dialog"/>
+				<Item Name="IMAQ Merge Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Merge Overlay"/>
 				<Item Name="IMAQ Overlay Bitmap" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Bitmap"/>
 				<Item Name="IMAQ Overlay Multiple Lines 2" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Multiple Lines 2"/>
 				<Item Name="IMAQ Overlay Points" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Points"/>
@@ -86,22 +93,36 @@
 				<Item Name="IMAQ Overlay Text" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Text"/>
 				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
 				<Item Name="IMAQ SetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ SetImageSize"/>
+				<Item Name="IMAQ Write BMP File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP File 2"/>
+				<Item Name="IMAQ Write File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write File 2"/>
+				<Item Name="IMAQ Write Image And Vision Info File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write Image And Vision Info File 2"/>
+				<Item Name="IMAQ Write JPEG File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write JPEG File 2"/>
+				<Item Name="IMAQ Write JPEG2000 File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write JPEG2000 File 2"/>
+				<Item Name="IMAQ Write PNG File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write PNG File 2"/>
+				<Item Name="IMAQ Write TIFF File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write TIFF File 2"/>
 				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
+				<Item Name="Initialize Joystick.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Initialize Joystick.vi"/>
+				<Item Name="joystickAcquire.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/joystickAcquire.vi"/>
+				<Item Name="keyboardAcquire.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/keyboardAcquire.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
+				<Item Name="mouseAcquire.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/mouseAcquire.vi"/>
 				<Item Name="NI_AAL_Angle.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_Angle.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Query Input Devices.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Query Input Devices.vi"/>
 				<Item Name="ROI Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/ROI Descriptor"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -111,7 +132,13 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="4.0-ForebrainGlobals.vi" Type="VI" URL="../0-OCU/4-Forebrain/4-Globals/4.0-ForebrainGlobals.vi"/>
+			<Item Name="4.3-ActData.ctl" Type="VI" URL="../0-OCU/4-Forebrain/4-Typedefs/4.3-ActData.ctl"/>
+			<Item Name="4.6-GPSWaypoint.ctl" Type="VI" URL="../0-OCU/4-Forebrain/4-Code/4.6-GPS Waypoint/4.6-GPSWaypoint.ctl"/>
+			<Item Name="4.6-Waypoint List.ctl" Type="VI" URL="../0-OCU/4-Forebrain/4-Code/4.6-GPS Waypoint/4.6-Waypoint List.ctl"/>
+			<Item Name="5.1-MotorControls.ctl" Type="VI" URL="../0-OCU/0 Code/5-Typedefs/5.1-MotorControls.ctl"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="lvinput.dll" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvinput.dll"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -123,7 +150,6 @@
 			</Item>
 			<Item Name="SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx"/>
 			<Item Name="SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx"/>
-			<Item Name="visarc" Type="Document" URL="../../../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/visarc"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -143,7 +169,6 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str">1.0,0;</Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -214,159 +239,9 @@ KeepAliveTimeout 60
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Property Name="TargetOSID" Type="Str">VxWorks-PPC603</Property>
-		<Item Name="Software" Type="Folder">
+		<Item Name="Software" Type="Folder" URL="..">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="0-OCU" Type="Folder">
-				<Item Name="0 Code" Type="Folder">
-					<Item Name="0 OCU.vi" Type="VI" URL="../0-OCU/0 Code/0 OCU.vi"/>
-					<Item Name="Helper - InterpretKeyPress.vi" Type="VI" URL="../0-OCU/0 Code/Helper - InterpretKeyPress.vi"/>
-					<Item Name="Helper - ManualRudder.vi" Type="VI" URL="../0-OCU/0 Code/Helper - ManualRudder.vi"/>
-					<Item Name="Helper - ManualSails.vi" Type="VI" URL="../0-OCU/0 Code/Helper - ManualSails.vi"/>
-					<Item Name="helper-points to image.vi" Type="VI" URL="../0-OCU/0 Code/helper-points to image.vi"/>
-					<Item Name="ManualOverrideOCU.vi" Type="VI" URL="../0-OCU/0 Code/ManualOverrideOCU.vi"/>
-				</Item>
-				<Item Name="0 Globals" Type="Folder"/>
-				<Item Name="0 Typedefs" Type="Folder">
-					<Item Name="rudderKeyControlConfig.ctl" Type="VI" URL="../0-OCU/0 Typedefs/rudderKeyControlConfig.ctl"/>
-					<Item Name="sailKeyControlConfig.ctl" Type="VI" URL="../0-OCU/0 Typedefs/sailKeyControlConfig.ctl"/>
-				</Item>
-			</Item>
-			<Item Name="0x2-OCU-Think Comm" Type="Folder">
-				<Item Name="0x2 Code" Type="Folder"/>
-				<Item Name="0x2 Typedefs" Type="Folder">
-					<Item Name="ocuWaypoint.ctl" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Typedefs/ocuWaypoint.ctl"/>
-					<Item Name="ocuWaypoints.ctl" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Typedefs/ocuWaypoints.ctl"/>
-					<Item Name="waypointTypes.ctl" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Typedefs/waypointTypes.ctl"/>
-				</Item>
-			</Item>
-			<Item Name="1,3 A-Competition Platform" Type="Folder">
-				<Item Name="1,3 A Code" Type="Folder">
-					<Item Name="deprecated" Type="Folder">
-						<Item Name="1A FPGA WriteToFIFOPort1.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/1A FPGA WriteToFIFOPort1.vi"/>
-						<Item Name="1A Read Compass.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/1A Read Compass.vi"/>
-						<Item Name="1A ReadFromFIFOPort1.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/1A ReadFromFIFOPort1.vi"/>
-						<Item Name="1A ReadFromFIFOPort3.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/1A ReadFromFIFOPort3.vi"/>
-						<Item Name="Testbench for Read Compass.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/Testbench for Read Compass.vi"/>
-					</Item>
-					<Item Name="1A Helper - Generate RegEx.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/1A Helper - Generate RegEx.vi"/>
-					<Item Name="1A Helper - GPS Mode Parser.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/1A Helper - GPS Mode Parser.vi"/>
-					<Item Name="1A Helper - Init Sensor.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/1A Helper - Init Sensor.vi"/>
-					<Item Name="1A Helper - LatLong to UTM.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/1A Helper - LatLong to UTM.vi"/>
-					<Item Name="1A Helper - UTC to TimeStamp.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/1A Helper - UTC to TimeStamp.vi"/>
-					<Item Name="1A Interpret NMEA Sentence.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/1A Interpret NMEA Sentence.vi"/>
-					<Item Name="1A Read Sensor Data.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/1A Read Sensor Data.vi"/>
-					<Item Name="3A FPGA ReadFromFIFOPort4.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/3A FPGA ReadFromFIFOPort4.vi"/>
-					<Item Name="3A WriteToFIFOPort4.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/3A WriteToFIFOPort4.vi"/>
-				</Item>
-				<Item Name="1,3 A Typedefs" Type="Folder"/>
-			</Item>
-			<Item Name="1,3 B-Simulation" Type="Folder">
-				<Item Name="1,3 B Code" Type="Folder">
-					<Item Name="Self-contained sim" Type="Folder">
-						<Item Name="Andrew_Luis" Type="Folder">
-							<Item Name="angle_difference.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/Self-contained sim/Andrew_Luis/angle_difference.vi"/>
-							<Item Name="angle_iteration.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/Self-contained sim/Andrew_Luis/angle_iteration.vi"/>
-							<Item Name="best_angle.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/Self-contained sim/Andrew_Luis/best_angle.vi"/>
-							<Item Name="deg_to_rad.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/Self-contained sim/Andrew_Luis/deg_to_rad.vi"/>
-							<Item Name="dr_dtheta.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/Self-contained sim/Andrew_Luis/dr_dtheta.vi"/>
-							<Item Name="maximize_this.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/Self-contained sim/Andrew_Luis/maximize_this.vi"/>
-							<Item Name="polar_v_plot.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/Self-contained sim/Andrew_Luis/polar_v_plot.vi"/>
-							<Item Name="wind_degree_shift.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/Self-contained sim/Andrew_Luis/wind_degree_shift.vi"/>
-						</Item>
-						<Item Name="andrew_luis_sim.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/Self-contained sim/andrew_luis_sim.vi"/>
-						<Item Name="headingChooser.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/Self-contained sim/headingChooser.vi"/>
-						<Item Name="HeadingGoodnessAtHeading.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/Self-contained sim/HeadingGoodnessAtHeading.vi"/>
-						<Item Name="Map_-180_179.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/Self-contained sim/Map_-180_179.vi"/>
-						<Item Name="Simulator.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/Self-contained sim/Simulator.vi"/>
-						<Item Name="WaypointGoodnessAtHeading.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/Self-contained sim/WaypointGoodnessAtHeading.vi"/>
-						<Item Name="WindGoodnessAtHeading.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/Self-contained sim/WindGoodnessAtHeading.vi"/>
-					</Item>
-					<Item Name="1,3 B Spoof Reality.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/1,3 B Spoof Reality.vi"/>
-					<Item Name="1B Spoof Centripital Acceleration.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/1B Spoof Centripital Acceleration.vi"/>
-					<Item Name="1B Spoof Position Update.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/1B Spoof Position Update.vi"/>
-					<Item Name="1B Spoof Wind Acceleartation.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/1B Spoof Wind Acceleartation.vi"/>
-					<Item Name="B Spoof Graph.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/B Spoof Graph.vi"/>
-					<Item Name="B Spoof Relative Wind.vi" Type="VI" URL="../1,3 B-Simulation/1,3 B Code/B Spoof Relative Wind.vi"/>
-				</Item>
-				<Item Name="1,3 B Typedefs" Type="Folder">
-					<Item Name="simulation state.ctl" Type="VI" URL="../1,3 B-Simulation/1,3 B Typedefs/simulation state.ctl"/>
-				</Item>
-			</Item>
-			<Item Name="2-Think" Type="Folder">
-				<Item Name="2 Code" Type="Folder">
-					<Item Name="1 Angle to Rotational Velocity.vi" Type="VI" URL="../2-Think/2 Code/1 Angle to Rotational Velocity.vi"/>
-					<Item Name="1 Location to velocity.vi" Type="VI" URL="../2-Think/2 Code/1 Location to velocity.vi"/>
-					<Item Name="2 OverrideHandler.vi" Type="VI" URL="../2-Think/2 Code/2 OverrideHandler.vi"/>
-					<Item Name="2 SailControlFunction.vi" Type="VI" URL="../2-Think/2 Code/2 SailControlFunction.vi"/>
-					<Item Name="2 Steering Chooser.vi" Type="VI" URL="../2-Think/2 Code/2 Steering Chooser.vi"/>
-					<Item Name="2 Think.vi" Type="VI" URL="../2-Think/2 Code/2 Think.vi"/>
-					<Item Name="2 Waypoint Monitor.vi" Type="VI" URL="../2-Think/2 Code/2 Waypoint Monitor.vi"/>
-					<Item Name="ACT_NTS.vi" Type="VI" URL="../2-Think/2 Code/ACT_NTS.vi"/>
-					<Item Name="ACT_ServoControl.vi" Type="VI" URL="../2-Think/2 Code/ACT_ServoControl.vi"/>
-					<Item Name="Angle Converter- Degrees to Unit Circle Radians.vi" Type="VI" URL="../2-Think/2 Code/Angle Converter- Degrees to Unit Circle Radians.vi"/>
-					<Item Name="Angle Converter- Unit Circle Radians to Degrees.vi" Type="VI" URL="../2-Think/2 Code/Angle Converter- Unit Circle Radians to Degrees.vi"/>
-					<Item Name="eStopShared.vi" Type="VI" URL="../2-Think/2 Code/eStopShared.vi"/>
-					<Item Name="Exponential Smooth.vi" Type="VI" URL="../2-Think/2 Code/Exponential Smooth.vi"/>
-					<Item Name="Helper - Distance Between Two Points.vi" Type="VI" URL="../2-Think/2 Code/Helper - Distance Between Two Points.vi"/>
-					<Item Name="Helper - Elapsed Time.vi" Type="VI" URL="../2-Think/2 Code/Helper - Elapsed Time.vi"/>
-					<Item Name="Helper - kph 2 mps.vi" Type="VI" URL="../2-Think/2 Code/Helper - kph 2 mps.vi"/>
-					<Item Name="helper - open and config serial port.vi" Type="VI" URL="../2-Think/2 Code/helper - open and config serial port.vi"/>
-					<Item Name="Helper - Overlay waypoints.vi" Type="VI" URL="../2-Think/2 Code/Helper - Overlay waypoints.vi"/>
-					<Item Name="Low Pass Differentiator.vi" Type="VI" URL="../2-Think/2 Code/Low Pass Differentiator.vi"/>
-					<Item Name="Serial Output Test.vi" Type="VI" URL="../2-Think/2 Code/Serial Output Test.vi"/>
-					<Item Name="Tacking Function.vi" Type="VI" URL="../2-Think/2 Code/Tacking Function.vi"/>
-					<Item Name="Tacking Helper - Arm Lengths.vi" Type="VI" URL="../2-Think/2 Code/Tacking Helper - Arm Lengths.vi"/>
-					<Item Name="Tacking Helper - Data Breakdown.vi" Type="VI" URL="../2-Think/2 Code/Tacking Helper - Data Breakdown.vi"/>
-					<Item Name="Tacking Helper - Filler Tack Point.vi" Type="VI" URL="../2-Think/2 Code/Tacking Helper - Filler Tack Point.vi"/>
-					<Item Name="Tacking Helper - Final (First) Tack Point.vi" Type="VI" URL="../2-Think/2 Code/Tacking Helper - Final (First) Tack Point.vi"/>
-					<Item Name="Tacking Helper - Jump Length.vi" Type="VI" URL="../2-Think/2 Code/Tacking Helper - Jump Length.vi"/>
-					<Item Name="Tacking Helper - Min_Max Angles.vi" Type="VI" URL="../2-Think/2 Code/Tacking Helper - Min_Max Angles.vi"/>
-					<Item Name="Tacking Helper - Starting Angle Determination.vi" Type="VI" URL="../2-Think/2 Code/Tacking Helper - Starting Angle Determination.vi"/>
-					<Item Name="Tacking Helper - Tack Plotter.vi" Type="VI" URL="../2-Think/2 Code/Tacking Helper - Tack Plotter.vi"/>
-					<Item Name="Tacking Helper - Waypoint Array Constructor.vi" Type="VI" URL="../2-Think/2 Code/Tacking Helper - Waypoint Array Constructor.vi"/>
-					<Item Name="Tacking Helper - Wind Plot.vi" Type="VI" URL="../2-Think/2 Code/Tacking Helper - Wind Plot.vi"/>
-					<Item Name="Tacking Helper Helper - Starting Angle Test.vi" Type="VI" URL="../2-Think/2 Code/Tacking Helper Helper - Starting Angle Test.vi"/>
-					<Item Name="Tacking Helper Helper - Waypoint Builder.vi" Type="VI" URL="../2-Think/2 Code/Tacking Helper Helper - Waypoint Builder.vi"/>
-					<Item Name="Testbench for FPGA Read compass.vi" Type="VI" URL="../2-Think/2 Code/Testbench for FPGA Read compass.vi"/>
-					<Item Name="Testbench for Helper - Overlay Waypoints.vi" Type="VI" URL="../2-Think/2 Code/Testbench for Helper - Overlay Waypoints.vi"/>
-					<Item Name="Testbench for Low Pass Differentiator.vi" Type="VI" URL="../2-Think/2 Code/Testbench for Low Pass Differentiator.vi"/>
-					<Item Name="Testbench for Servo.vi" Type="VI" URL="../2-Think/2 Code/Testbench for Servo.vi"/>
-					<Item Name="TestCurrent.vi" Type="VI" URL="../2-Think/2 Code/TestCurrent.vi"/>
-					<Item Name="Velocity Converter- dx-dy to magnitude-heading.vi" Type="VI" URL="../2-Think/2 Code/Velocity Converter- dx-dy to magnitude-heading.vi"/>
-					<Item Name="Velocity Converter- magnitude-heading  to dx-dy.vi" Type="VI" URL="../2-Think/2 Code/Velocity Converter- magnitude-heading  to dx-dy.vi"/>
-					<Item Name="Velocity Converter- Speed-Direction to X-Y.vi" Type="VI" URL="../2-Think/2 Code/Velocity Converter- Speed-Direction to X-Y.vi"/>
-					<Item Name="Velocity Converter- X-Y to Speed-Direction.vi" Type="VI" URL="../2-Think/2 Code/Velocity Converter- X-Y to Speed-Direction.vi"/>
-				</Item>
-				<Item Name="2 Globals" Type="Folder">
-					<Item Name="2 Global.vi" Type="VI" URL="../2-Think/2 Globals/2 Global.vi"/>
-				</Item>
-				<Item Name="2 Typedefs" Type="Folder">
-					<Item Name="absolute wind direction.ctl" Type="VI" URL="../2-Think/2 Typedefs/absolute wind direction.ctl"/>
-					<Item Name="apparent wind direction.ctl" Type="VI" URL="../2-Think/2 Typedefs/apparent wind direction.ctl"/>
-					<Item Name="apparent wind speed.ctl" Type="VI" URL="../2-Think/2 Typedefs/apparent wind speed.ctl"/>
-					<Item Name="apparent wind.ctl" Type="VI" URL="../2-Think/2 Typedefs/apparent wind.ctl"/>
-					<Item Name="eStopCommand.ctl" Type="VI" URL="../2-Think/2 Typedefs/eStopCommand.ctl"/>
-					<Item Name="generalized actuator status.ctl" Type="VI" URL="../2-Think/2 Typedefs/generalized actuator status.ctl"/>
-					<Item Name="generalized sensor status.ctl" Type="VI" URL="../2-Think/2 Typedefs/generalized sensor status.ctl"/>
-					<Item Name="heading.ctl" Type="VI" URL="../2-Think/2 Typedefs/heading.ctl"/>
-					<Item Name="indicator LED.ctl" Type="VI" URL="../2-Think/2 Typedefs/indicator LED.ctl"/>
-					<Item Name="manual override.ctl" Type="VI" URL="../2-Think/2 Typedefs/manual override.ctl"/>
-					<Item Name="pitch and roll.ctl" Type="VI" URL="../2-Think/2 Typedefs/pitch and roll.ctl"/>
-					<Item Name="rate of turn.ctl" Type="VI" URL="../2-Think/2 Typedefs/rate of turn.ctl"/>
-					<Item Name="rudder angle.ctl" Type="VI" URL="../2-Think/2 Typedefs/rudder angle.ctl"/>
-					<Item Name="sail setpt.ctl" Type="VI" URL="../2-Think/2 Typedefs/sail setpt.ctl"/>
-					<Item Name="setpoints to boat.ctl" Type="VI" URL="../2-Think/2 Typedefs/setpoints to boat.ctl"/>
-					<Item Name="UTM Location.ctl" Type="VI" URL="../2-Think/2 Typedefs/UTM Location.ctl"/>
-					<Item Name="Velocity.ctl" Type="VI" URL="../2-Think/2 Typedefs/Velocity.ctl"/>
-					<Item Name="Which Boat.ctl" Type="VI" URL="../2-Think/2 Typedefs/Which Boat.ctl"/>
-				</Item>
-			</Item>
-			<Item Name="FPGA Bitfiles" Type="Folder">
-				<Item Name="SailBot_FPGATarget_3AFPGAReadFromFI_976E4797.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_3AFPGAReadFromFI_976E4797.lvbitx"/>
-			</Item>
-			<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-			<Item Name="SailBot.aliases" Type="Document" URL="../SailBot.aliases"/>
-			<Item Name="SailBot.lvlps" Type="Document" URL="../SailBot.lvlps"/>
 		</Item>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
@@ -611,7 +486,7 @@ KeepAliveTimeout 60
 					<Item Name="SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx"/>
 					<Item Name="SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx"/>
 					<Item Name="SailBot_FPGATarget_3AFPGAReadFromFI_976E4797.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_3AFPGAReadFromFI_976E4797.lvbitx"/>
-					<Item Name="visarc" Type="Document" URL="../../../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/visarc"/>
+					<Item Name="absolute water current vector.ctl" Type="VI" URL="../2-Think/2 Typedefs/absolute water current vector.ctl"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="WriteToFIFOPort3" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -1188,20 +1063,23 @@ KeepAliveTimeout 60
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="Main_RIO.vi" Type="VI" URL="../Main_RIO.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Acquire Input Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Acquire Input Data.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Color (U64)" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Color (U64)"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
+				<Item Name="errorList.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/errorList.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
@@ -1211,10 +1089,13 @@ KeepAliveTimeout 60
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
+				<Item Name="IMAQ Clear Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Clear Overlay"/>
+				<Item Name="IMAQ ColorImageToArray" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ColorImageToArray"/>
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
 				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
 				<Item Name="IMAQ Load Image Dialog" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Load Image Dialog"/>
+				<Item Name="IMAQ Merge Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Merge Overlay"/>
 				<Item Name="IMAQ Overlay Bitmap" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Bitmap"/>
 				<Item Name="IMAQ Overlay Multiple Lines 2" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Multiple Lines 2"/>
 				<Item Name="IMAQ Overlay Points" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Points"/>
@@ -1222,22 +1103,36 @@ KeepAliveTimeout 60
 				<Item Name="IMAQ Overlay Text" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Text"/>
 				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
 				<Item Name="IMAQ SetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ SetImageSize"/>
+				<Item Name="IMAQ Write BMP File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP File 2"/>
+				<Item Name="IMAQ Write File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write File 2"/>
+				<Item Name="IMAQ Write Image And Vision Info File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write Image And Vision Info File 2"/>
+				<Item Name="IMAQ Write JPEG File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write JPEG File 2"/>
+				<Item Name="IMAQ Write JPEG2000 File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write JPEG2000 File 2"/>
+				<Item Name="IMAQ Write PNG File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write PNG File 2"/>
+				<Item Name="IMAQ Write TIFF File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write TIFF File 2"/>
 				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
+				<Item Name="Initialize Joystick.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Initialize Joystick.vi"/>
+				<Item Name="joystickAcquire.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/joystickAcquire.vi"/>
+				<Item Name="keyboardAcquire.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/keyboardAcquire.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
+				<Item Name="mouseAcquire.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/mouseAcquire.vi"/>
 				<Item Name="NI_AAL_Angle.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_Angle.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Query Input Devices.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Query Input Devices.vi"/>
 				<Item Name="ROI Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/ROI Descriptor"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -1247,18 +1142,13 @@ KeepAliveTimeout 60
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="1C Camera - find boat given marker locations.vi" Type="VI" URL="../1,3 C-Small RC Platform/1,3 C Code/1C Camera - find boat given marker locations.vi"/>
-			<Item Name="1C Camera - Find Marker.vi" Type="VI" URL="../1,3 C-Small RC Platform/1,3 C Code/1C Camera - Find Marker.vi"/>
-			<Item Name="1C Camera - Mask Pool Edge.vi" Type="VI" URL="../1,3 C-Small RC Platform/1,3 C Code/1C Camera - Mask Pool Edge.vi"/>
-			<Item Name="1C Camera - PixelToUTM.vi" Type="VI" URL="../1,3 C-Small RC Platform/1,3 C Code/1C Camera - PixelToUTM.vi"/>
-			<Item Name="1C Camera - UTMToPixel.vi" Type="VI" URL="../1,3 C-Small RC Platform/1,3 C Code/1C Camera - UTMToPixel.vi"/>
-			<Item Name="1C Camera Interpreter.vi" Type="VI" URL="../1,3 C-Small RC Platform/1,3 C Code/1C Camera Interpreter.vi"/>
-			<Item Name="1C SmallRCSense.vi" Type="VI" URL="../1,3 C-Small RC Platform/1,3 C Code/1C SmallRCSense.vi"/>
-			<Item Name="3C Helper - Convert Given Values To PWM.vi" Type="VI" URL="../1,3 C-Small RC Platform/1,3 C Code/3C Helper - Convert Given Values To PWM.vi"/>
-			<Item Name="3C SetpointsToTCP.vi" Type="VI" URL="../1,3 C-Small RC Platform/1,3 C Code/3C SetpointsToTCP.vi"/>
-			<Item Name="3C SmallRCAct.vi" Type="VI" URL="../1,3 C-Small RC Platform/1,3 C Code/3C SmallRCAct.vi"/>
-			<Item Name="Helper - Add Randomness.vi" Type="VI" URL="../1,3 C-Small RC Platform/1,3 C Code/Helper - Add Randomness.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="4.0-ForebrainGlobals.vi" Type="VI" URL="../0-OCU/4-Forebrain/4-Globals/4.0-ForebrainGlobals.vi"/>
+			<Item Name="4.3-ActData.ctl" Type="VI" URL="../0-OCU/4-Forebrain/4-Typedefs/4.3-ActData.ctl"/>
+			<Item Name="4.6-GPSWaypoint.ctl" Type="VI" URL="../0-OCU/4-Forebrain/4-Code/4.6-GPS Waypoint/4.6-GPSWaypoint.ctl"/>
+			<Item Name="4.6-Waypoint List.ctl" Type="VI" URL="../0-OCU/4-Forebrain/4-Code/4.6-GPS Waypoint/4.6-Waypoint List.ctl"/>
+			<Item Name="5.1-MotorControls.ctl" Type="VI" URL="../0-OCU/0 Code/5-Typedefs/5.1-MotorControls.ctl"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="lvinput.dll" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvinput.dll"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1270,7 +1160,6 @@ KeepAliveTimeout 60
 			</Item>
 			<Item Name="SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx"/>
 			<Item Name="SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx"/>
-			<Item Name="visarc" Type="Document" URL="../../../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/visarc"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
