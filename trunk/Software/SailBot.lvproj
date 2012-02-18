@@ -107,12 +107,9 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ocuWaypoint.ctl" Type="VI" URL="../2-Think/0x2-OCU-Think Comm/0x2 Typedefs/ocuWaypoint.ctl"/>
 			<Item Name="SailBot_FPGATarget_FPGA_95DD0EE5.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_FPGA_95DD0EE5.lvbitx"/>
 			<Item Name="SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx"/>
 			<Item Name="SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx"/>
-			<Item Name="UTM Location.ctl" Type="VI" URL="../2-Think/2 Code/2 Typedefs/UTM Location.ctl"/>
-			<Item Name="waypointTypes.ctl" Type="VI" URL="../2-Think/0x2-OCU-Think Comm/0x2 Typedefs/waypointTypes.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -992,12 +989,9 @@ KeepAliveTimeout 60
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ocuWaypoint.ctl" Type="VI" URL="../2-Think/0x2-OCU-Think Comm/0x2 Typedefs/ocuWaypoint.ctl"/>
 			<Item Name="SailBot_FPGATarget_FPGA_95DD0EE5.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_FPGA_95DD0EE5.lvbitx"/>
 			<Item Name="SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort1_7F5D412B.lvbitx"/>
 			<Item Name="SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_WriteToFIFOPort3_7F5D412A.lvbitx"/>
-			<Item Name="UTM Location.ctl" Type="VI" URL="../2-Think/2 Code/2 Typedefs/UTM Location.ctl"/>
-			<Item Name="waypointTypes.ctl" Type="VI" URL="../2-Think/0x2-OCU-Think Comm/0x2 Typedefs/waypointTypes.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
