@@ -1,0 +1,42 @@
+<Array>
+<Name>Waypoints List</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>Waypoint</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Point Type</Name>
+<Choice>Drive</Choice>
+<Choice>Round Port</Choice>
+<Choice>Round Starboard</Choice>
+<Choice>Stay</Choice>
+<Val>0</Val>
+</EW>
+<DBL>
+<Name>Dist/Time</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Cluster>
+<Name>UTM Location</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>UTM Zone</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Hemisphere</Name>
+<Choice>North</Choice>
+<Choice>South</Choice>
+<Val>0</Val>
+</EW>
+<DBL>
+<Name>East</Name>
+<Val>2.50871098050000</Val>
+</DBL>
+<DBL>
+<Name>North</Name>
+<Val>2.04189595498266</Val>
+</DBL>
+</Cluster>
+</Cluster>
+</Array>
