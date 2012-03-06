@@ -88,16 +88,12 @@
 				<Item Name="_TDM_DATA_MODEL.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/_TDM_DATA_MODEL.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
-				<Item Name="Cell Filter Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Instrument.llb/Cell Filter Mode.ctl"/>
-				<Item Name="Cell Sample Size.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Instrument.llb/Cell Sample Size.ctl"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Color (U64)" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Color (U64)"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="Data Matrix Polarity.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Instrument.llb/Data Matrix Polarity.ctl"/>
 				<Item Name="dataModel.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/lvStorage.llb/dataModel.ctl"/>
-				<Item Name="Demodulation Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Instrument.llb/Demodulation Mode.ctl"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
@@ -159,11 +155,6 @@
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="ParseXMLParams.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/lvStorage.llb/ParseXMLParams.vi"/>
-				<Item Name="QR Code Description Options.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Instrument.llb/QR Code Description Options.ctl"/>
-				<Item Name="QR Code Model Type.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Instrument.llb/QR Code Model Type.ctl"/>
-				<Item Name="QR Code Report.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Instrument.llb/QR Code Report.ctl"/>
-				<Item Name="QR Code Search Options.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Instrument.llb/QR Code Search Options.ctl"/>
-				<Item Name="QR Code Stream Mode Type.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Instrument.llb/QR Code Stream Mode Type.ctl"/>
 				<Item Name="ROI Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/ROI Descriptor"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -171,7 +162,6 @@
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="specialProperties.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/specialProperties.ctl"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
-				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -193,7 +183,7 @@
 			<Item Name="1A ReadFromFIFOPort1.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/1A ReadFromFIFOPort1.vi"/>
 			<Item Name="3A WriteToFIFOPort4.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/3A WriteToFIFOPort4.vi"/>
 			<Item Name="ACT_ServoControl.vi" Type="VI" URL="../2-Think/2 Code/ACT_ServoControl.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -209,8 +199,8 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SailBot_FPGATarget3_3APWMMotorContro_1677D78E.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget3_3APWMMotorContro_1677D78E.lvbitx"/>
-			<Item Name="visarc" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/visarc"/>
+			<Item Name="SailBot_FPGATarget3_3APWMMotorContro_B9FA4E50.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget3_3APWMMotorContro_B9FA4E50.lvbitx"/>
+			<Item Name="visarc" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/visarc"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -1270,7 +1260,7 @@ KeepAliveTimeout 60
 			<Item Name="1A ReadFromFIFOPort1.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/1A ReadFromFIFOPort1.vi"/>
 			<Item Name="3A WriteToFIFOPort4.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/3A WriteToFIFOPort4.vi"/>
 			<Item Name="ACT_ServoControl.vi" Type="VI" URL="../2-Think/2 Code/ACT_ServoControl.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1297,8 +1287,8 @@ KeepAliveTimeout 60
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SailBot_FPGATarget3_3APWMMotorContro_1677D78E.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget3_3APWMMotorContro_1677D78E.lvbitx"/>
-			<Item Name="visarc" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/visarc"/>
+			<Item Name="SailBot_FPGATarget3_3APWMMotorContro_B9FA4E50.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget3_3APWMMotorContro_B9FA4E50.lvbitx"/>
+			<Item Name="visarc" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/visarc"/>
 			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -4611,7 +4601,7 @@ KeepAliveTimeout 60
 			<Item Name="1A ReadFromFIFOPort1.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/1A ReadFromFIFOPort1.vi"/>
 			<Item Name="3A WriteToFIFOPort4.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/3A WriteToFIFOPort4.vi"/>
 			<Item Name="ACT_ServoControl.vi" Type="VI" URL="../2-Think/2 Code/ACT_ServoControl.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -4627,8 +4617,8 @@ KeepAliveTimeout 60
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SailBot_FPGATarget3_3APWMMotorContro_1677D78E.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget3_3APWMMotorContro_1677D78E.lvbitx"/>
-			<Item Name="visarc" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/visarc"/>
+			<Item Name="SailBot_FPGATarget3_3APWMMotorContro_B9FA4E50.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget3_3APWMMotorContro_B9FA4E50.lvbitx"/>
+			<Item Name="visarc" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/visarc"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -5000,7 +4990,7 @@ KeepAliveTimeout 60
 			<Item Name="1A ReadFromFIFOPort1.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/1A ReadFromFIFOPort1.vi"/>
 			<Item Name="3A WriteToFIFOPort4.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/3A WriteToFIFOPort4.vi"/>
 			<Item Name="ACT_ServoControl.vi" Type="VI" URL="../2-Think/2 Code/ACT_ServoControl.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -5016,8 +5006,8 @@ KeepAliveTimeout 60
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SailBot_FPGATarget3_3APWMMotorContro_1677D78E.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget3_3APWMMotorContro_1677D78E.lvbitx"/>
-			<Item Name="visarc" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/visarc"/>
+			<Item Name="SailBot_FPGATarget3_3APWMMotorContro_B9FA4E50.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget3_3APWMMotorContro_B9FA4E50.lvbitx"/>
+			<Item Name="visarc" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/visarc"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
