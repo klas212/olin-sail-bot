@@ -1,0 +1,12 @@
+[My Computer]
+My Computer = "10.48.24.17"
+
+[NI-cRIO9024-0165BEB0]
+NI-cRIO9024-0165BEB0 = "192.168.1.4"
+
+[OlinSailbot-sbRIO-9602]
+OlinSailbot-sbRIO-9602 = "192.168.1.5"
+
+[OlinSailbot-sbRIO9606]
+OlinSailbot-sbRIO9606 = "192.168.1.6"
+
