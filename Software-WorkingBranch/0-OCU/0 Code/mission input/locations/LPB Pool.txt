@@ -1,0 +1,30 @@
+<Cluster>
+<Name>Image Descriptor</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Upper-Left Corner Coordinates</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>UTM Zone</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Hemisphere</Name>
+<Choice>North</Choice>
+<Choice>South</Choice>
+<Val>0</Val>
+</EW>
+<DBL>
+<Name>East</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>North</Name>
+<Val>3.46584971098266</Val>
+</DBL>
+</Cluster>
+<DBL>
+<Name>Meters/Pixel</Name>
+<Val>0.0033583815</Val>
+</DBL>
+</Cluster>
