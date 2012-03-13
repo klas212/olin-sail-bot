@@ -185,7 +185,7 @@
 			<Item Name="1A ReadFromFIFOPort1.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/1A ReadFromFIFOPort1.vi"/>
 			<Item Name="3A WriteToFIFOPort4.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/3A WriteToFIFOPort4.vi"/>
 			<Item Name="ACT_ServoControl.vi" Type="VI" URL="../2-Think/2 Code/ACT_ServoControl.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
