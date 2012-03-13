@@ -65,6 +65,15 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 	</Item>
+	<Item Name="Deserialize Mission Array.vi" Type="VI" URL="../Deserialize Mission Array.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%1#!#!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$/!!!!"1!%!!!!+E"Q!"Y!!"%047FT=WFP&lt;CZM&gt;G.M98.T!!^.;8.T;7^O,GRW9WRB=X-!)E"!!!(`````!!%547FT=WFP&lt;C"09GJF9X1A18*S98E!!#*!-0````]95W6S;7&amp;M;8JF:#".;8.T;7^O)%&amp;S=G&amp;Z!!"5!0!!$!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!Q)!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!"!!1!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710274</Property>
+	</Item>
 	<Item Name="drive_details.vi" Type="VI" URL="../drive_details.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%1#!#!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%L!!!!#1!%!!!!$U!+!!B66%UA7G^O:1!!(U!7!!)&amp;4G^S&gt;'A&amp;5W^V&gt;'A!#EBF&lt;7FT='BF=G5!!!N!#A!%27&amp;T&gt;!!!#U!+!!6/&lt;X*U;!!\!0(,?O5W!!!!!2"66%UA4'^D982J&lt;WYO9X2M!#*!5!!%!!%!!A!$!!1/2(*J&gt;G5A4'^D982J&lt;WY!!#:!=!!?!!!2$UVJ=X.J&lt;WYO&lt;(:D&lt;'&amp;T=Q!,47FT=WFP&lt;C"P&gt;81!*E"Q!"Y!!"%047FT=WFP&lt;CZM&gt;G.M98.T!!J.;8.T;7^O)'FO!!"5!0!!$!!!!!5!!!!'!!!!!!!!!!!!!!!!!!!!"Q)!!(A!!!!!!!!*!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>

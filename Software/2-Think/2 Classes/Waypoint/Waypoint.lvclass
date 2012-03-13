@@ -36,6 +36,24 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
+	<Item Name="Deserialize Array.vi" Type="VI" URL="../Deserialize Array.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%1#!#!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%,!!!!"A!%!!!!(%!Q`````R*'&lt;'&amp;U&gt;'6O:71A6W&amp;Z='^J&lt;H1!!#:!1!!"`````Q!"'6.F=GFB&lt;'F[:71A6W&amp;Z='^J&lt;H1A18*S98E!,E"Q!"Y!!")16W&amp;Z='^J&lt;H1O&lt;(:D&lt;'&amp;T=Q!!%&amp;&gt;B?8"P;7ZU,GRW9WRB=X-!!$M!]1!!!!!!!!!"%F&gt;B?8"P;7ZU=S"-;8.U,G.U&lt;!!A1%!!!@````]!!Q^898FQ&lt;WFO&gt;(-A18*S98E!6!$Q!!Q!!!!!!!!!!A!!!!!!!!!!!!!!!!!!!!1$!!"Y!!!!!!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!1!&amp;!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
+	</Item>
+	<Item Name="Deserialize Waypoint Array.vi" Type="VI" URL="../Deserialize Waypoint Array.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%1#!#!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(0!!!!$1!%!!!!,E"Q!"Y!!")16W&amp;Z='^J&lt;H1O&lt;(:D&lt;'&amp;T=Q!!%&amp;&gt;B?8"P;7ZU,GRW9WRB=X-!!%-!]1!!!!!!!!!"%F&gt;B?8"P;7ZU=S"-;8.U,G.U&lt;!!I1%!!!@````]!!2:898FQ&lt;WFO&gt;(-A4W*K:7.U)%&amp;S=G&amp;Z!!!41!I!$62P&lt;'6S97ZD:3!I&lt;3E!$U!+!!B66%UA7G^O:1!!(U!7!!)&amp;4G^S&gt;'A&amp;5W^V&gt;'A!#EBF&lt;7FT='BF=G5!!!N!#A!%27&amp;T&gt;!!!#U!+!!6/&lt;X*U;!!Z!0(,?O5W!!!!!2"66%UA4'^D982J&lt;WYO9X2M!#"!5!!%!!1!"1!'!!=-662.)%RP9W&amp;U;7^O!!!Q!0%!!!!!!!!!!1^P9X6898FQ&lt;WFO&gt;#ZD&gt;'Q!'%"1!!)!!Q!)#&amp;&gt;B?8"P;7ZU!!!=1%!!!@````]!#1^898FQ&lt;WFO&gt;(-A18*S98E!)E!Q`````RF4:8*J97RJ?G6E)&amp;&gt;B?8"P;7ZU)%&amp;S=G&amp;Z!&amp;1!]!!-!!!!!!!#!!I!!!!!!!!!!!!!!!!!!!!,!Q!!?!!!!!!!!!!!!!!*!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!%!$!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074278928</Property>
+	</Item>
 	<Item Name="deserialize.vi" Type="VI" URL="../deserialize.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%1#!#!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$Z!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!3%&amp;&gt;B?8"P;7ZU,GRW9WRB=X-!!!R898FQ&lt;WFO&gt;#"0&gt;81!!":!5!!$!!!!!1!##'6S=G^S)'FO!!!=1$$`````%E:M982U:7ZF:#"898FQ&lt;WFO&gt;!!!6!$Q!!Q!!Q!%!!5!"!!%!!1!"!!%!!9!"!!(!!1#!!"Y!!!.#!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!"#A!!!!!!!!!!!1!)!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -80,6 +98,15 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710274</Property>
+	</Item>
+	<Item Name="Serialize Array.vi" Type="VI" URL="../Serialize Array.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%1#!#!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%,!!!!"A!%!!!!(%!Q`````R*'&lt;'&amp;U&gt;'6O:71A6W&amp;Z='^J&lt;H1!!#:!1!!"`````Q!"'6.F=GFB&lt;'F[:71A6W&amp;Z='^J&lt;H1A18*S98E!,E"Q!"Y!!")16W&amp;Z='^J&lt;H1O&lt;(:D&lt;'&amp;T=Q!!%&amp;&gt;B?8"P;7ZU,GRW9WRB=X-!!$M!]1!!!!!!!!!"%F&gt;B?8"P;7ZU=S"-;8.U,G.U&lt;!!A1%!!!@````]!!Q^898FQ&lt;WFO&gt;(-A18*S98E!6!$Q!!Q!!!!!!!!!!A!!!!!!!!!!!!!!!!!!!!1$!!"Y!!!!!!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!1!&amp;!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 	</Item>
 	<Item Name="serialize.vi" Type="VI" URL="../serialize.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%1#!#!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$X!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"R!-0````]32GRB&gt;(2F&lt;G6E)&amp;&gt;B?8"P;7ZU!!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!+%"Q!"Y!!")16W&amp;Z='^J&lt;H1O&lt;(:D&lt;'&amp;T=Q!!#V&gt;B?8"P;7ZU)%FO!&amp;1!]!!-!!-!"!!&amp;!!1!"!!%!!1!"!!'!!1!"Q!%!A!!?!!!$1A!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!I!!!!!!!!!!!%!#!!!!!!</Property>
