@@ -65,6 +65,15 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
+	<Item Name="create_mission_waypoints.vi" Type="VI" URL="../create_mission_waypoints.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%1#!#!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#M!!!!"!!%!!!!*E"Q!"Y!!"%047FT=WFP&lt;CZM&gt;G.M98.T!!N.;8.T;7^O)'^V&gt;!!G1(!!(A!!%1^.;8.T;7^O,GRW9WRB=X-!#EVJ=X.J&lt;WYA;7Y!!&amp;1!]!!-!!!!!1!!!!!!!!!!!!!!!!!!!!)!!!!!!Q!!?!!!!!!!!!U*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!%!!Q!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">268435456</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+	</Item>
 	<Item Name="drive_details.vi" Type="VI" URL="../drive_details.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%1#!#!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%L!!!!#1!%!!!!$U!+!!B66%UA7G^O:1!!(U!7!!)&amp;4G^S&gt;'A&amp;5W^V&gt;'A!#EBF&lt;7FT='BF=G5!!!N!#A!%27&amp;T&gt;!!!#U!+!!6/&lt;X*U;!!\!0(,?O5W!!!!!2"66%UA4'^D982J&lt;WYO9X2M!#*!5!!%!!%!!A!$!!1/2(*J&gt;G5A4'^D982J&lt;WY!!#:!=!!?!!!2$UVJ=X.J&lt;WYO&lt;(:D&lt;'&amp;T=Q!,47FT=WFP&lt;C"P&gt;81!*E"Q!"Y!!"%047FT=WFP&lt;CZM&gt;G.M98.T!!J.;8.T;7^O)'FO!!"5!0!!$!!!!!5!!!!'!!!!!!!!!!!!!!!!!!!!"Q)!!(A!!!!!!!!*!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
