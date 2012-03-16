@@ -185,11 +185,15 @@
 			<Item Name="1A ReadFromFIFOPort1.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/1A ReadFromFIFOPort1.vi"/>
 			<Item Name="3A WriteToFIFOPort4.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/3A WriteToFIFOPort4.vi"/>
 			<Item Name="ACT_ServoControl.vi" Type="VI" URL="../2-Think/2 Code/ACT_ServoControl.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="init_pass_buoys.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_pass_buoys.vi"/>
+			<Item Name="init_round_buoy.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_round_buoy.vi"/>
+			<Item Name="init_station_keeping.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_station_keeping.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ni.dex.rc" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/objmgr/ni.dex.rc"/>
+			<Item Name="Mission.lvclass" Type="LVClass" URL="../2-Think/2 Classes/Mission/Mission.lvclass"/>
+			<Item Name="ni.dex.rc" Type="Document" URL="../../../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/objmgr/ni.dex.rc"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -202,7 +206,7 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SailBot_FPGATarget3_3APWMMotorContro_A6C1C065.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget3_3APWMMotorContro_A6C1C065.lvbitx"/>
+			<Item Name="visarc" Type="Document" URL="../../../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/visarc"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -222,6 +226,7 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
+		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str">1.0,0;</Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -302,8 +307,8 @@ KeepAliveTimeout 60
 			<Property Name="crio.Type" Type="Str">cRIO-9113</Property>
 			<Item Name="FPGA Target" Type="FPGA Target">
 				<Property Name="AutoRun" Type="Bool">false</Property>
-				<Property Name="configString.guid" Type="Str">{00FC4ACE-ACE6-4F1B-BFA6-344B51823A6A}resource=/crio_Mod4/DIO28;0;ReadMethodType=bool;WriteMethodType=bool{04269951-DE53-4529-827C-EA2748D5478A}cRIO Subresource{0AC3EF75-4809-4771-ACA3-07E72FADB31D}resource=/crio_Mod4/DIO17;0;ReadMethodType=bool;WriteMethodType=bool{0E765E55-2F5F-4CB6-9A9A-ABDF27420A17}resource=/crio_Mod4/DIO12;0;ReadMethodType=bool;WriteMethodType=bool{17156F9C-453A-43D9-BC76-4F3437CEB708}resource=/crio_Mod4/DIO13;0;ReadMethodType=bool;WriteMethodType=bool{179A8C6F-B597-48A0-97F5-8567A71B006F}resource=/crio_Mod4/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{1E5874A7-6834-4BF3-AFFE-93CB06915AB5}resource=/crio_Mod4/DIO14;0;ReadMethodType=bool;WriteMethodType=bool{1FD4D425-2549-4DAD-95BF-69236FBAEC93}resource=/crio_Mod4/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{20FD68E1-697F-4D95-9CB5-60BDE18024FC}cRIO Subresource{2BC6CF87-C8DD-46B2-962C-A65E4AF185DF}resource=/crio_Mod4/DIO30;0;ReadMethodType=bool;WriteMethodType=bool{2F01F271-D1C6-421B-8E67-80F9DCE671F7}resource=/crio_Mod4/DIO21;0;ReadMethodType=bool;WriteMethodType=bool{30CEE6AD-C88B-452E-A6C2-3F5A022D9A3B}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{3478DBFA-D450-460F-8073-47355AA3C4BE}resource=/Chassis Temperature;0;ReadMethodType=i16{42DB7C22-4ADB-422E-B69D-FA77667E3E8B}resource=/crio_Mod4/DIO23:16;0;ReadMethodType=u8;WriteMethodType=u8{43764E0E-E8A6-48EC-AD83-51AA14AC715D}resource=/crio_Mod4/DIO22;0;ReadMethodType=bool;WriteMethodType=bool{47DA8D02-DC69-4096-8A73-410106B72943}resource=/crio_Mod4/DIO31;0;ReadMethodType=bool;WriteMethodType=bool{4EEF2655-6C3B-44C3-BA8F-4C63EEED75E9}resource=/crio_Mod4/DIO23;0;ReadMethodType=bool;WriteMethodType=bool{53C4193B-85DD-40FA-BC69-E5ECEF0C1E76}resource=/crio_Mod4/DIO27;0;ReadMethodType=bool;WriteMethodType=bool{55D77388-D508-4540-B474-C80B94F6D12E}resource=/crio_Mod4/DIO31:0;0;ReadMethodType=u32;WriteMethodType=u32{614D5C80-EE34-4B83-9CF6-F503786513E5}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{666E00AE-DF4B-432A-89F2-A68A22E6203B}resource=/crio_Mod4/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8{666F21DA-F0C6-43E6-B969-5F8959C9DE0E}resource=/crio_Mod4/DIO9;0;ReadMethodType=bool;WriteMethodType=bool{66DCF790-DEE0-4325-B57C-E0DCD6AD8AD0}resource=/crio_Mod4/DIO25;0;ReadMethodType=bool;WriteMethodType=bool{6EBF4784-390F-49DB-BE01-AB55CF074707}resource=/crio_Mod4/DIO11;0;ReadMethodType=bool;WriteMethodType=bool{707C03BE-0FC0-42DD-BFAA-7BCFEED70AF9}resource=/crio_Mod4/DIO29;0;ReadMethodType=bool;WriteMethodType=bool{71DE7EB8-D417-4A41-ADBB-3E8F991EA73D}resource=/crio_Mod4/DIO15:8;0;ReadMethodType=u8;WriteMethodType=u8{8406BF14-3BE0-4C3D-AD88-EF514F93084A}resource=/crio_Mod4/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{858CD645-E9DB-473B-BF5D-01EEABB03944}"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;WriteArbs=Arbitrate if Multiple Requestors Only;Implementation=2;FIFO Port1 Read;DataType=1000800000000001000940050002553800000100000000000000;DisableOnOverflowUnderflow=FALSE"{9A2A589D-EAD3-4D18-BBD1-637023AFD45D}resource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{9A2F3845-6915-47AF-88C7-AFAB3735F220}resource=/crio_Mod4/DIO18;0;ReadMethodType=bool;WriteMethodType=bool{9BCCA016-B524-460D-92AC-5030B2CDC732}resource=/crio_Mod4/DIO19;0;ReadMethodType=bool;WriteMethodType=bool{A0955CB7-DFA7-495B-9040-282824433269}resource=/crio_Mod4/DIO31:24;0;ReadMethodType=u8;WriteMethodType=u8{A317F407-B1D5-4E79-B365-D9DC1E4A900E}resource=/crio_Mod4/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{A4BFC397-2203-4492-8DDF-953CC6F50DEC}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9870,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kBaudRateDivider1=384,cRIOModule.kBaudRateDivider2=384,cRIOModule.kBaudRateDivider3=384,cRIOModule.kBaudRateDivider4=384,cRIOModule.kBaudRatePrescaler1=1,cRIOModule.kBaudRatePrescaler2=1,cRIOModule.kBaudRatePrescaler3=1,cRIOModule.kBaudRatePrescaler4=1,cRIOModule.kDataBits1=4,cRIOModule.kDataBits2=4,cRIOModule.kDataBits3=4,cRIOModule.kDataBits4=4,cRIOModule.kDesiredBaudRate1=9.600000E+3,cRIOModule.kDesiredBaudRate2=9.600000E+3,cRIOModule.kDesiredBaudRate3=9.600000E+3,cRIOModule.kDesiredBaudRate4=9.600000E+3,cRIOModule.kFlowControl1=1,cRIOModule.kFlowControl2=1,cRIOModule.kFlowControl3=1,cRIOModule.kFlowControl4=1,cRIOModule.kParity1=1,cRIOModule.kParity2=1,cRIOModule.kParity3=1,cRIOModule.kParity4=1,cRIOModule.kStopBits1=1,cRIOModule.kStopBits2=1,cRIOModule.kStopBits3=1,cRIOModule.kStopBits4=1,cRIOModule.RsiAttributes=[crioConfig.End]{A7A24283-692F-4DFE-8934-29C796FE31EA}"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;WriteArbs=Arbitrate if Multiple Requestors Only;Implementation=2;Temperature;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"{AB0F3C5A-33F0-4C24-A4A8-706D83500062}resource=/crio_Mod4/DIO20;0;ReadMethodType=bool;WriteMethodType=bool{B6E1D127-B460-4F79-BC18-60BC0C745E25}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E{B983E3C4-3C48-4F9D-BED2-D7047DCF3D5E}resource=/Scan Clock;0;ReadMethodType=bool{BB152487-E62D-4DDA-8B8F-7A246F6B5A6F}resource=/crio_Mod4/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{C42EBF45-B0B1-44D4-9DB4-902AD5E9B216}resource=/crio_Mod4/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{C656CDBD-EC31-4687-9405-5B2B6BEF2BBF}"ControlLogic=0;NumberOfElements=1029;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;WriteArbs=Arbitrate if Multiple Requestors Only;Implementation=2;FIFO Port4 Write;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"{D47FC74D-6DF6-4C5A-9F81-A7716B53B61D}resource=/crio_Mod4/DIO15;0;ReadMethodType=bool;WriteMethodType=bool{DA4536CA-1BC3-4962-ABB7-74A0F47ACBC4}resource=/crio_Mod4/DIO8;0;ReadMethodType=bool;WriteMethodType=bool{E0AD63CF-AB39-425C-975B-89D94A928A6C}resource=/crio_Mod4/DIO16;0;ReadMethodType=bool;WriteMethodType=bool{E295AF60-2AD7-4D75-B21E-5F0353FD26F4}resource=/crio_Mod4/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{EC105EF9-6234-4A7C-8FED-50AA4DDE762C}resource=/crio_Mod4/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{F3948DA7-8D9E-4C47-99CC-F37A8D9E5D34}cRIO Subresource{F3F56FD1-5C13-4019-82F2-8F18172BF380}resource=/crio_Mod4/DIO10;0;ReadMethodType=bool;WriteMethodType=bool{F425767D-E379-4D1E-9155-19A465BCE543}cRIO Subresource{FB5F99EB-69B1-4B23-A80F-0F4739E5D341}resource=/crio_Mod4/DIO26;0;ReadMethodType=bool;WriteMethodType=bool{FDFDFC27-A24E-41B8-BD3F-54E8429E9546}resource=/crio_Mod4/DIO24;0;ReadMethodType=bool;WriteMethodType=bool{FF32FD7B-7C20-4D57-A8E5-D789678FF7EA}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9403,cRIOModule.DisableArbitration=false,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.Initial Line Direction=00000000000000000000000000000000,cRIOModule.RsiAttributes=[crioConfig.End]cRIO-9113/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGA</Property>
-				<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EChassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9113/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGAFIFO Port1 Read"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;WriteArbs=Arbitrate if Multiple Requestors Only;Implementation=2;FIFO Port1 Read;DataType=1000800000000001000940050002553800000100000000000000;DisableOnOverflowUnderflow=FALSE"FIFO Port4 Write"ControlLogic=0;NumberOfElements=1029;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;WriteArbs=Arbitrate if Multiple Requestors Only;Implementation=2;FIFO Port4 Write;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"FPGA LEDresource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolMod1[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9870,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kBaudRateDivider1=384,cRIOModule.kBaudRateDivider2=384,cRIOModule.kBaudRateDivider3=384,cRIOModule.kBaudRateDivider4=384,cRIOModule.kBaudRatePrescaler1=1,cRIOModule.kBaudRatePrescaler2=1,cRIOModule.kBaudRatePrescaler3=1,cRIOModule.kBaudRatePrescaler4=1,cRIOModule.kDataBits1=4,cRIOModule.kDataBits2=4,cRIOModule.kDataBits3=4,cRIOModule.kDataBits4=4,cRIOModule.kDesiredBaudRate1=9.600000E+3,cRIOModule.kDesiredBaudRate2=9.600000E+3,cRIOModule.kDesiredBaudRate3=9.600000E+3,cRIOModule.kDesiredBaudRate4=9.600000E+3,cRIOModule.kFlowControl1=1,cRIOModule.kFlowControl2=1,cRIOModule.kFlowControl3=1,cRIOModule.kFlowControl4=1,cRIOModule.kParity1=1,cRIOModule.kParity2=1,cRIOModule.kParity3=1,cRIOModule.kParity4=1,cRIOModule.kStopBits1=1,cRIOModule.kStopBits2=1,cRIOModule.kStopBits3=1,cRIOModule.kStopBits4=1,cRIOModule.RsiAttributes=[crioConfig.End]Mod4/DIO10resource=/crio_Mod4/DIO10;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO11resource=/crio_Mod4/DIO11;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO12resource=/crio_Mod4/DIO12;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO13resource=/crio_Mod4/DIO13;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO14resource=/crio_Mod4/DIO14;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO15:8resource=/crio_Mod4/DIO15:8;0;ReadMethodType=u8;WriteMethodType=u8Mod4/DIO15resource=/crio_Mod4/DIO15;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO16resource=/crio_Mod4/DIO16;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO17resource=/crio_Mod4/DIO17;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO18resource=/crio_Mod4/DIO18;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO19resource=/crio_Mod4/DIO19;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO20resource=/crio_Mod4/DIO20;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO21resource=/crio_Mod4/DIO21;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO22resource=/crio_Mod4/DIO22;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO23:16resource=/crio_Mod4/DIO23:16;0;ReadMethodType=u8;WriteMethodType=u8Mod4/DIO23resource=/crio_Mod4/DIO23;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO24resource=/crio_Mod4/DIO24;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO25resource=/crio_Mod4/DIO25;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO26resource=/crio_Mod4/DIO26;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO27resource=/crio_Mod4/DIO27;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO28resource=/crio_Mod4/DIO28;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO29resource=/crio_Mod4/DIO29;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO2resource=/crio_Mod4/DIO2;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO30resource=/crio_Mod4/DIO30;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO31:0resource=/crio_Mod4/DIO31:0;0;ReadMethodType=u32;WriteMethodType=u32Mod4/DIO31:24resource=/crio_Mod4/DIO31:24;0;ReadMethodType=u8;WriteMethodType=u8Mod4/DIO31resource=/crio_Mod4/DIO31;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO3resource=/crio_Mod4/DIO3;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO4resource=/crio_Mod4/DIO4;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO5resource=/crio_Mod4/DIO5;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO6resource=/crio_Mod4/DIO6;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO7:0resource=/crio_Mod4/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod4/DIO7resource=/crio_Mod4/DIO7;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO8resource=/crio_Mod4/DIO8;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO9resource=/crio_Mod4/DIO9;0;ReadMethodType=bool;WriteMethodType=boolMod4[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9403,cRIOModule.DisableArbitration=false,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.Initial Line Direction=00000000000000000000000000000000,cRIOModule.RsiAttributes=[crioConfig.End]Port1cRIO SubresourcePort2cRIO SubresourcePort3cRIO SubresourcePort4cRIO SubresourceScan Clockresource=/Scan Clock;0;ReadMethodType=boolServo1resource=/crio_Mod4/DIO0;0;ReadMethodType=bool;WriteMethodType=boolServo2resource=/crio_Mod4/DIO1;0;ReadMethodType=bool;WriteMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolTemperature"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;WriteArbs=Arbitrate if Multiple Requestors Only;Implementation=2;Temperature;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"</Property>
+				<Property Name="configString.guid" Type="Str">{00FC4ACE-ACE6-4F1B-BFA6-344B51823A6A}resource=/crio_DIO/DIO28;0;ReadMethodType=bool;WriteMethodType=bool{0AC3EF75-4809-4771-ACA3-07E72FADB31D}resource=/crio_DIO/DIO17;0;ReadMethodType=bool;WriteMethodType=bool{0E765E55-2F5F-4CB6-9A9A-ABDF27420A17}resource=/crio_DIO/DIO12;0;ReadMethodType=bool;WriteMethodType=bool{17156F9C-453A-43D9-BC76-4F3437CEB708}resource=/crio_DIO/DIO13;0;ReadMethodType=bool;WriteMethodType=bool{179A8C6F-B597-48A0-97F5-8567A71B006F}resource=/crio_DIO/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{1E5874A7-6834-4BF3-AFFE-93CB06915AB5}resource=/crio_DIO/DIO14;0;ReadMethodType=bool;WriteMethodType=bool{1FD4D425-2549-4DAD-95BF-69236FBAEC93}resource=/crio_DIO/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{2BC6CF87-C8DD-46B2-962C-A65E4AF185DF}resource=/crio_DIO/DIO30;0;ReadMethodType=bool;WriteMethodType=bool{2F01F271-D1C6-421B-8E67-80F9DCE671F7}resource=/crio_DIO/DIO21;0;ReadMethodType=bool;WriteMethodType=bool{30CEE6AD-C88B-452E-A6C2-3F5A022D9A3B}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{3478DBFA-D450-460F-8073-47355AA3C4BE}resource=/Chassis Temperature;0;ReadMethodType=i16{42DB7C22-4ADB-422E-B69D-FA77667E3E8B}resource=/crio_DIO/DIO23:16;0;ReadMethodType=u8;WriteMethodType=u8{43764E0E-E8A6-48EC-AD83-51AA14AC715D}resource=/crio_DIO/DIO22;0;ReadMethodType=bool;WriteMethodType=bool{47DA8D02-DC69-4096-8A73-410106B72943}resource=/crio_DIO/DIO31;0;ReadMethodType=bool;WriteMethodType=bool{4EEF2655-6C3B-44C3-BA8F-4C63EEED75E9}resource=/crio_DIO/DIO23;0;ReadMethodType=bool;WriteMethodType=bool{53C4193B-85DD-40FA-BC69-E5ECEF0C1E76}resource=/crio_DIO/DIO27;0;ReadMethodType=bool;WriteMethodType=bool{55D77388-D508-4540-B474-C80B94F6D12E}resource=/crio_DIO/DIO31:0;0;ReadMethodType=u32;WriteMethodType=u32{614D5C80-EE34-4B83-9CF6-F503786513E5}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{666E00AE-DF4B-432A-89F2-A68A22E6203B}resource=/crio_DIO/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8{666F21DA-F0C6-43E6-B969-5F8959C9DE0E}resource=/crio_DIO/DIO9;0;ReadMethodType=bool;WriteMethodType=bool{66DCF790-DEE0-4325-B57C-E0DCD6AD8AD0}resource=/crio_DIO/DIO25;0;ReadMethodType=bool;WriteMethodType=bool{6EBF4784-390F-49DB-BE01-AB55CF074707}resource=/crio_DIO/DIO11;0;ReadMethodType=bool;WriteMethodType=bool{707C03BE-0FC0-42DD-BFAA-7BCFEED70AF9}resource=/crio_DIO/DIO29;0;ReadMethodType=bool;WriteMethodType=bool{71DE7EB8-D417-4A41-ADBB-3E8F991EA73D}resource=/crio_DIO/DIO15:8;0;ReadMethodType=u8;WriteMethodType=u8{8406BF14-3BE0-4C3D-AD88-EF514F93084A}resource=/crio_DIO/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{858CD645-E9DB-473B-BF5D-01EEABB03944}"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;WriteArbs=Arbitrate if Multiple Requestors Only;Implementation=2;FIFO Port1 Read;DataType=1000800000000001000940050002553800000100000000000000;DisableOnOverflowUnderflow=FALSE"{9A2A589D-EAD3-4D18-BBD1-637023AFD45D}resource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{9A2F3845-6915-47AF-88C7-AFAB3735F220}resource=/crio_DIO/DIO18;0;ReadMethodType=bool;WriteMethodType=bool{9BCCA016-B524-460D-92AC-5030B2CDC732}resource=/crio_DIO/DIO19;0;ReadMethodType=bool;WriteMethodType=bool{A0955CB7-DFA7-495B-9040-282824433269}resource=/crio_DIO/DIO31:24;0;ReadMethodType=u8;WriteMethodType=u8{A317F407-B1D5-4E79-B365-D9DC1E4A900E}resource=/crio_DIO/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{A7A24283-692F-4DFE-8934-29C796FE31EA}"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;WriteArbs=Arbitrate if Multiple Requestors Only;Implementation=2;Temperature;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"{AB0F3C5A-33F0-4C24-A4A8-706D83500062}resource=/crio_DIO/DIO20;0;ReadMethodType=bool;WriteMethodType=bool{B6E1D127-B460-4F79-BC18-60BC0C745E25}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E{B983E3C4-3C48-4F9D-BED2-D7047DCF3D5E}resource=/Scan Clock;0;ReadMethodType=bool{BB152487-E62D-4DDA-8B8F-7A246F6B5A6F}resource=/crio_DIO/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{C42EBF45-B0B1-44D4-9DB4-902AD5E9B216}resource=/crio_DIO/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{C656CDBD-EC31-4687-9405-5B2B6BEF2BBF}"ControlLogic=0;NumberOfElements=1029;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;WriteArbs=Arbitrate if Multiple Requestors Only;Implementation=2;FIFO Port4 Write;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"{D47FC74D-6DF6-4C5A-9F81-A7716B53B61D}resource=/crio_DIO/DIO15;0;ReadMethodType=bool;WriteMethodType=bool{DA4536CA-1BC3-4962-ABB7-74A0F47ACBC4}resource=/crio_DIO/DIO8;0;ReadMethodType=bool;WriteMethodType=bool{E0AD63CF-AB39-425C-975B-89D94A928A6C}resource=/crio_DIO/DIO16;0;ReadMethodType=bool;WriteMethodType=bool{E295AF60-2AD7-4D75-B21E-5F0353FD26F4}resource=/crio_DIO/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{EC105EF9-6234-4A7C-8FED-50AA4DDE762C}resource=/crio_DIO/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{F3F56FD1-5C13-4019-82F2-8F18172BF380}resource=/crio_DIO/DIO10;0;ReadMethodType=bool;WriteMethodType=bool{FB5F99EB-69B1-4B23-A80F-0F4739E5D341}resource=/crio_DIO/DIO26;0;ReadMethodType=bool;WriteMethodType=bool{FDFDFC27-A24E-41B8-BD3F-54E8429E9546}resource=/crio_DIO/DIO24;0;ReadMethodType=bool;WriteMethodType=bool{FF32FD7B-7C20-4D57-A8E5-D789678FF7EA}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9403,cRIOModule.DisableArbitration=false,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.Initial Line Direction=00000000000000000000000000000000,cRIOModule.RsiAttributes=[crioConfig.End]cRIO-9113/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGA</Property>
+				<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EChassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9113/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGADIO[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9403,cRIOModule.DisableArbitration=false,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.Initial Line Direction=00000000000000000000000000000000,cRIOModule.RsiAttributes=[crioConfig.End]FIFO Port1 Read"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;WriteArbs=Arbitrate if Multiple Requestors Only;Implementation=2;FIFO Port1 Read;DataType=1000800000000001000940050002553800000100000000000000;DisableOnOverflowUnderflow=FALSE"FIFO Port4 Write"ControlLogic=0;NumberOfElements=1029;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;WriteArbs=Arbitrate if Multiple Requestors Only;Implementation=2;FIFO Port4 Write;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"FPGA LEDresource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO10resource=/crio_DIO/DIO10;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO11resource=/crio_DIO/DIO11;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO12resource=/crio_DIO/DIO12;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO13resource=/crio_DIO/DIO13;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO14resource=/crio_DIO/DIO14;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO15:8resource=/crio_DIO/DIO15:8;0;ReadMethodType=u8;WriteMethodType=u8Mod4/DIO15resource=/crio_DIO/DIO15;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO16resource=/crio_DIO/DIO16;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO17resource=/crio_DIO/DIO17;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO18resource=/crio_DIO/DIO18;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO19resource=/crio_DIO/DIO19;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO20resource=/crio_DIO/DIO20;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO21resource=/crio_DIO/DIO21;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO22resource=/crio_DIO/DIO22;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO23:16resource=/crio_DIO/DIO23:16;0;ReadMethodType=u8;WriteMethodType=u8Mod4/DIO23resource=/crio_DIO/DIO23;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO24resource=/crio_DIO/DIO24;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO25resource=/crio_DIO/DIO25;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO26resource=/crio_DIO/DIO26;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO27resource=/crio_DIO/DIO27;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO28resource=/crio_DIO/DIO28;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO29resource=/crio_DIO/DIO29;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO2resource=/crio_DIO/DIO2;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO30resource=/crio_DIO/DIO30;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO31:0resource=/crio_DIO/DIO31:0;0;ReadMethodType=u32;WriteMethodType=u32Mod4/DIO31:24resource=/crio_DIO/DIO31:24;0;ReadMethodType=u8;WriteMethodType=u8Mod4/DIO31resource=/crio_DIO/DIO31;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO3resource=/crio_DIO/DIO3;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO4resource=/crio_DIO/DIO4;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO5resource=/crio_DIO/DIO5;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO6resource=/crio_DIO/DIO6;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO7:0resource=/crio_DIO/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod4/DIO7resource=/crio_DIO/DIO7;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO8resource=/crio_DIO/DIO8;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO9resource=/crio_DIO/DIO9;0;ReadMethodType=bool;WriteMethodType=boolScan Clockresource=/Scan Clock;0;ReadMethodType=boolServo1resource=/crio_DIO/DIO0;0;ReadMethodType=bool;WriteMethodType=boolServo2resource=/crio_DIO/DIO1;0;ReadMethodType=bool;WriteMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolTemperature"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;WriteArbs=Arbitrate if Multiple Requestors Only;Implementation=2;Temperature;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"</Property>
 				<Property Name="Mode" Type="Int">0</Property>
 				<Property Name="NI.LV.FPGA.CLIPDeclarationsArraySize" Type="Int">0</Property>
 				<Property Name="NI.LV.FPGA.CLIPDeclarationSet" Type="Xml">
@@ -372,7 +377,7 @@ KeepAliveTimeout 60
 					<Item Name="Servo1" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO0</Value>
+   <Value>/crio_DIO/DIO0</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -381,7 +386,7 @@ KeepAliveTimeout 60
 					<Item Name="Servo2" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO1</Value>
+   <Value>/crio_DIO/DIO1</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -390,7 +395,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO2" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO2</Value>
+   <Value>/crio_DIO/DIO2</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -399,7 +404,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO3" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO3</Value>
+   <Value>/crio_DIO/DIO3</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -408,7 +413,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO4" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO4</Value>
+   <Value>/crio_DIO/DIO4</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -417,7 +422,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO5" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO5</Value>
+   <Value>/crio_DIO/DIO5</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -426,7 +431,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO6" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO6</Value>
+   <Value>/crio_DIO/DIO6</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -435,7 +440,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO7" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO7</Value>
+   <Value>/crio_DIO/DIO7</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -444,7 +449,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO8" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO8</Value>
+   <Value>/crio_DIO/DIO8</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -453,7 +458,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO9" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO9</Value>
+   <Value>/crio_DIO/DIO9</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -462,7 +467,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO10" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO10</Value>
+   <Value>/crio_DIO/DIO10</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -471,7 +476,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO11" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO11</Value>
+   <Value>/crio_DIO/DIO11</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -480,7 +485,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO12" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO12</Value>
+   <Value>/crio_DIO/DIO12</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -489,7 +494,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO13" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO13</Value>
+   <Value>/crio_DIO/DIO13</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -498,7 +503,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO14" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO14</Value>
+   <Value>/crio_DIO/DIO14</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -507,7 +512,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO15" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO15</Value>
+   <Value>/crio_DIO/DIO15</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -516,7 +521,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO16" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO16</Value>
+   <Value>/crio_DIO/DIO16</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -525,7 +530,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO17" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO17</Value>
+   <Value>/crio_DIO/DIO17</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -534,7 +539,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO18" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO18</Value>
+   <Value>/crio_DIO/DIO18</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -543,7 +548,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO19" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO19</Value>
+   <Value>/crio_DIO/DIO19</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -552,7 +557,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO20" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO20</Value>
+   <Value>/crio_DIO/DIO20</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -561,7 +566,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO21" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO21</Value>
+   <Value>/crio_DIO/DIO21</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -570,7 +575,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO22" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO22</Value>
+   <Value>/crio_DIO/DIO22</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -579,7 +584,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO23" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO23</Value>
+   <Value>/crio_DIO/DIO23</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -588,7 +593,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO24" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO24</Value>
+   <Value>/crio_DIO/DIO24</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -597,7 +602,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO25" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO25</Value>
+   <Value>/crio_DIO/DIO25</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -606,7 +611,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO26" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO26</Value>
+   <Value>/crio_DIO/DIO26</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -615,7 +620,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO27" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO27</Value>
+   <Value>/crio_DIO/DIO27</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -624,7 +629,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO28" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO28</Value>
+   <Value>/crio_DIO/DIO28</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -633,7 +638,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO29" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO29</Value>
+   <Value>/crio_DIO/DIO29</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -642,7 +647,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO30" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO30</Value>
+   <Value>/crio_DIO/DIO30</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -651,7 +656,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO31" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO31</Value>
+   <Value>/crio_DIO/DIO31</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -660,7 +665,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO7:0" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO7:0</Value>
+   <Value>/crio_DIO/DIO7:0</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -669,7 +674,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO15:8" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO15:8</Value>
+   <Value>/crio_DIO/DIO15:8</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -678,7 +683,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO23:16" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO23:16</Value>
+   <Value>/crio_DIO/DIO23:16</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -687,7 +692,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO31:24" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO31:24</Value>
+   <Value>/crio_DIO/DIO31:24</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -696,7 +701,7 @@ KeepAliveTimeout 60
 					<Item Name="Mod4/DIO31:0" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/DIO31:0</Value>
+   <Value>/crio_DIO/DIO31:0</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -778,61 +783,16 @@ KeepAliveTimeout 60
 					<Property Name="Type" Type="UInt">2</Property>
 					<Property Name="Type Descriptor" Type="Str">100080000000000100094002000349313600010000000000000000</Property>
 				</Item>
-				<Item Name="Mod1" Type="RIO C Series Module">
+				<Item Name="DIO" Type="RIO C Series Module">
 					<Property Name="crio.Calibration" Type="Str">1</Property>
 					<Property Name="crio.Location" Type="Str">Slot 1</Property>
 					<Property Name="crio.RequiresValidation" Type="Bool">false</Property>
-					<Property Name="crio.SupportsDynamicRes" Type="Bool">false</Property>
-					<Property Name="crio.Type" Type="Str">NI 9870</Property>
-					<Property Name="cRIOModule.EnableSpecialtyDigital" Type="Str">false</Property>
-					<Property Name="cRIOModule.kBaudRateDivider1" Type="Str">384</Property>
-					<Property Name="cRIOModule.kBaudRateDivider2" Type="Str">384</Property>
-					<Property Name="cRIOModule.kBaudRateDivider3" Type="Str">384</Property>
-					<Property Name="cRIOModule.kBaudRateDivider4" Type="Str">384</Property>
-					<Property Name="cRIOModule.kBaudRatePrescaler1" Type="Str">1</Property>
-					<Property Name="cRIOModule.kBaudRatePrescaler2" Type="Str">1</Property>
-					<Property Name="cRIOModule.kBaudRatePrescaler3" Type="Str">1</Property>
-					<Property Name="cRIOModule.kBaudRatePrescaler4" Type="Str">1</Property>
-					<Property Name="cRIOModule.kDataBits1" Type="Str">4</Property>
-					<Property Name="cRIOModule.kDataBits2" Type="Str">4</Property>
-					<Property Name="cRIOModule.kDataBits3" Type="Str">4</Property>
-					<Property Name="cRIOModule.kDataBits4" Type="Str">4</Property>
-					<Property Name="cRIOModule.kDesiredBaudRate1" Type="Str">9.600000E+3</Property>
-					<Property Name="cRIOModule.kDesiredBaudRate2" Type="Str">9.600000E+3</Property>
-					<Property Name="cRIOModule.kDesiredBaudRate3" Type="Str">9.600000E+3</Property>
-					<Property Name="cRIOModule.kDesiredBaudRate4" Type="Str">9.600000E+3</Property>
-					<Property Name="cRIOModule.kFlowControl1" Type="Str">1</Property>
-					<Property Name="cRIOModule.kFlowControl2" Type="Str">1</Property>
-					<Property Name="cRIOModule.kFlowControl3" Type="Str">1</Property>
-					<Property Name="cRIOModule.kFlowControl4" Type="Str">1</Property>
-					<Property Name="cRIOModule.kParity1" Type="Str">1</Property>
-					<Property Name="cRIOModule.kParity2" Type="Str">1</Property>
-					<Property Name="cRIOModule.kParity3" Type="Str">1</Property>
-					<Property Name="cRIOModule.kParity4" Type="Str">1</Property>
-					<Property Name="cRIOModule.kStopBits1" Type="Str">1</Property>
-					<Property Name="cRIOModule.kStopBits2" Type="Str">1</Property>
-					<Property Name="cRIOModule.kStopBits3" Type="Str">1</Property>
-					<Property Name="cRIOModule.kStopBits4" Type="Str">1</Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{A4BFC397-2203-4492-8DDF-953CC6F50DEC}</Property>
-					<Item Name="Port1" Type="RIO Subresource">
-						<Property Name="FPGA.PersistentID" Type="Str">{20FD68E1-697F-4D95-9CB5-60BDE18024FC}</Property>
-					</Item>
-					<Item Name="Port2" Type="RIO Subresource">
-						<Property Name="FPGA.PersistentID" Type="Str">{F3948DA7-8D9E-4C47-99CC-F37A8D9E5D34}</Property>
-					</Item>
-					<Item Name="Port3" Type="RIO Subresource">
-						<Property Name="FPGA.PersistentID" Type="Str">{F425767D-E379-4D1E-9155-19A465BCE543}</Property>
-					</Item>
-					<Item Name="Port4" Type="RIO Subresource">
-						<Property Name="FPGA.PersistentID" Type="Str">{04269951-DE53-4529-827C-EA2748D5478A}</Property>
-					</Item>
-				</Item>
-				<Item Name="Mod4" Type="RIO C Series Module">
-					<Property Name="crio.Calibration" Type="Str">1</Property>
-					<Property Name="crio.Location" Type="Str">Slot 4</Property>
-					<Property Name="crio.RequiresValidation" Type="Bool">false</Property>
+					<Property Name="crio.SDcounterSlaveChannelMask" Type="Str">0</Property>
+					<Property Name="crio.SDCounterSlaveMasterSlot" Type="Str">0</Property>
+					<Property Name="crio.SDInputFilter" Type="Str">128</Property>
 					<Property Name="crio.SupportsDynamicRes" Type="Bool">true</Property>
 					<Property Name="crio.Type" Type="Str">NI 9403</Property>
+					<Property Name="cRIOModule.DigitalIOMode" Type="Str">0</Property>
 					<Property Name="cRIOModule.DisableArbitration" Type="Str">false</Property>
 					<Property Name="cRIOModule.EnableSpecialtyDigital" Type="Str">false</Property>
 					<Property Name="cRIOModule.Initial Line Direction" Type="Str">00000000000000000000000000000000</Property>
@@ -1253,9 +1213,9 @@ KeepAliveTimeout 60
 				<Item Name="usiSequenceRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/usiSequenceRepresentation.ctl"/>
 				<Item Name="usiTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/usiTypeDef.ctl"/>
 				<Item Name="usiValueFlags.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/usiValueFlags.ctl"/>
-				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
-				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
-				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
@@ -1263,24 +1223,39 @@ KeepAliveTimeout 60
 			<Item Name="1A ReadFromFIFOPort1.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/1A ReadFromFIFOPort1.vi"/>
 			<Item Name="3A WriteToFIFOPort4.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/3A WriteToFIFOPort4.vi"/>
 			<Item Name="ACT_ServoControl.vi" Type="VI" URL="../2-Think/2 Code/ACT_ServoControl.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="init_pass_buoys.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_pass_buoys.vi"/>
+			<Item Name="init_round_buoy.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_round_buoy.vi"/>
+			<Item Name="init_station_keeping.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_station_keeping.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ni.dex.rc" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/objmgr/ni.dex.rc"/>
+			<Item Name="Mission.lvclass" Type="LVClass" URL="../2-Think/2 Classes/Mission/Mission.lvclass"/>
+			<Item Name="ni.dex.rc" Type="Document" URL="../../../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/objmgr/ni.dex.rc"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="niLvFpga_Close_cRIO-9113.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/cRIO-9113/niLvFpga_Close_cRIO-9113.vi"/>
+			<Item Name="niLvFpga_Open_cRIO-9113.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/cRIO-9113/niLvFpga_Open_cRIO-9113.vi"/>
+			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+			<Item Name="niLvFpgaErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaErrorClusterFromErrorCode.vi"/>
+			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
+			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
+			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
+			<Item Name="nirviErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/RVI Host/nirviSupport.llb/nirviErrorClusterFromErrorCode.vi"/>
+			<Item Name="nirviWhatTheDeviceIsDoing.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/nirviWhatTheDeviceIsDoing.ctl"/>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SailBot_FPGATarget3_3APWMMotorContro_A6C1C065.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget3_3APWMMotorContro_A6C1C065.lvbitx"/>
+			<Item Name="visarc" Type="Document" URL="../../../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/visarc"/>
+			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Sailbot" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -4594,11 +4569,15 @@ KeepAliveTimeout 60
 			<Item Name="1A ReadFromFIFOPort1.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/1A ReadFromFIFOPort1.vi"/>
 			<Item Name="3A WriteToFIFOPort4.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/3A WriteToFIFOPort4.vi"/>
 			<Item Name="ACT_ServoControl.vi" Type="VI" URL="../2-Think/2 Code/ACT_ServoControl.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="init_pass_buoys.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_pass_buoys.vi"/>
+			<Item Name="init_round_buoy.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_round_buoy.vi"/>
+			<Item Name="init_station_keeping.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_station_keeping.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ni.dex.rc" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/objmgr/ni.dex.rc"/>
+			<Item Name="Mission.lvclass" Type="LVClass" URL="../2-Think/2 Classes/Mission/Mission.lvclass"/>
+			<Item Name="ni.dex.rc" Type="Document" URL="../../../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/objmgr/ni.dex.rc"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -4611,7 +4590,7 @@ KeepAliveTimeout 60
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SailBot_FPGATarget3_3APWMMotorContro_A6C1C065.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget3_3APWMMotorContro_A6C1C065.lvbitx"/>
+			<Item Name="visarc" Type="Document" URL="../../../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/visarc"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -4985,11 +4964,15 @@ KeepAliveTimeout 60
 			<Item Name="1A ReadFromFIFOPort1.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/1A ReadFromFIFOPort1.vi"/>
 			<Item Name="3A WriteToFIFOPort4.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/3A WriteToFIFOPort4.vi"/>
 			<Item Name="ACT_ServoControl.vi" Type="VI" URL="../2-Think/2 Code/ACT_ServoControl.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="init_pass_buoys.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_pass_buoys.vi"/>
+			<Item Name="init_round_buoy.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_round_buoy.vi"/>
+			<Item Name="init_station_keeping.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_station_keeping.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ni.dex.rc" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/objmgr/ni.dex.rc"/>
+			<Item Name="Mission.lvclass" Type="LVClass" URL="../2-Think/2 Classes/Mission/Mission.lvclass"/>
+			<Item Name="ni.dex.rc" Type="Document" URL="../../../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/objmgr/ni.dex.rc"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -5002,7 +4985,7 @@ KeepAliveTimeout 60
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SailBot_FPGATarget3_3APWMMotorContro_A6C1C065.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget3_3APWMMotorContro_A6C1C065.lvbitx"/>
+			<Item Name="visarc" Type="Document" URL="../../../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/visarc"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
