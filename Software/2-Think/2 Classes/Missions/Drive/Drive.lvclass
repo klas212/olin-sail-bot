@@ -42,6 +42,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 		</Item>
+		<Item Name="reprTextual.vi" Type="VI" URL="../reprTextual.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%1#!#!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%6!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"2!-0````],2'6T9X*J=(2J&lt;WY!)E"Q!"Y!!!].2(*J&gt;G5O&lt;(:D&lt;'&amp;T=Q!*2(*J&gt;G5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!)E"Q!"Y!!!].2(*J&gt;G5O&lt;(:D&lt;'&amp;T=Q!)2(*J&gt;G5A;7Y!!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!A!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!#1!!!!!!%!#1!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
+		</Item>
 		<Item Name="reprGraphical.vi" Type="VI" URL="../reprGraphical.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%1#!#!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+O!!!!%Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#!!.`````]!"2%!A!A!!!!"!!1!!!!"!!!!!!!!!!!!6Q$R!!!!!!!!!!%/35V"53"*&lt;7&amp;H:3ZD&gt;'Q!1%"Q!"U*35V"55FN97&gt;F!!%!"1F*45&amp;237VB:W52!)!)!!!!!1!%!!!!!1!!!!!!!!F*&lt;7&amp;H:3"0&gt;81!)E"Q!"Y!!!].2(*J&gt;G5O&lt;(:D&lt;'&amp;T=Q!*2(*J&gt;G5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!$U!+!!B66%UA7G^O:1!!(U!7!!)&amp;4G^S&gt;'A&amp;5W^V&gt;'A!#EBF&lt;7FT='BF=G5!!!N!#A!%27&amp;T&gt;!!!#U!+!!6/&lt;X*U;!"*!0(,?O5W!!!!!2"66%UA4'^D982J&lt;WYO9X2M!$"!5!!%!!E!#A!,!!Q&gt;68"Q:8)N4'6G&gt;#"$&lt;X*O:8)A1W^P=G2J&lt;G&amp;U:8-!%U!+!!R.:82F=H-P5'FY:7Q!!$]!]=N[Z4]!!!!"&amp;D!N37VB:W5A2'6T9X*J=(2P=CZD&gt;'Q!)%"1!!)!$1!/%%FN97&gt;F)%2F=W.S;8"U&lt;X)!!&amp;=!]1!!!!!!!!!"$EF.16%A37VB:W5O9X2M!%"!=!!&gt;#5F.16&amp;*&lt;7&amp;H:1!"!!5*35V"55FN97&gt;F%1#!#!!!!!%!"!!!!!%!!!!!!!!)37VB:W5A37Y!!#*!=!!?!!!0$52S;8:F,GRW9WRB=X-!#%2S;8:F)'FO!!"5!0!!$!!$!!1!"A!(!!1!"!!%!!1!#!!0!"!!%1-!!(A!!!U)!!!!!!!!$1I!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!I!!!!+!!!!E!!!!!!"!")!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
