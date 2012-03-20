@@ -91,6 +91,7 @@
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Close Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Close Panel.vi"/>
 				<Item Name="Color (U64)" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Color (U64)"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
@@ -110,6 +111,7 @@
 				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="Get Instrument State.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Get Instrument State.vi"/>
 				<Item Name="Get Object Info.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/Get Object Info.vi"/>
 				<Item Name="Get Property Type.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/lvStorage.llb/Get Property Type.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
@@ -151,12 +153,14 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
+				<Item Name="NI_PID_autopid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_autopid.lvlib"/>
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="NI_Robotics_FPGA Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Utilities/FPGA Utilities/NI_Robotics_FPGA Utilities.lvlib"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Open Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Open Panel.vi"/>
 				<Item Name="ParseXMLParams.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/lvStorage.llb/ParseXMLParams.vi"/>
 				<Item Name="ROI Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/ROI Descriptor"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
@@ -205,7 +209,7 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="visarc" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/visarc"/>
+			<Item Name="SailBot_FPGATarget3_3APWMMotorContro_1677D78E.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget3_3APWMMotorContro_1677D78E.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -225,7 +229,6 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str">1.0,0;</Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -307,7 +310,7 @@ KeepAliveTimeout 60
 			<Item Name="FPGA Target" Type="FPGA Target">
 				<Property Name="AutoRun" Type="Bool">false</Property>
 				<Property Name="configString.guid" Type="Str">{00FC4ACE-ACE6-4F1B-BFA6-344B51823A6A}resource=/crio_DIO/DIO28;0;ReadMethodType=bool;WriteMethodType=bool{0AC3EF75-4809-4771-ACA3-07E72FADB31D}resource=/crio_DIO/DIO17;0;ReadMethodType=bool;WriteMethodType=bool{0E765E55-2F5F-4CB6-9A9A-ABDF27420A17}resource=/crio_DIO/DIO12;0;ReadMethodType=bool;WriteMethodType=bool{17156F9C-453A-43D9-BC76-4F3437CEB708}resource=/crio_DIO/DIO13;0;ReadMethodType=bool;WriteMethodType=bool{179A8C6F-B597-48A0-97F5-8567A71B006F}resource=/crio_DIO/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{1E5874A7-6834-4BF3-AFFE-93CB06915AB5}resource=/crio_DIO/DIO14;0;ReadMethodType=bool;WriteMethodType=bool{1FD4D425-2549-4DAD-95BF-69236FBAEC93}resource=/crio_DIO/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{2BC6CF87-C8DD-46B2-962C-A65E4AF185DF}resource=/crio_DIO/DIO30;0;ReadMethodType=bool;WriteMethodType=bool{2F01F271-D1C6-421B-8E67-80F9DCE671F7}resource=/crio_DIO/DIO21;0;ReadMethodType=bool;WriteMethodType=bool{30CEE6AD-C88B-452E-A6C2-3F5A022D9A3B}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{3478DBFA-D450-460F-8073-47355AA3C4BE}resource=/Chassis Temperature;0;ReadMethodType=i16{42DB7C22-4ADB-422E-B69D-FA77667E3E8B}resource=/crio_DIO/DIO23:16;0;ReadMethodType=u8;WriteMethodType=u8{43764E0E-E8A6-48EC-AD83-51AA14AC715D}resource=/crio_DIO/DIO22;0;ReadMethodType=bool;WriteMethodType=bool{47DA8D02-DC69-4096-8A73-410106B72943}resource=/crio_DIO/DIO31;0;ReadMethodType=bool;WriteMethodType=bool{4EEF2655-6C3B-44C3-BA8F-4C63EEED75E9}resource=/crio_DIO/DIO23;0;ReadMethodType=bool;WriteMethodType=bool{53C4193B-85DD-40FA-BC69-E5ECEF0C1E76}resource=/crio_DIO/DIO27;0;ReadMethodType=bool;WriteMethodType=bool{55D77388-D508-4540-B474-C80B94F6D12E}resource=/crio_DIO/DIO31:0;0;ReadMethodType=u32;WriteMethodType=u32{614D5C80-EE34-4B83-9CF6-F503786513E5}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{666E00AE-DF4B-432A-89F2-A68A22E6203B}resource=/crio_DIO/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8{666F21DA-F0C6-43E6-B969-5F8959C9DE0E}resource=/crio_DIO/DIO9;0;ReadMethodType=bool;WriteMethodType=bool{66DCF790-DEE0-4325-B57C-E0DCD6AD8AD0}resource=/crio_DIO/DIO25;0;ReadMethodType=bool;WriteMethodType=bool{6EBF4784-390F-49DB-BE01-AB55CF074707}resource=/crio_DIO/DIO11;0;ReadMethodType=bool;WriteMethodType=bool{707C03BE-0FC0-42DD-BFAA-7BCFEED70AF9}resource=/crio_DIO/DIO29;0;ReadMethodType=bool;WriteMethodType=bool{71DE7EB8-D417-4A41-ADBB-3E8F991EA73D}resource=/crio_DIO/DIO15:8;0;ReadMethodType=u8;WriteMethodType=u8{8406BF14-3BE0-4C3D-AD88-EF514F93084A}resource=/crio_DIO/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{858CD645-E9DB-473B-BF5D-01EEABB03944}"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;WriteArbs=Arbitrate if Multiple Requestors Only;Implementation=2;FIFO Port1 Read;DataType=1000800000000001000940050002553800000100000000000000;DisableOnOverflowUnderflow=FALSE"{9A2A589D-EAD3-4D18-BBD1-637023AFD45D}resource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{9A2F3845-6915-47AF-88C7-AFAB3735F220}resource=/crio_DIO/DIO18;0;ReadMethodType=bool;WriteMethodType=bool{9BCCA016-B524-460D-92AC-5030B2CDC732}resource=/crio_DIO/DIO19;0;ReadMethodType=bool;WriteMethodType=bool{A0955CB7-DFA7-495B-9040-282824433269}resource=/crio_DIO/DIO31:24;0;ReadMethodType=u8;WriteMethodType=u8{A317F407-B1D5-4E79-B365-D9DC1E4A900E}resource=/crio_DIO/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{A7A24283-692F-4DFE-8934-29C796FE31EA}"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;WriteArbs=Arbitrate if Multiple Requestors Only;Implementation=2;Temperature;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"{AB0F3C5A-33F0-4C24-A4A8-706D83500062}resource=/crio_DIO/DIO20;0;ReadMethodType=bool;WriteMethodType=bool{B6E1D127-B460-4F79-BC18-60BC0C745E25}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E{B983E3C4-3C48-4F9D-BED2-D7047DCF3D5E}resource=/Scan Clock;0;ReadMethodType=bool{BB152487-E62D-4DDA-8B8F-7A246F6B5A6F}resource=/crio_DIO/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{C42EBF45-B0B1-44D4-9DB4-902AD5E9B216}resource=/crio_DIO/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{C656CDBD-EC31-4687-9405-5B2B6BEF2BBF}"ControlLogic=0;NumberOfElements=1029;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;WriteArbs=Arbitrate if Multiple Requestors Only;Implementation=2;FIFO Port4 Write;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"{D47FC74D-6DF6-4C5A-9F81-A7716B53B61D}resource=/crio_DIO/DIO15;0;ReadMethodType=bool;WriteMethodType=bool{DA4536CA-1BC3-4962-ABB7-74A0F47ACBC4}resource=/crio_DIO/DIO8;0;ReadMethodType=bool;WriteMethodType=bool{E0AD63CF-AB39-425C-975B-89D94A928A6C}resource=/crio_DIO/DIO16;0;ReadMethodType=bool;WriteMethodType=bool{E295AF60-2AD7-4D75-B21E-5F0353FD26F4}resource=/crio_DIO/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{EC105EF9-6234-4A7C-8FED-50AA4DDE762C}resource=/crio_DIO/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{F3F56FD1-5C13-4019-82F2-8F18172BF380}resource=/crio_DIO/DIO10;0;ReadMethodType=bool;WriteMethodType=bool{FB5F99EB-69B1-4B23-A80F-0F4739E5D341}resource=/crio_DIO/DIO26;0;ReadMethodType=bool;WriteMethodType=bool{FDFDFC27-A24E-41B8-BD3F-54E8429E9546}resource=/crio_DIO/DIO24;0;ReadMethodType=bool;WriteMethodType=bool{FF32FD7B-7C20-4D57-A8E5-D789678FF7EA}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9403,cRIOModule.DisableArbitration=false,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.Initial Line Direction=00000000000000000000000000000000,cRIOModule.RsiAttributes=[crioConfig.End]cRIO-9113/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGA</Property>
-				<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EChassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9113/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGADIO[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9403,cRIOModule.DisableArbitration=false,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.Initial Line Direction=00000000000000000000000000000000,cRIOModule.RsiAttributes=[crioConfig.End]FIFO Port1 Read"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;WriteArbs=Arbitrate if Multiple Requestors Only;Implementation=2;FIFO Port1 Read;DataType=1000800000000001000940050002553800000100000000000000;DisableOnOverflowUnderflow=FALSE"FIFO Port4 Write"ControlLogic=0;NumberOfElements=1029;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;WriteArbs=Arbitrate if Multiple Requestors Only;Implementation=2;FIFO Port4 Write;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"FPGA LEDresource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO10resource=/crio_DIO/DIO10;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO11resource=/crio_DIO/DIO11;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO12resource=/crio_DIO/DIO12;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO13resource=/crio_DIO/DIO13;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO14resource=/crio_DIO/DIO14;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO15:8resource=/crio_DIO/DIO15:8;0;ReadMethodType=u8;WriteMethodType=u8Mod4/DIO15resource=/crio_DIO/DIO15;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO16resource=/crio_DIO/DIO16;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO17resource=/crio_DIO/DIO17;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO18resource=/crio_DIO/DIO18;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO19resource=/crio_DIO/DIO19;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO20resource=/crio_DIO/DIO20;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO21resource=/crio_DIO/DIO21;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO22resource=/crio_DIO/DIO22;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO23:16resource=/crio_DIO/DIO23:16;0;ReadMethodType=u8;WriteMethodType=u8Mod4/DIO23resource=/crio_DIO/DIO23;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO24resource=/crio_DIO/DIO24;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO25resource=/crio_DIO/DIO25;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO26resource=/crio_DIO/DIO26;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO27resource=/crio_DIO/DIO27;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO28resource=/crio_DIO/DIO28;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO29resource=/crio_DIO/DIO29;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO2resource=/crio_DIO/DIO2;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO30resource=/crio_DIO/DIO30;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO31:0resource=/crio_DIO/DIO31:0;0;ReadMethodType=u32;WriteMethodType=u32Mod4/DIO31:24resource=/crio_DIO/DIO31:24;0;ReadMethodType=u8;WriteMethodType=u8Mod4/DIO31resource=/crio_DIO/DIO31;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO3resource=/crio_DIO/DIO3;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO4resource=/crio_DIO/DIO4;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO5resource=/crio_DIO/DIO5;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO6resource=/crio_DIO/DIO6;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO7:0resource=/crio_DIO/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod4/DIO7resource=/crio_DIO/DIO7;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO8resource=/crio_DIO/DIO8;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO9resource=/crio_DIO/DIO9;0;ReadMethodType=bool;WriteMethodType=boolScan Clockresource=/Scan Clock;0;ReadMethodType=boolServo1resource=/crio_DIO/DIO0;0;ReadMethodType=bool;WriteMethodType=boolServo2resource=/crio_DIO/DIO1;0;ReadMethodType=bool;WriteMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolTemperature"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;WriteArbs=Arbitrate if Multiple Requestors Only;Implementation=2;Temperature;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"</Property>
+				<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EChassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9113/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGADIO[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9403,cRIOModule.DisableArbitration=false,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.Initial Line Direction=00000000000000000000000000000000,cRIOModule.RsiAttributes=[crioConfig.End]FIFO Port1 Read"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;WriteArbs=Arbitrate if Multiple Requestors Only;Implementation=2;FIFO Port1 Read;DataType=1000800000000001000940050002553800000100000000000000;DisableOnOverflowUnderflow=FALSE"FIFO Port4 Write"ControlLogic=0;NumberOfElements=1029;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;WriteArbs=Arbitrate if Multiple Requestors Only;Implementation=2;FIFO Port4 Write;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"FPGA LEDresource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO10resource=/crio_DIO/DIO10;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO11resource=/crio_DIO/DIO11;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO15:8resource=/crio_DIO/DIO15:8;0;ReadMethodType=u8;WriteMethodType=u8Mod4/DIO20resource=/crio_DIO/DIO20;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO21resource=/crio_DIO/DIO21;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO22resource=/crio_DIO/DIO22;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO23:16resource=/crio_DIO/DIO23:16;0;ReadMethodType=u8;WriteMethodType=u8Mod4/DIO23resource=/crio_DIO/DIO23;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO24resource=/crio_DIO/DIO24;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO25resource=/crio_DIO/DIO25;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO26resource=/crio_DIO/DIO26;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO27resource=/crio_DIO/DIO27;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO28resource=/crio_DIO/DIO28;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO29resource=/crio_DIO/DIO29;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO2resource=/crio_DIO/DIO2;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO30resource=/crio_DIO/DIO30;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO31:0resource=/crio_DIO/DIO31:0;0;ReadMethodType=u32;WriteMethodType=u32Mod4/DIO31:24resource=/crio_DIO/DIO31:24;0;ReadMethodType=u8;WriteMethodType=u8Mod4/DIO31resource=/crio_DIO/DIO31;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO3resource=/crio_DIO/DIO3;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO4resource=/crio_DIO/DIO4;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO5resource=/crio_DIO/DIO5;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO6resource=/crio_DIO/DIO6;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO7:0resource=/crio_DIO/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod4/DIO7resource=/crio_DIO/DIO7;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO8resource=/crio_DIO/DIO8;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO9resource=/crio_DIO/DIO9;0;ReadMethodType=bool;WriteMethodType=boolScan Clockresource=/Scan Clock;0;ReadMethodType=boolServo1resource=/crio_DIO/DIO0;0;ReadMethodType=bool;WriteMethodType=boolServo2resource=/crio_DIO/DIO1;0;ReadMethodType=bool;WriteMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolTemperature"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;WriteArbs=Arbitrate if Multiple Requestors Only;Implementation=2;Temperature;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"VBatt bit0resource=/crio_DIO/DIO19;0;ReadMethodType=bool;WriteMethodType=boolVBatt bit1resource=/crio_DIO/DIO18;0;ReadMethodType=bool;WriteMethodType=boolVBatt bit2resource=/crio_DIO/DIO17;0;ReadMethodType=bool;WriteMethodType=boolVBatt bit3resource=/crio_DIO/DIO16;0;ReadMethodType=bool;WriteMethodType=boolVBatt bit4resource=/crio_DIO/DIO15;0;ReadMethodType=bool;WriteMethodType=boolVBatt bit5resource=/crio_DIO/DIO14;0;ReadMethodType=bool;WriteMethodType=boolVBatt bit6resource=/crio_DIO/DIO13;0;ReadMethodType=bool;WriteMethodType=boolVBatt bit7resource=/crio_DIO/DIO12;0;ReadMethodType=bool;WriteMethodType=bool</Property>
 				<Property Name="Mode" Type="Int">0</Property>
 				<Property Name="NI.LV.FPGA.CLIPDeclarationsArraySize" Type="Int">0</Property>
 				<Property Name="NI.LV.FPGA.CLIPDeclarationSet" Type="Xml">
@@ -481,7 +484,7 @@ KeepAliveTimeout 60
 </Property>
 						<Property Name="FPGA.PersistentID" Type="Str">{6EBF4784-390F-49DB-BE01-AB55CF074707}</Property>
 					</Item>
-					<Item Name="Mod4/DIO12" Type="Elemental IO">
+					<Item Name="VBatt bit7" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
    <Value>/crio_DIO/DIO12</Value>
@@ -490,7 +493,7 @@ KeepAliveTimeout 60
 </Property>
 						<Property Name="FPGA.PersistentID" Type="Str">{0E765E55-2F5F-4CB6-9A9A-ABDF27420A17}</Property>
 					</Item>
-					<Item Name="Mod4/DIO13" Type="Elemental IO">
+					<Item Name="VBatt bit6" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
    <Value>/crio_DIO/DIO13</Value>
@@ -499,7 +502,7 @@ KeepAliveTimeout 60
 </Property>
 						<Property Name="FPGA.PersistentID" Type="Str">{17156F9C-453A-43D9-BC76-4F3437CEB708}</Property>
 					</Item>
-					<Item Name="Mod4/DIO14" Type="Elemental IO">
+					<Item Name="VBatt bit5" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
    <Value>/crio_DIO/DIO14</Value>
@@ -508,7 +511,7 @@ KeepAliveTimeout 60
 </Property>
 						<Property Name="FPGA.PersistentID" Type="Str">{1E5874A7-6834-4BF3-AFFE-93CB06915AB5}</Property>
 					</Item>
-					<Item Name="Mod4/DIO15" Type="Elemental IO">
+					<Item Name="VBatt bit4" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
    <Value>/crio_DIO/DIO15</Value>
@@ -517,7 +520,7 @@ KeepAliveTimeout 60
 </Property>
 						<Property Name="FPGA.PersistentID" Type="Str">{D47FC74D-6DF6-4C5A-9F81-A7716B53B61D}</Property>
 					</Item>
-					<Item Name="Mod4/DIO16" Type="Elemental IO">
+					<Item Name="VBatt bit3" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
    <Value>/crio_DIO/DIO16</Value>
@@ -526,7 +529,7 @@ KeepAliveTimeout 60
 </Property>
 						<Property Name="FPGA.PersistentID" Type="Str">{E0AD63CF-AB39-425C-975B-89D94A928A6C}</Property>
 					</Item>
-					<Item Name="Mod4/DIO17" Type="Elemental IO">
+					<Item Name="VBatt bit2" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
    <Value>/crio_DIO/DIO17</Value>
@@ -535,7 +538,7 @@ KeepAliveTimeout 60
 </Property>
 						<Property Name="FPGA.PersistentID" Type="Str">{0AC3EF75-4809-4771-ACA3-07E72FADB31D}</Property>
 					</Item>
-					<Item Name="Mod4/DIO18" Type="Elemental IO">
+					<Item Name="VBatt bit1" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
    <Value>/crio_DIO/DIO18</Value>
@@ -544,7 +547,7 @@ KeepAliveTimeout 60
 </Property>
 						<Property Name="FPGA.PersistentID" Type="Str">{9A2F3845-6915-47AF-88C7-AFAB3735F220}</Property>
 					</Item>
-					<Item Name="Mod4/DIO19" Type="Elemental IO">
+					<Item Name="VBatt bit0" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
    <Value>/crio_DIO/DIO19</Value>
@@ -997,7 +1000,7 @@ KeepAliveTimeout 60
 						<Property Name="SupportDownload" Type="Bool">true</Property>
 						<Property Name="SupportResourceEstimation" Type="Bool">true</Property>
 						<Property Name="TargetName" Type="Str">FPGA Target</Property>
-						<Property Name="TopLevelVI" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/FPGA Target/FPGA/3A PWM MotorControl FPGA.vi</Property>
+						<Property Name="TopLevelVI" Type="Ref"></Property>
 					</Item>
 					<Item Name="3A Temperature Reader" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
@@ -1054,6 +1057,34 @@ KeepAliveTimeout 60
 						<Property Name="SupportResourceEstimation" Type="Bool">true</Property>
 						<Property Name="TargetName" Type="Str">FPGA Target</Property>
 						<Property Name="TopLevelVI" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/FPGA Target/FPGA/1A Temperature Reader.vi</Property>
+					</Item>
+					<Item Name="1,3A PWM-MotorControl and VBattSense FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
+						<Property Name="BuildSpecDecription" Type="Str"></Property>
+						<Property Name="BuildSpecName" Type="Str">1,3A PWM-MotorControl and VBattSense FPGA</Property>
+						<Property Name="Comp.BitfileName" Type="Str">SailBot_FPGATarget_1,3APWM-MotorCon_DA5FB380.lvbitx</Property>
+						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
+						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
+						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
+						<Property Name="Comp.RunWhenLoaded" Type="Bool">false</Property>
+						<Property Name="Comp.Version.Build" Type="Int">0</Property>
+						<Property Name="Comp.Version.Fix" Type="Int">0</Property>
+						<Property Name="Comp.Version.Major" Type="Int">1</Property>
+						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
+						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
+						<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
+						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
+						<Property Name="Comp.Xilinx.SynthEffort" Type="Str">normal</Property>
+						<Property Name="Comp.Xilinx.SynthGoal" Type="Str">speed</Property>
+						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
+						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
+						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+						<Property Name="ProjectPath" Type="Path">/C/Users/jcurtis/Desktop/Sailbot repo/Software/SailBot.lvproj</Property>
+						<Property Name="RelativePath" Type="Bool">true</Property>
+						<Property Name="SupportDownload" Type="Bool">true</Property>
+						<Property Name="SupportResourceEstimation" Type="Bool">true</Property>
+						<Property Name="TargetName" Type="Str">FPGA Target</Property>
+						<Property Name="TopLevelVI" Type="Ref">/NI-cRIO9024-0165BEB0/Chassis/FPGA Target/FPGA/1,3A PWM-MotorControl and VBattSense FPGA.vi</Property>
 					</Item>
 				</Item>
 			</Item>
@@ -1128,6 +1159,7 @@ KeepAliveTimeout 60
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Close Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Close Panel.vi"/>
 				<Item Name="Color (U64)" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Color (U64)"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
@@ -1147,6 +1179,7 @@ KeepAliveTimeout 60
 				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="Get Instrument State.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Get Instrument State.vi"/>
 				<Item Name="Get Object Info.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/Get Object Info.vi"/>
 				<Item Name="Get Property Type.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/lvStorage.llb/Get Property Type.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
@@ -1188,12 +1221,14 @@ KeepAliveTimeout 60
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
+				<Item Name="NI_PID_autopid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_autopid.lvlib"/>
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="NI_Robotics_FPGA Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Utilities/FPGA Utilities/NI_Robotics_FPGA Utilities.lvlib"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Open Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Open Panel.vi"/>
 				<Item Name="ParseXMLParams.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/lvStorage.llb/ParseXMLParams.vi"/>
 				<Item Name="ROI Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/ROI Descriptor"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
@@ -1233,28 +1268,16 @@ KeepAliveTimeout 60
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="niLvFpga_Close_cRIO-9113.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/cRIO-9113/niLvFpga_Close_cRIO-9113.vi"/>
-			<Item Name="niLvFpga_Open_cRIO-9113.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/cRIO-9113/niLvFpga_Open_cRIO-9113.vi"/>
-			<Item Name="niLvFpga_Open_sbRIO-9606.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9606/niLvFpga_Open_sbRIO-9606.vi"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
-			<Item Name="niLvFpgaErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaErrorClusterFromErrorCode.vi"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
-			<Item Name="nirviErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/RVI Host/nirviSupport.llb/nirviErrorClusterFromErrorCode.vi"/>
-			<Item Name="nirviWhatTheDeviceIsDoing.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/nirviWhatTheDeviceIsDoing.ctl"/>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="visarc" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/visarc"/>
-			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
+			<Item Name="SailBot_FPGATarget3_3APWMMotorContro_1677D78E.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget3_3APWMMotorContro_1677D78E.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Sailbot" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -1498,7 +1521,7 @@ KeepAliveTimeout 60
 						<Property Name="SupportDownload" Type="Bool">true</Property>
 						<Property Name="SupportResourceEstimation" Type="Bool">true</Property>
 						<Property Name="TargetName" Type="Str">FPGA Target 3</Property>
-						<Property Name="TopLevelVI" Type="Ref">/OlinSailbot-sbRIO9606/Chassis/FPGA Target 3/FPGA/3A PWM MotorControl FPGA.vi</Property>
+						<Property Name="TopLevelVI" Type="Ref">/OlinSailbot-sbRIO9606/Chassis/FPGA Target 3/FPGA/1,3A PWM-MotorControl and VBattSense FPGA.vi</Property>
 					</Item>
 				</Item>
 			</Item>
@@ -1573,6 +1596,7 @@ KeepAliveTimeout 60
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Close Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Close Panel.vi"/>
 				<Item Name="Color (U64)" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Color (U64)"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
@@ -1592,6 +1616,7 @@ KeepAliveTimeout 60
 				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="Get Instrument State.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Get Instrument State.vi"/>
 				<Item Name="Get Object Info.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/Get Object Info.vi"/>
 				<Item Name="Get Property Type.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/lvStorage.llb/Get Property Type.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
@@ -1633,12 +1658,14 @@ KeepAliveTimeout 60
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
+				<Item Name="NI_PID_autopid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_autopid.lvlib"/>
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="NI_Robotics_FPGA Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Utilities/FPGA Utilities/NI_Robotics_FPGA Utilities.lvlib"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Open Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Open Panel.vi"/>
 				<Item Name="ParseXMLParams.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/lvStorage.llb/ParseXMLParams.vi"/>
 				<Item Name="ROI Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/ROI Descriptor"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
@@ -1687,7 +1714,7 @@ KeepAliveTimeout 60
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="visarc" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/visarc"/>
+			<Item Name="SailBot_FPGATarget3_3APWMMotorContro_1677D78E.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget3_3APWMMotorContro_1677D78E.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
