@@ -160,7 +160,6 @@
 				<Item Name="NI_PID_autopid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_autopid.lvlib"/>
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
-				<Item Name="NI_Robotics_FPGA Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Utilities/FPGA Utilities/NI_Robotics_FPGA Utilities.lvlib"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
@@ -191,9 +190,9 @@
 				<Item Name="usiSequenceRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/usiSequenceRepresentation.ctl"/>
 				<Item Name="usiTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/usiTypeDef.ctl"/>
 				<Item Name="usiValueFlags.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/usiValueFlags.ctl"/>
-				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
-				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
-				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
@@ -205,8 +204,6 @@
 			<Item Name="1A ReadFromFIFOPort1.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/1A ReadFromFIFOPort1.vi"/>
 			<Item Name="3A WriteToFIFOPort4.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/3A WriteToFIFOPort4.vi"/>
 			<Item Name="ACT_ServoControl.vi" Type="VI" URL="../2-Think/2 Code/ACT_ServoControl.vi"/>
-			<Item Name="FPGA RS232.lvproj_FPGA Target_FPGA Main.vi.lvbit" Type="Document" URL="../1,3 A-Competition Platform/1,3 A Code/FPGA/fpgaserialreadwrite_8.6_update/FPGA Bitfiles/FPGA RS232.lvproj_FPGA Target_FPGA Main.vi.lvbit"/>
-			<Item Name="FPGA SPI_Communication Loop State.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/FPGA SPI_Communication Loop State.ctl"/>
 			<Item Name="init_pass_buoys.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_pass_buoys.vi"/>
 			<Item Name="init_round_buoy.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_round_buoy.vi"/>
 			<Item Name="init_station_keeping.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_station_keeping.vi"/>
@@ -214,13 +211,11 @@
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="ni.dex.rc" Type="Document" URL="../../../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/objmgr/ni.dex.rc"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="NiRioSrv.dll" Type="Document" URL="NiRioSrv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
@@ -229,7 +224,6 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Port Action.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/Port Action.ctl"/>
 			<Item Name="SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
@@ -393,9 +387,7 @@ KeepAliveTimeout 60
 						<Property Name="FPGA.PersistentID" Type="Str">{614D5C80-EE34-4B83-9CF6-F503786513E5}</Property>
 					</Item>
 				</Item>
-				<Item Name="FPGA" Type="Folder" URL="../1,3 A-Competition Platform/1,3 A Code/FPGA">
-					<Property Name="NI.DISK" Type="Bool">true</Property>
-				</Item>
+				<Item Name="FPGA" Type="Folder"/>
 				<Item Name="Mod4" Type="Folder">
 					<Item Name="Servo1" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -821,20 +813,7 @@ KeepAliveTimeout 60
 					<Property Name="cRIOModule.Initial Line Direction" Type="Str">00000000000000000000000000000000</Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{FF32FD7B-7C20-4D57-A8E5-D789678FF7EA}</Property>
 				</Item>
-				<Item Name="Dependencies" Type="Dependencies">
-					<Item Name="vi.lib" Type="Folder">
-						<Item Name="NI_Robotics_FPGA Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Utilities/FPGA Utilities/NI_Robotics_FPGA Utilities.lvlib"/>
-						<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-						<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-						<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-					</Item>
-					<Item Name="FPGA SPI_Communication Loop State.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/FPGA SPI_Communication Loop State.ctl"/>
-					<Item Name="Port Action.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/Port Action.ctl"/>
-					<Item Name="NiRioSrv.dll" Type="Document" URL="NiRioSrv.dll">
-						<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-					</Item>
-					<Item Name="FPGA RS232.lvproj_FPGA Target_FPGA Main.vi.lvbit" Type="Document" URL="../1,3 A-Competition Platform/1,3 A Code/FPGA/fpgaserialreadwrite_8.6_update/FPGA Bitfiles/FPGA RS232.lvproj_FPGA Target_FPGA Main.vi.lvbit"/>
-				</Item>
+				<Item Name="Dependencies" Type="Dependencies"/>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="WriteToFIFOPort3" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
@@ -1258,7 +1237,6 @@ KeepAliveTimeout 60
 				<Item Name="NI_PID_autopid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_autopid.lvlib"/>
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
-				<Item Name="NI_Robotics_FPGA Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Utilities/FPGA Utilities/NI_Robotics_FPGA Utilities.lvlib"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
@@ -1303,8 +1281,6 @@ KeepAliveTimeout 60
 			<Item Name="1A ReadFromFIFOPort1.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/1A ReadFromFIFOPort1.vi"/>
 			<Item Name="3A WriteToFIFOPort4.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/3A WriteToFIFOPort4.vi"/>
 			<Item Name="ACT_ServoControl.vi" Type="VI" URL="../2-Think/2 Code/ACT_ServoControl.vi"/>
-			<Item Name="FPGA RS232.lvproj_FPGA Target_FPGA Main.vi.lvbit" Type="Document" URL="../1,3 A-Competition Platform/1,3 A Code/FPGA/fpgaserialreadwrite_8.6_update/FPGA Bitfiles/FPGA RS232.lvproj_FPGA Target_FPGA Main.vi.lvbit"/>
-			<Item Name="FPGA SPI_Communication Loop State.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/FPGA SPI_Communication Loop State.ctl"/>
 			<Item Name="init_pass_buoys.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_pass_buoys.vi"/>
 			<Item Name="init_round_buoy.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_round_buoy.vi"/>
 			<Item Name="init_station_keeping.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_station_keeping.vi"/>
@@ -1312,13 +1288,11 @@ KeepAliveTimeout 60
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="ni.dex.rc" Type="Document" URL="../../../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/objmgr/ni.dex.rc"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="NiRioSrv.dll" Type="Document" URL="NiRioSrv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
@@ -1327,9 +1301,7 @@ KeepAliveTimeout 60
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Port Action.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/Port Action.ctl"/>
 			<Item Name="SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx"/>
-			<Item Name="visarc" Type="Document" URL="../../../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/visarc"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Sailbot" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -1388,7 +1360,6 @@ KeepAliveTimeout 60
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str">1.0,0;</Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -1476,9 +1447,7 @@ KeepAliveTimeout 60
 				<Property Name="Target Class" Type="Str">sbRIO-9606</Property>
 				<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
 				<Property Name="Top-Level Timing Source Is Default" Type="Bool">true</Property>
-				<Item Name="FPGA" Type="Folder" URL="../1,3 A-Competition Platform/1,3 A Code/FPGA">
-					<Property Name="NI.DISK" Type="Bool">true</Property>
-				</Item>
+				<Item Name="FPGA" Type="Folder"/>
 				<Item Name="Onboard I/O" Type="Folder">
 					<Item Name="Chassis Temperature" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1653,20 +1622,7 @@ KeepAliveTimeout 60
 					<Property Name="configString.guid" Type="Str">{67952B7B-A833-4934-899B-DA7EA2C8366B}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E{6B61F802-DBD6-4DDA-B566-EB169CB284EE}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{6DDE900C-FF6B-4318-AC61-1D167ACBCE20}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO88;0;ReadMethodType=bool;WriteMethodType=bool{7113DA6D-AC43-4B54-9D2E-B3E0D9CB45E3}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO81;0;ReadMethodType=bool;WriteMethodType=bool{77814780-7BAF-49BA-B066-53CF9560230D}resource=/Chassis Temperature;0;ReadMethodType=i16{8D6ECA4A-A5BB-433E-BF34-332140925B39}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO80;0;ReadMethodType=bool;WriteMethodType=bool{9E214D29-F2CA-41FC-9ECD-15C3E42851A5}resource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{CA8A4E60-E49A-429B-B93A-57749A7A1B27}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO84;0;ReadMethodType=bool;WriteMethodType=bool{EFBBBDD2-842D-42B2-9DA5-E4530458C748}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO85;0;ReadMethodType=bool;WriteMethodType=boolsbRIO-9606/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYSPARTAN6TARGET_TYPEFPGA</Property>
 					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EChassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16FPGA LEDresource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolsbRIO-9606/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYSPARTAN6TARGET_TYPEFPGAServo1ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO80;0;ReadMethodType=bool;WriteMethodType=boolServo2ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO81;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolVBatt_ChipSelectInvertedArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO84;0;ReadMethodType=bool;WriteMethodType=boolVBatt_ClockArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO88;0;ReadMethodType=bool;WriteMethodType=boolVBatt_DigitalInputArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/MezzanineIO/DIO85;0;ReadMethodType=bool;WriteMethodType=bool</Property>
 				</Item>
-				<Item Name="Dependencies" Type="Dependencies">
-					<Item Name="vi.lib" Type="Folder">
-						<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-						<Item Name="NI_Robotics_FPGA Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Utilities/FPGA Utilities/NI_Robotics_FPGA Utilities.lvlib"/>
-						<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-						<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-					</Item>
-					<Item Name="FPGA RS232.lvproj_FPGA Target_FPGA Main.vi.lvbit" Type="Document" URL="../1,3 A-Competition Platform/1,3 A Code/FPGA/fpgaserialreadwrite_8.6_update/FPGA Bitfiles/FPGA RS232.lvproj_FPGA Target_FPGA Main.vi.lvbit"/>
-					<Item Name="FPGA SPI_Communication Loop State.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/FPGA SPI_Communication Loop State.ctl"/>
-					<Item Name="NiRioSrv.dll" Type="Document" URL="NiRioSrv.dll">
-						<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-					</Item>
-					<Item Name="Port Action.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/Port Action.ctl"/>
-				</Item>
+				<Item Name="Dependencies" Type="Dependencies"/>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="3A PWM MotorControl FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
@@ -1838,7 +1794,6 @@ KeepAliveTimeout 60
 				<Item Name="NI_PID_autopid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_autopid.lvlib"/>
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
-				<Item Name="NI_Robotics_FPGA Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Utilities/FPGA Utilities/NI_Robotics_FPGA Utilities.lvlib"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
@@ -1883,8 +1838,6 @@ KeepAliveTimeout 60
 			<Item Name="1A ReadFromFIFOPort1.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/1A ReadFromFIFOPort1.vi"/>
 			<Item Name="3A WriteToFIFOPort4.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/3A WriteToFIFOPort4.vi"/>
 			<Item Name="ACT_ServoControl.vi" Type="VI" URL="../2-Think/2 Code/ACT_ServoControl.vi"/>
-			<Item Name="FPGA RS232.lvproj_FPGA Target_FPGA Main.vi.lvbit" Type="Document" URL="../1,3 A-Competition Platform/1,3 A Code/FPGA/fpgaserialreadwrite_8.6_update/FPGA Bitfiles/FPGA RS232.lvproj_FPGA Target_FPGA Main.vi.lvbit"/>
-			<Item Name="FPGA SPI_Communication Loop State.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/FPGA SPI_Communication Loop State.ctl"/>
 			<Item Name="init_pass_buoys.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_pass_buoys.vi"/>
 			<Item Name="init_round_buoy.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_round_buoy.vi"/>
 			<Item Name="init_station_keeping.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_station_keeping.vi"/>
@@ -1892,13 +1845,11 @@ KeepAliveTimeout 60
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="ni.dex.rc" Type="Document" URL="../../../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/objmgr/ni.dex.rc"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="NiRioSrv.dll" Type="Document" URL="NiRioSrv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
@@ -1907,7 +1858,6 @@ KeepAliveTimeout 60
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Port Action.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/Port Action.ctl"/>
 			<Item Name="SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
