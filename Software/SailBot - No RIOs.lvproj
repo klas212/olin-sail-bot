@@ -228,6 +228,7 @@
 			</Item>
 			<Item Name="Port Action.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/Port Action.ctl"/>
 			<Item Name="SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx"/>
+			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
