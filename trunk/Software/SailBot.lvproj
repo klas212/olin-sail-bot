@@ -180,6 +180,7 @@
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="specialProperties.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/specialProperties.ctl"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -203,21 +204,17 @@
 			</Item>
 			<Item Name="1A Read Compass.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/1A Read Compass.vi"/>
 			<Item Name="1A ReadFromFIFOPort1.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/1A ReadFromFIFOPort1.vi"/>
-			<Item Name="2 Global.vi" Type="VI" URL="../2-Think/2 Code/2 Globals/2 Global.vi"/>
-			<Item Name="2 Think.vi" Type="VI" URL="../2-Think/2 Code/2 Think.vi"/>
 			<Item Name="3A WriteToFIFOPort4.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/3A WriteToFIFOPort4.vi"/>
 			<Item Name="ACT_ServoControl.vi" Type="VI" URL="../2-Think/2 Code/ACT_ServoControl.vi"/>
-			<Item Name="best_angle.vi" Type="VI" URL="../2-Think/2 Code/Deprecated/best_angle.vi"/>
 			<Item Name="FPGA SPI_Communication Loop State.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/FPGA SPI_Communication Loop State.ctl"/>
-			<Item Name="heading.ctl" Type="VI" URL="../2-Think/2 Code/2 Typedefs/heading.ctl"/>
 			<Item Name="init_pass_buoys.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_pass_buoys.vi"/>
 			<Item Name="init_round_buoy.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_round_buoy.vi"/>
 			<Item Name="init_station_keeping.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_station_keeping.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ni.dex.rc" Type="Document" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/objmgr/ni.dex.rc"/>
+			<Item Name="ni.dex.rc" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/objmgr/ni.dex.rc"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -230,13 +227,8 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ocuWaypoint.ctl" Type="VI" URL="../2-Think/0x2-OCU-Think Comm/0x2 Typedefs/ocuWaypoint.ctl"/>
 			<Item Name="Port Action.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/Port Action.ctl"/>
 			<Item Name="SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx"/>
-			<Item Name="UTM Location.ctl" Type="VI" URL="../2-Think/2 Code/2 Typedefs/UTM Location.ctl"/>
-			<Item Name="Velocity Converter- dx-dy to magnitude-heading.vi" Type="VI" URL="../2-Think/2 Code/Deprecated/Velocity Converter- dx-dy to magnitude-heading.vi"/>
-			<Item Name="Velocity.ctl" Type="VI" URL="../2-Think/2 Code/2 Typedefs/Velocity.ctl"/>
-			<Item Name="waypointTypes.ctl" Type="VI" URL="../2-Think/0x2-OCU-Think Comm/0x2 Typedefs/waypointTypes.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -1277,6 +1269,7 @@ KeepAliveTimeout 60
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="specialProperties.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/specialProperties.ctl"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -1300,21 +1293,17 @@ KeepAliveTimeout 60
 			</Item>
 			<Item Name="1A Read Compass.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/1A Read Compass.vi"/>
 			<Item Name="1A ReadFromFIFOPort1.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/1A ReadFromFIFOPort1.vi"/>
-			<Item Name="2 Global.vi" Type="VI" URL="../2-Think/2 Code/2 Globals/2 Global.vi"/>
-			<Item Name="2 Think.vi" Type="VI" URL="../2-Think/2 Code/2 Think.vi"/>
 			<Item Name="3A WriteToFIFOPort4.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/3A WriteToFIFOPort4.vi"/>
 			<Item Name="ACT_ServoControl.vi" Type="VI" URL="../2-Think/2 Code/ACT_ServoControl.vi"/>
-			<Item Name="best_angle.vi" Type="VI" URL="../2-Think/2 Code/Deprecated/best_angle.vi"/>
 			<Item Name="FPGA SPI_Communication Loop State.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/FPGA SPI_Communication Loop State.ctl"/>
-			<Item Name="heading.ctl" Type="VI" URL="../2-Think/2 Code/2 Typedefs/heading.ctl"/>
 			<Item Name="init_pass_buoys.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_pass_buoys.vi"/>
 			<Item Name="init_round_buoy.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_round_buoy.vi"/>
 			<Item Name="init_station_keeping.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_station_keeping.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ni.dex.rc" Type="Document" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/objmgr/ni.dex.rc"/>
+			<Item Name="ni.dex.rc" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/objmgr/ni.dex.rc"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1327,13 +1316,8 @@ KeepAliveTimeout 60
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ocuWaypoint.ctl" Type="VI" URL="../2-Think/0x2-OCU-Think Comm/0x2 Typedefs/ocuWaypoint.ctl"/>
 			<Item Name="Port Action.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/Port Action.ctl"/>
 			<Item Name="SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx"/>
-			<Item Name="UTM Location.ctl" Type="VI" URL="../2-Think/2 Code/2 Typedefs/UTM Location.ctl"/>
-			<Item Name="Velocity Converter- dx-dy to magnitude-heading.vi" Type="VI" URL="../2-Think/2 Code/Deprecated/Velocity Converter- dx-dy to magnitude-heading.vi"/>
-			<Item Name="Velocity.ctl" Type="VI" URL="../2-Think/2 Code/2 Typedefs/Velocity.ctl"/>
-			<Item Name="waypointTypes.ctl" Type="VI" URL="../2-Think/0x2-OCU-Think Comm/0x2 Typedefs/waypointTypes.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Sailbot" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -1778,6 +1762,7 @@ KeepAliveTimeout 60
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="specialProperties.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/specialProperties.ctl"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -1801,21 +1786,17 @@ KeepAliveTimeout 60
 			</Item>
 			<Item Name="1A Read Compass.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/1A Read Compass.vi"/>
 			<Item Name="1A ReadFromFIFOPort1.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/1A ReadFromFIFOPort1.vi"/>
-			<Item Name="2 Global.vi" Type="VI" URL="../2-Think/2 Code/2 Globals/2 Global.vi"/>
-			<Item Name="2 Think.vi" Type="VI" URL="../2-Think/2 Code/2 Think.vi"/>
 			<Item Name="3A WriteToFIFOPort4.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/3A WriteToFIFOPort4.vi"/>
 			<Item Name="ACT_ServoControl.vi" Type="VI" URL="../2-Think/2 Code/ACT_ServoControl.vi"/>
-			<Item Name="best_angle.vi" Type="VI" URL="../2-Think/2 Code/Deprecated/best_angle.vi"/>
 			<Item Name="FPGA SPI_Communication Loop State.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/FPGA SPI_Communication Loop State.ctl"/>
-			<Item Name="heading.ctl" Type="VI" URL="../2-Think/2 Code/2 Typedefs/heading.ctl"/>
 			<Item Name="init_pass_buoys.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_pass_buoys.vi"/>
 			<Item Name="init_round_buoy.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_round_buoy.vi"/>
 			<Item Name="init_station_keeping.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_station_keeping.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ni.dex.rc" Type="Document" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/objmgr/ni.dex.rc"/>
+			<Item Name="ni.dex.rc" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/objmgr/ni.dex.rc"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1828,13 +1809,8 @@ KeepAliveTimeout 60
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ocuWaypoint.ctl" Type="VI" URL="../2-Think/0x2-OCU-Think Comm/0x2 Typedefs/ocuWaypoint.ctl"/>
 			<Item Name="Port Action.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/Port Action.ctl"/>
 			<Item Name="SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx"/>
-			<Item Name="UTM Location.ctl" Type="VI" URL="../2-Think/2 Code/2 Typedefs/UTM Location.ctl"/>
-			<Item Name="Velocity Converter- dx-dy to magnitude-heading.vi" Type="VI" URL="../2-Think/2 Code/Deprecated/Velocity Converter- dx-dy to magnitude-heading.vi"/>
-			<Item Name="Velocity.ctl" Type="VI" URL="../2-Think/2 Code/2 Typedefs/Velocity.ctl"/>
-			<Item Name="waypointTypes.ctl" Type="VI" URL="../2-Think/0x2-OCU-Think Comm/0x2 Typedefs/waypointTypes.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
