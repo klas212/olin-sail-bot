@@ -144,6 +144,7 @@
 				<Item Name="IMAQ Load Image Dialog" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Load Image Dialog"/>
 				<Item Name="IMAQ Merge Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Merge Overlay"/>
 				<Item Name="IMAQ Overlay Bitmap" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Bitmap"/>
+				<Item Name="IMAQ Overlay Line" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Line"/>
 				<Item Name="IMAQ Overlay Multiple Lines 2" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Multiple Lines 2"/>
 				<Item Name="IMAQ Overlay Oval" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Oval"/>
 				<Item Name="IMAQ Overlay Points" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Points"/>
@@ -256,6 +257,7 @@
 			<Item Name="SailBot_FPGATarget3_3APWMMotorContro_5711E677.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget3_3APWMMotorContro_5711E677.lvbitx"/>
 			<Item Name="SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx"/>
 			<Item Name="SailBot_FPGATarget_1,3APWM-MotorCon_84E9B8B3.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_1,3APWM-MotorCon_84E9B8B3.lvbitx"/>
+			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
