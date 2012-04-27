@@ -237,7 +237,7 @@
 			<Item Name="init_pass_buoys.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_pass_buoys.vi"/>
 			<Item Name="init_round_buoy.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_round_buoy.vi"/>
 			<Item Name="init_station_keeping.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_station_keeping.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
