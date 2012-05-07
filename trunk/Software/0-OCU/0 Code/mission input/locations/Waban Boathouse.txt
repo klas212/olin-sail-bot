@@ -16,11 +16,11 @@
 </EW>
 <DBL>
 <Name>East</Name>
-<Val>309638.03</Val>
+<Val>309281.245</Val>
 </DBL>
 <DBL>
 <Name>North</Name>
-<Val>4684568.75</Val>
+<Val>4684925.925</Val>
 </DBL>
 </Cluster>
 <DBL>
