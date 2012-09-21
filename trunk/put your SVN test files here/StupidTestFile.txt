@@ -1,14 +1,9 @@
 Add your name below:
 Jared Kirschner!
-<<<<<<< .mine
 Jack Fan
-Mac-I Crowell!=======
+Mac-I Crowell!
 Lyra Silverwolf!
-<<<<<<< .mine
-Madison May!>>>>>>> .r670
-=======
 Madison May!
-Jack Fan>>>>>>> .r671
-Greg! ps, failed merges above
-Brendan, agreed
-%^$!^$!%$@!%$!@^$#!^$#!^$#!^!
+Bill Warner
+Greg!
+Brendan
