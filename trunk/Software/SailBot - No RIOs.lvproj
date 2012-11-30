@@ -47,8 +47,8 @@
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
 			<Item Name="main.html" Type="Document" URL="../main.html"/>
-			<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		</Item>
+		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Start Main &amp; OCU with Simulator.vi" Type="VI" URL="../Start Main &amp; OCU with Simulator.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
