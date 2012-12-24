@@ -278,6 +278,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Port Action.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/Port Action.ctl"/>
+			<Item Name="push.vi" Type="VI" URL="../2-Think/2 Classes/MissionQueue/push.vi"/>
 			<Item Name="SailBot_FPGATarget3_3APWMMotorContro_A9AA4CC4.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget3_3APWMMotorContro_A9AA4CC4.lvbitx"/>
 			<Item Name="SailBot_FPGATarget_1,3APWM-MotorCon_F493B744.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_1,3APWM-MotorCon_F493B744.lvbitx"/>
 		</Item>
