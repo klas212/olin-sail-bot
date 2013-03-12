@@ -211,6 +211,7 @@
 				<Item Name="NI_Robotics_FPGA Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Utilities/FPGA Utilities/NI_Robotics_FPGA Utilities.lvlib"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
+				<Item Name="niFPGA I32xI32 Dot Product - 2 elements I64.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA I32xI32 Dot Product - 2 elements I64.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Num To Text.vi" Type="VI" URL="/&lt;vilib&gt;/picture/scale.llb/Num To Text.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
@@ -260,7 +261,6 @@
 			<Item Name="3A WriteToFIFOPort4.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/3A WriteToFIFOPort4.vi"/>
 			<Item Name="ACT_ServoControl.vi" Type="VI" URL="../2-Think/2 Code/ACT_ServoControl.vi"/>
 			<Item Name="FPGA SPI_Communication Loop State.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/FPGA SPI_Communication Loop State.ctl"/>
-			<Item Name="GetAbsoluteAngle.vi" Type="VI" URL="../2-Think/2 Classes/Angle/GetAbsoluteAngle.vi"/>
 			<Item Name="Helper - Distance Between Two Points.vi" Type="VI" URL="../2-Think/2 Code/Helper - Distance Between Two Points.vi"/>
 			<Item Name="init_pass_buoys.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_pass_buoys.vi"/>
 			<Item Name="init_round_buoy.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_round_buoy.vi"/>
@@ -280,6 +280,7 @@
 			</Item>
 			<Item Name="Port Action.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/Port Action.ctl"/>
 			<Item Name="SailBot_FPGATarget3_3APWMMotorContro_A9AA4CC4.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget3_3APWMMotorContro_A9AA4CC4.lvbitx"/>
+			<Item Name="SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx"/>
 			<Item Name="SailBot_FPGATarget_1,3APWM-MotorCon_F493B744.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget_1,3APWM-MotorCon_F493B744.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
