@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="11008008">
 	<Item Name="My Computer" Type="My Computer">
-		<Property Name="CCSymbols" Type="Str">WHICH_RIO,COM;</Property>
+		<Property Name="CCSymbols" Type="Str">WhichRIO,Com;</Property>
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
