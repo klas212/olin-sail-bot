@@ -21,7 +21,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Software" Type="Folder" URL="..">
+		<Item Name="Software" Type="Folder" URL="/C/Users/emahon/Documents/olin-sail-bot/Software">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -232,14 +232,14 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
-			<Item Name="3A WriteToFIFOPort4.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/3A WriteToFIFOPort4.vi"/>
-			<Item Name="ACT_ServoControl.vi" Type="VI" URL="../2-Think/2 Code/ACT_ServoControl.vi"/>
-			<Item Name="FPGA SPI_Communication Loop State.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/FPGA SPI_Communication Loop State.ctl"/>
-			<Item Name="Helper - Distance Between Two Points.vi" Type="VI" URL="../2-Think/2 Code/Helper - Distance Between Two Points.vi"/>
-			<Item Name="init_pass_buoys.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_pass_buoys.vi"/>
-			<Item Name="init_round_buoy.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_round_buoy.vi"/>
-			<Item Name="init_station_keeping.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_station_keeping.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="3A WriteToFIFOPort4.vi" Type="VI" URL="/C/Users/emahon/Documents/olin-sail-bot/Software/1,3 A-Competition Platform/1,3 A Code/deprecated/3A WriteToFIFOPort4.vi"/>
+			<Item Name="ACT_ServoControl.vi" Type="VI" URL="/C/Users/emahon/Documents/olin-sail-bot/Software/2-Think/2 Code/ACT_ServoControl.vi"/>
+			<Item Name="FPGA SPI_Communication Loop State.ctl" Type="VI" URL="/C/Users/emahon/Documents/TestCode/spiTest/FPGA/Controls/FPGA SPI_Communication Loop State.ctl"/>
+			<Item Name="Helper - Distance Between Two Points.vi" Type="VI" URL="/C/Users/emahon/Documents/olin-sail-bot/Software/2-Think/2 Code/Helper - Distance Between Two Points.vi"/>
+			<Item Name="init_pass_buoys.vi" Type="VI" URL="/C/Users/emahon/Documents/olin-sail-bot/Software/2-Think/2 Classes/Mission/init_pass_buoys.vi"/>
+			<Item Name="init_round_buoy.vi" Type="VI" URL="/C/Users/emahon/Documents/olin-sail-bot/Software/2-Think/2 Classes/Mission/init_round_buoy.vi"/>
+			<Item Name="init_station_keeping.vi" Type="VI" URL="/C/Users/emahon/Documents/olin-sail-bot/Software/2-Think/2 Classes/Mission/init_station_keeping.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -255,8 +255,9 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Port Action.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/Port Action.ctl"/>
-			<Item Name="SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx"/>
+			<Item Name="Port Action.ctl" Type="VI" URL="/C/Users/emahon/Documents/TestCode/spiTest/FPGA/Controls/Port Action.ctl"/>
+			<Item Name="SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx" Type="Document" URL="/C/Users/emahon/Documents/olin-sail-bot/Software/FPGA Bitfiles/SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx"/>
+			<Item Name="visarc" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2011/resource/visarc"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -346,7 +347,7 @@ KeepAliveTimeout 60
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Property Name="TargetOSID" Type="Str">VxWorks-PPC603</Property>
-		<Item Name="Software" Type="Folder" URL="..">
+		<Item Name="Software" Type="Folder" URL="/C/Users/emahon/Documents/olin-sail-bot/Software">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 			<Property Name="NI.SortType" Type="Int">3</Property>
 		</Item>
@@ -419,7 +420,7 @@ KeepAliveTimeout 60
 						<Property Name="FPGA.PersistentID" Type="Str">{614D5C80-EE34-4B83-9CF6-F503786513E5}</Property>
 					</Item>
 				</Item>
-				<Item Name="FPGA" Type="Folder" URL="../1,3 A-Competition Platform/1,3 A Code/FPGA">
+				<Item Name="FPGA" Type="Folder" URL="/C/Users/emahon/Documents/olin-sail-bot/Software/1,3 A-Competition Platform/1,3 A Code/FPGA">
 					<Property Name="NI.DISK" Type="Bool">true</Property>
 				</Item>
 				<Item Name="Mod4" Type="Folder">
@@ -852,8 +853,8 @@ KeepAliveTimeout 60
 						<Item Name="niFPGA I32xI32 Dot Product - 2 elements I64.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA I32xI32 Dot Product - 2 elements I64.vi"/>
 						<Item Name="NI_Robotics_FPGA Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Utilities/FPGA Utilities/NI_Robotics_FPGA Utilities.lvlib"/>
 					</Item>
-					<Item Name="FPGA SPI_Communication Loop State.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/FPGA SPI_Communication Loop State.ctl"/>
-					<Item Name="Port Action.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/Port Action.ctl"/>
+					<Item Name="FPGA SPI_Communication Loop State.ctl" Type="VI" URL="/C/Users/emahon/Documents/TestCode/spiTest/FPGA/Controls/FPGA SPI_Communication Loop State.ctl"/>
+					<Item Name="Port Action.ctl" Type="VI" URL="/C/Users/emahon/Documents/TestCode/spiTest/FPGA/Controls/Port Action.ctl"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="WriteToFIFOPort3" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -882,7 +883,7 @@ KeepAliveTimeout 60
 						<Property Name="SupportDownload" Type="Bool">true</Property>
 						<Property Name="SupportResourceEstimation" Type="Bool">true</Property>
 						<Property Name="TargetName" Type="Str">FPGA Target</Property>
-						<Property Name="TopLevelVI" Type="Ref"></Property>
+						<Property Name="TopLevelVI" Type="Ref">/</Property>
 					</Item>
 					<Item Name="WriteToFIFOPort1" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
@@ -910,7 +911,7 @@ KeepAliveTimeout 60
 						<Property Name="SupportDownload" Type="Bool">true</Property>
 						<Property Name="SupportResourceEstimation" Type="Bool">true</Property>
 						<Property Name="TargetName" Type="Str">FPGA Target</Property>
-						<Property Name="TopLevelVI" Type="Ref"></Property>
+						<Property Name="TopLevelVI" Type="Ref">/</Property>
 					</Item>
 					<Item Name="ReadFromFIFOPort4" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
@@ -938,7 +939,7 @@ KeepAliveTimeout 60
 						<Property Name="SupportDownload" Type="Bool">true</Property>
 						<Property Name="SupportResourceEstimation" Type="Bool">true</Property>
 						<Property Name="TargetName" Type="Str">FPGA Target</Property>
-						<Property Name="TopLevelVI" Type="Ref"></Property>
+						<Property Name="TopLevelVI" Type="Ref">/</Property>
 					</Item>
 					<Item Name="3A FPGA ReadFromFIFOPort4" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
@@ -966,7 +967,7 @@ KeepAliveTimeout 60
 						<Property Name="SupportDownload" Type="Bool">true</Property>
 						<Property Name="SupportResourceEstimation" Type="Bool">true</Property>
 						<Property Name="TargetName" Type="Str">FPGA Target</Property>
-						<Property Name="TopLevelVI" Type="Ref"></Property>
+						<Property Name="TopLevelVI" Type="Ref">/</Property>
 					</Item>
 					<Item Name="PWM" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
@@ -1050,7 +1051,7 @@ KeepAliveTimeout 60
 						<Property Name="SupportDownload" Type="Bool">true</Property>
 						<Property Name="SupportResourceEstimation" Type="Bool">true</Property>
 						<Property Name="TargetName" Type="Str">FPGA Target</Property>
-						<Property Name="TopLevelVI" Type="Ref"></Property>
+						<Property Name="TopLevelVI" Type="Ref">/</Property>
 					</Item>
 					<Item Name="3A Temperature Reader" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
@@ -1347,14 +1348,14 @@ KeepAliveTimeout 60
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
-			<Item Name="3A WriteToFIFOPort4.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/3A WriteToFIFOPort4.vi"/>
-			<Item Name="ACT_ServoControl.vi" Type="VI" URL="../2-Think/2 Code/ACT_ServoControl.vi"/>
-			<Item Name="FPGA SPI_Communication Loop State.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/FPGA SPI_Communication Loop State.ctl"/>
-			<Item Name="Helper - Distance Between Two Points.vi" Type="VI" URL="../2-Think/2 Code/Helper - Distance Between Two Points.vi"/>
-			<Item Name="init_pass_buoys.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_pass_buoys.vi"/>
-			<Item Name="init_round_buoy.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_round_buoy.vi"/>
-			<Item Name="init_station_keeping.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_station_keeping.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="3A WriteToFIFOPort4.vi" Type="VI" URL="/C/Users/emahon/Documents/olin-sail-bot/Software/1,3 A-Competition Platform/1,3 A Code/deprecated/3A WriteToFIFOPort4.vi"/>
+			<Item Name="ACT_ServoControl.vi" Type="VI" URL="/C/Users/emahon/Documents/olin-sail-bot/Software/2-Think/2 Code/ACT_ServoControl.vi"/>
+			<Item Name="FPGA SPI_Communication Loop State.ctl" Type="VI" URL="/C/Users/emahon/Documents/TestCode/spiTest/FPGA/Controls/FPGA SPI_Communication Loop State.ctl"/>
+			<Item Name="Helper - Distance Between Two Points.vi" Type="VI" URL="/C/Users/emahon/Documents/olin-sail-bot/Software/2-Think/2 Code/Helper - Distance Between Two Points.vi"/>
+			<Item Name="init_pass_buoys.vi" Type="VI" URL="/C/Users/emahon/Documents/olin-sail-bot/Software/2-Think/2 Classes/Mission/init_pass_buoys.vi"/>
+			<Item Name="init_round_buoy.vi" Type="VI" URL="/C/Users/emahon/Documents/olin-sail-bot/Software/2-Think/2 Classes/Mission/init_round_buoy.vi"/>
+			<Item Name="init_station_keeping.vi" Type="VI" URL="/C/Users/emahon/Documents/olin-sail-bot/Software/2-Think/2 Classes/Mission/init_station_keeping.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1370,8 +1371,8 @@ KeepAliveTimeout 60
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Port Action.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/Port Action.ctl"/>
-			<Item Name="SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx"/>
+			<Item Name="Port Action.ctl" Type="VI" URL="/C/Users/emahon/Documents/TestCode/spiTest/FPGA/Controls/Port Action.ctl"/>
+			<Item Name="SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx" Type="Document" URL="/C/Users/emahon/Documents/olin-sail-bot/Software/FPGA Bitfiles/SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Sailbot" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -1500,7 +1501,7 @@ KeepAliveTimeout 60
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Property Name="TargetOSID" Type="Str">VxWorks-PPC603</Property>
-		<Item Name="Software" Type="Folder" URL="..">
+		<Item Name="Software" Type="Folder" URL="/C/Users/emahon/Documents/olin-sail-bot/Software">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Chassis" Type="sbRIO Chassis">
@@ -1524,7 +1525,7 @@ KeepAliveTimeout 60
 				<Property Name="Target Class" Type="Str">sbRIO-9606</Property>
 				<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
 				<Property Name="Top-Level Timing Source Is Default" Type="Bool">true</Property>
-				<Item Name="FPGA" Type="Folder" URL="../1,3 A-Competition Platform/1,3 A Code/FPGA">
+				<Item Name="FPGA" Type="Folder" URL="/C/Users/emahon/Documents/olin-sail-bot/Software/1,3 A-Competition Platform/1,3 A Code/FPGA">
 					<Property Name="NI.DISK" Type="Bool">true</Property>
 				</Item>
 				<Item Name="Onboard I/O" Type="Folder">
@@ -1783,8 +1784,8 @@ KeepAliveTimeout 60
 						<Item Name="NI_Robotics_FPGA Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Utilities/FPGA Utilities/NI_Robotics_FPGA Utilities.lvlib"/>
 						<Item Name="niFPGA I32xI32 Dot Product - 2 elements I64.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA I32xI32 Dot Product - 2 elements I64.vi"/>
 					</Item>
-					<Item Name="FPGA SPI_Communication Loop State.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/FPGA SPI_Communication Loop State.ctl"/>
-					<Item Name="Port Action.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/Port Action.ctl"/>
+					<Item Name="FPGA SPI_Communication Loop State.ctl" Type="VI" URL="/C/Users/emahon/Documents/TestCode/spiTest/FPGA/Controls/FPGA SPI_Communication Loop State.ctl"/>
+					<Item Name="Port Action.ctl" Type="VI" URL="/C/Users/emahon/Documents/TestCode/spiTest/FPGA/Controls/Port Action.ctl"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="3A PWM MotorControl FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -2026,14 +2027,14 @@ KeepAliveTimeout 60
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
-			<Item Name="3A WriteToFIFOPort4.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/3A WriteToFIFOPort4.vi"/>
-			<Item Name="ACT_ServoControl.vi" Type="VI" URL="../2-Think/2 Code/ACT_ServoControl.vi"/>
-			<Item Name="FPGA SPI_Communication Loop State.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/FPGA SPI_Communication Loop State.ctl"/>
-			<Item Name="Helper - Distance Between Two Points.vi" Type="VI" URL="../2-Think/2 Code/Helper - Distance Between Two Points.vi"/>
-			<Item Name="init_pass_buoys.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_pass_buoys.vi"/>
-			<Item Name="init_round_buoy.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_round_buoy.vi"/>
-			<Item Name="init_station_keeping.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_station_keeping.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="3A WriteToFIFOPort4.vi" Type="VI" URL="/C/Users/emahon/Documents/olin-sail-bot/Software/1,3 A-Competition Platform/1,3 A Code/deprecated/3A WriteToFIFOPort4.vi"/>
+			<Item Name="ACT_ServoControl.vi" Type="VI" URL="/C/Users/emahon/Documents/olin-sail-bot/Software/2-Think/2 Code/ACT_ServoControl.vi"/>
+			<Item Name="FPGA SPI_Communication Loop State.ctl" Type="VI" URL="/C/Users/emahon/Documents/TestCode/spiTest/FPGA/Controls/FPGA SPI_Communication Loop State.ctl"/>
+			<Item Name="Helper - Distance Between Two Points.vi" Type="VI" URL="/C/Users/emahon/Documents/olin-sail-bot/Software/2-Think/2 Code/Helper - Distance Between Two Points.vi"/>
+			<Item Name="init_pass_buoys.vi" Type="VI" URL="/C/Users/emahon/Documents/olin-sail-bot/Software/2-Think/2 Classes/Mission/init_pass_buoys.vi"/>
+			<Item Name="init_round_buoy.vi" Type="VI" URL="/C/Users/emahon/Documents/olin-sail-bot/Software/2-Think/2 Classes/Mission/init_round_buoy.vi"/>
+			<Item Name="init_station_keeping.vi" Type="VI" URL="/C/Users/emahon/Documents/olin-sail-bot/Software/2-Think/2 Classes/Mission/init_station_keeping.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -2049,8 +2050,8 @@ KeepAliveTimeout 60
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Port Action.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/Port Action.ctl"/>
-			<Item Name="SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx"/>
+			<Item Name="Port Action.ctl" Type="VI" URL="/C/Users/emahon/Documents/TestCode/spiTest/FPGA/Controls/Port Action.ctl"/>
+			<Item Name="SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx" Type="Document" URL="/C/Users/emahon/Documents/olin-sail-bot/Software/FPGA Bitfiles/SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -2105,7 +2106,7 @@ KeepAliveTimeout 60
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Property Name="TargetOSID" Type="Str">VxWorks-PPC603</Property>
-		<Item Name="Software" Type="Folder" URL="..">
+		<Item Name="Software" Type="Folder" URL="/C/Users/emahon/Documents/olin-sail-bot/Software">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Chassis" Type="sbRIO Chassis">
@@ -2123,7 +2124,7 @@ KeepAliveTimeout 60
 				<Property Name="Target Class" Type="Str">sbRIO-9606</Property>
 				<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
 				<Property Name="Top-Level Timing Source Is Default" Type="Bool">true</Property>
-				<Item Name="FPGA" Type="Folder" URL="../1,3 A-Competition Platform/1,3 A Code/FPGA">
+				<Item Name="FPGA" Type="Folder" URL="/C/Users/emahon/Documents/olin-sail-bot/Software/1,3 A-Competition Platform/1,3 A Code/FPGA">
 					<Property Name="NI.DISK" Type="Bool">true</Property>
 				</Item>
 				<Item Name="Onboard I/O" Type="Folder">
@@ -2406,8 +2407,8 @@ KeepAliveTimeout 60
 						<Item Name="NI_Robotics_FPGA Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Utilities/FPGA Utilities/NI_Robotics_FPGA Utilities.lvlib"/>
 						<Item Name="niFPGA I32xI32 Dot Product - 2 elements I64.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA I32xI32 Dot Product - 2 elements I64.vi"/>
 					</Item>
-					<Item Name="FPGA SPI_Communication Loop State.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/FPGA SPI_Communication Loop State.ctl"/>
-					<Item Name="Port Action.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/Port Action.ctl"/>
+					<Item Name="FPGA SPI_Communication Loop State.ctl" Type="VI" URL="/C/Users/emahon/Documents/TestCode/spiTest/FPGA/Controls/FPGA SPI_Communication Loop State.ctl"/>
+					<Item Name="Port Action.ctl" Type="VI" URL="/C/Users/emahon/Documents/TestCode/spiTest/FPGA/Controls/Port Action.ctl"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="1,3A PWM-MotorControl and VBattSense FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -2649,14 +2650,14 @@ KeepAliveTimeout 60
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
-			<Item Name="3A WriteToFIFOPort4.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/deprecated/3A WriteToFIFOPort4.vi"/>
-			<Item Name="ACT_ServoControl.vi" Type="VI" URL="../2-Think/2 Code/ACT_ServoControl.vi"/>
-			<Item Name="FPGA SPI_Communication Loop State.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/FPGA SPI_Communication Loop State.ctl"/>
-			<Item Name="Helper - Distance Between Two Points.vi" Type="VI" URL="../2-Think/2 Code/Helper - Distance Between Two Points.vi"/>
-			<Item Name="init_pass_buoys.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_pass_buoys.vi"/>
-			<Item Name="init_round_buoy.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_round_buoy.vi"/>
-			<Item Name="init_station_keeping.vi" Type="VI" URL="../2-Think/2 Classes/Mission/init_station_keeping.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="3A WriteToFIFOPort4.vi" Type="VI" URL="/C/Users/emahon/Documents/olin-sail-bot/Software/1,3 A-Competition Platform/1,3 A Code/deprecated/3A WriteToFIFOPort4.vi"/>
+			<Item Name="ACT_ServoControl.vi" Type="VI" URL="/C/Users/emahon/Documents/olin-sail-bot/Software/2-Think/2 Code/ACT_ServoControl.vi"/>
+			<Item Name="FPGA SPI_Communication Loop State.ctl" Type="VI" URL="/C/Users/emahon/Documents/TestCode/spiTest/FPGA/Controls/FPGA SPI_Communication Loop State.ctl"/>
+			<Item Name="Helper - Distance Between Two Points.vi" Type="VI" URL="/C/Users/emahon/Documents/olin-sail-bot/Software/2-Think/2 Code/Helper - Distance Between Two Points.vi"/>
+			<Item Name="init_pass_buoys.vi" Type="VI" URL="/C/Users/emahon/Documents/olin-sail-bot/Software/2-Think/2 Classes/Mission/init_pass_buoys.vi"/>
+			<Item Name="init_round_buoy.vi" Type="VI" URL="/C/Users/emahon/Documents/olin-sail-bot/Software/2-Think/2 Classes/Mission/init_round_buoy.vi"/>
+			<Item Name="init_station_keeping.vi" Type="VI" URL="/C/Users/emahon/Documents/olin-sail-bot/Software/2-Think/2 Classes/Mission/init_station_keeping.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -2683,8 +2684,10 @@ KeepAliveTimeout 60
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Port Action.ctl" Type="VI" URL="../../../TestCode/spiTest/FPGA/Controls/Port Action.ctl"/>
-			<Item Name="SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx" Type="Document" URL="../FPGA Bitfiles/SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx"/>
+			<Item Name="Port Action.ctl" Type="VI" URL="/C/Users/emahon/Documents/TestCode/spiTest/FPGA/Controls/Port Action.ctl"/>
+			<Item Name="SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx" Type="Document" URL="/C/Users/emahon/Documents/olin-sail-bot/Software/FPGA Bitfiles/SailBot_FPGATarget3_VBattSenseSPITes_222C18A6.lvbitx"/>
+			<Item Name="visarc" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2011/resource/visarc"/>
+			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
