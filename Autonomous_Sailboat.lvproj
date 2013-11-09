@@ -37,7 +37,10 @@
 			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="SPI_State.ctl" Type="VI" URL="../../olin-sailbot-trunk/Software/1,3 A-Competition Platform/1,3 A Code/FPGA/SPI_State.ctl"/>
+			<Item Name="ocuWaypoint.ctl" Type="VI" URL="../../../3-2--pre-class-branch/Software/0x2-OCU-Think Comm/0x2 Typedefs/ocuWaypoint.ctl"/>
+			<Item Name="UTM Location.ctl" Type="VI" URL="../../../3-2--pre-class-branch/Software/2-Think/2 Typedefs/UTM Location.ctl"/>
+			<Item Name="Waypoints List.ctl" Type="VI" URL="../../../3-2--pre-class-branch/Software/0x2-OCU-Think Comm/0x2 Typedefs/Waypoints List.ctl"/>
+			<Item Name="waypointTypes.ctl" Type="VI" URL="../../../3-2--pre-class-branch/Software/0x2-OCU-Think Comm/0x2 Typedefs/waypointTypes.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -380,7 +383,6 @@ KeepAliveTimeout 60
 						<Item Name="NI_Robotics_FPGA Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Utilities/FPGA Utilities/NI_Robotics_FPGA Utilities.lvlib"/>
 						<Item Name="niFPGA I32xI32 Dot Product - 2 elements I64.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA I32xI32 Dot Product - 2 elements I64.vi"/>
 					</Item>
-					<Item Name="SPI_State.ctl" Type="VI" URL="../../olin-sailbot-trunk/Software/1,3 A-Competition Platform/1,3 A Code/FPGA/SPI_State.ctl"/>
 					<Item Name="niFpgaSctlEmulationGetInTimedLoop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaSctlEmulationGetInTimedLoop.vi"/>
 					<Item Name="niFpgaSetErrorForExecOnDevCompSimple.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niFpgaSetErrorForExecOnDevCompSimple.vi"/>
 					<Item Name="niFpgaGetScratchAppInstance.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaGetScratchAppInstance.vi"/>
