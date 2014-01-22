@@ -62,6 +62,11 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="ArbitrationType.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Act/cRIO_Code/Logic/ArbitrationType.ctl"/>
+			<Item Name="function1.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Act/GoToWaypoint/function1.vi"/>
+			<Item Name="function2.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Act/GoToWaypoint/function2.vi"/>
+			<Item Name="function3.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Act/GoToWaypoint/function3.vi"/>
+			<Item Name="function4.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Act/GoToWaypoint/function4.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
 			<Item Name="niFpgaSimulationCallBeginRW.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/Simulation/niFpgaSimulationCallBeginRW.vi"/>
@@ -456,6 +461,11 @@ KeepAliveTimeout 60
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 			</Item>
+			<Item Name="ArbitrationType.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Act/cRIO_Code/Logic/ArbitrationType.ctl"/>
+			<Item Name="function1.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Act/GoToWaypoint/function1.vi"/>
+			<Item Name="function2.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Act/GoToWaypoint/function2.vi"/>
+			<Item Name="function3.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Act/GoToWaypoint/function3.vi"/>
+			<Item Name="function4.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Act/GoToWaypoint/function4.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
 			<Item Name="niFpgaSimulationCallBeginRW.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/Simulation/niFpgaSimulationCallBeginRW.vi"/>
