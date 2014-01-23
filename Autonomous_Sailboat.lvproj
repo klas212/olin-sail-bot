@@ -127,8 +127,6 @@
 			<Item Name="manual override.ctl" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Typedefs/manual override.ctl"/>
 			<Item Name="Maps.ctl" Type="VI" URL="../Sailboat/0 Typedefs/Maps.ctl"/>
 			<Item Name="Mission Type Radio Buttons.ctl" Type="VI" URL="../Sailboat/0 Typedefs/Mission Type Radio Buttons.ctl"/>
-			<Item Name="NetworkStreamReader.ctl" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Reader/NetworkStreamReader.lvclass/NetworkStreamReader.ctl"/>
-			<Item Name="NetworkStreamWriter.ctl" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Writer/NetworkStreamWriter.lvclass/NetworkStreamWriter.ctl"/>
 			<Item Name="ocuCommands.ctl" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Typedefs/ocuCommands.ctl"/>
 			<Item Name="ocuMessage.ctl" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Typedefs/ocuMessage.ctl"/>
 			<Item Name="OCUtoSim.vi" Type="VI" URL="../0x2-OCU-Think Comm/OCUtoSim.vi"/>
