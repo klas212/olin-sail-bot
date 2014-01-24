@@ -24,7 +24,6 @@
 		<Item Name="Sailboat" Type="Folder" URL="../Sailboat">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Sail Set Suggestions.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Data/TypeDefs/Sail Set Suggestions.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -55,14 +54,12 @@
 			<Item Name="apparent wind speed.ctl" Type="VI" URL="../2-Think/2 Typedefs/apparent wind speed.ctl"/>
 			<Item Name="apparent wind.ctl" Type="VI" URL="../2-Think/2 Typedefs/apparent wind.ctl"/>
 			<Item Name="ArbitrationType.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Act/cRIO_Code/Logic/ArbitrationType.ctl"/>
-			<Item Name="BalanceRudderSailSuggestion.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/BalanceRudderSailSuggestion.vi"/>
 			<Item Name="Close.vi" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Classes/NetworkStreams/Reader/Close.vi"/>
 			<Item Name="Close.vi" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Classes/NetworkStreams/Writer/Close.vi"/>
 			<Item Name="Control values.ctl" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Typedefs/Control values.ctl"/>
 			<Item Name="Current Waypoint.ctl" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Typedefs/Current Waypoint.ctl"/>
 			<Item Name="Deserialize Waypoint Array.vi" Type="VI" URL="../2-Think/2 Classes/Waypoint/Deserialize Waypoint Array.vi"/>
 			<Item Name="deserializeMissionArray.vi" Type="VI" URL="../2-Think/2 Classes/Missions/Shared/deserializeMissionArray.vi"/>
-			<Item Name="DetermineStateOfBoat.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/DetermineStateOfBoat.vi"/>
 			<Item Name="eStopCommand.ctl" Type="VI" URL="../2-Think/2 Typedefs/eStopCommand.ctl"/>
 			<Item Name="eStopShared.vi" Type="VI" URL="../2-Think/2 Code/eStopShared.vi"/>
 			<Item Name="function1.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Act/GoToWaypoint/function1.vi"/>
@@ -92,9 +89,7 @@
 			<Item Name="Initialize.vi" Type="VI" URL="../2-Think/2 Classes/Missions/StationKeeping/Initialize.vi"/>
 			<Item Name="Initialize.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Classes/Missions/Initialize.vi"/>
 			<Item Name="IsConnected.vi" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Classes/NetworkStreams/Reader/IsConnected.vi"/>
-			<Item Name="JibeSailSuggestion.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/JibeSailSuggestion.vi"/>
 			<Item Name="Location of Think.ctl" Type="VI" URL="../Sailboat/0 Typedefs/Location of Think.ctl"/>
-			<Item Name="LuffToSailSuggestion.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/LuffToSailSuggestion.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="manual override.ctl" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Typedefs/manual override.ctl"/>
 			<Item Name="Maps.ctl" Type="VI" URL="../Sailboat/0 Typedefs/Maps.ctl"/>
@@ -122,9 +117,6 @@
 			<Item Name="Sail Setting Tuning.ctl" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Typedefs/Sail Setting Tuning.ctl"/>
 			<Item Name="setpoints to boat.ctl" Type="VI" URL="../2-Think/2 Typedefs/setpoints to boat.ctl"/>
 			<Item Name="tacking attempt.ctl" Type="VI" URL="../2-Think/2 Typedefs/tacking attempt.ctl"/>
-			<Item Name="TackingSailSuggestion.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/TackingSailSuggestion.vi"/>
-			<Item Name="TurningSailSuggestion.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/TurningSailSuggestion.vi"/>
-			<Item Name="TurtleModeSailSuggestion.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/TurtleModeSailSuggestion.vi"/>
 			<Item Name="UTM Circle.ctl" Type="VI" URL="../2-Think/2 Typedefs/UTM Circle.ctl"/>
 			<Item Name="UTM Location.ctl" Type="VI" URL="../2-Think/2 Typedefs/UTM Location.ctl"/>
 			<Item Name="Velocity Converter- dx-dy to magnitude-heading.vi" Type="VI" URL="../2-Think/2 Code/Velocity Converter- dx-dy to magnitude-heading.vi"/>
@@ -132,7 +124,6 @@
 			<Item Name="Waypoint.lvclass" Type="LVClass" URL="../2-Think/2 Classes/Waypoint/Waypoint.lvclass"/>
 			<Item Name="Waypoints List.ctl" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Typedefs/Waypoints List.ctl"/>
 			<Item Name="Which Boat.ctl" Type="VI" URL="../2-Think/2 Typedefs/Which Boat.ctl"/>
-			<Item Name="WindToSailLookup.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/WindToSailLookup.vi"/>
 			<Item Name="Write.vi" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Classes/NetworkStreams/Writer/Write.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
@@ -523,18 +514,14 @@ KeepAliveTimeout 60
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 			</Item>
 			<Item Name="ArbitrationType.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Act/cRIO_Code/Logic/ArbitrationType.ctl"/>
-			<Item Name="BalanceRudderSailSuggestion.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/BalanceRudderSailSuggestion.vi"/>
 			<Item Name="ClearDisconnectError.vi" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Shared/ClearDisconnectError.vi"/>
 			<Item Name="ClearReconnectError.vi" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Shared/ClearReconnectError.vi"/>
-			<Item Name="DetermineStateOfBoat.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/DetermineStateOfBoat.vi"/>
 			<Item Name="ElapsedTimeMessage.ctl" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Shared/ElapsedTimeMessage.ctl"/>
 			<Item Name="function1.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Act/GoToWaypoint/function1.vi"/>
 			<Item Name="function2.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Act/GoToWaypoint/function2.vi"/>
 			<Item Name="function3.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Act/GoToWaypoint/function3.vi"/>
 			<Item Name="function4.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Act/GoToWaypoint/function4.vi"/>
 			<Item Name="GenericMission.lvclass" Type="LVClass" URL="../Sailboat/cRIO_Code/Logic/Classes/Missions/GenericMission.lvclass"/>
-			<Item Name="JibeSailSuggestion.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/JibeSailSuggestion.vi"/>
-			<Item Name="LuffToSailSuggestion.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/LuffToSailSuggestion.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NetworkStreamReader.lvclass" Type="LVClass" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Reader/NetworkStreamReader.lvclass"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
@@ -542,13 +529,9 @@ KeepAliveTimeout 60
 			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="TackingSailSuggestion.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/TackingSailSuggestion.vi"/>
 			<Item Name="TimeStampedMessage.ctl" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Shared/TimeStampedMessage.ctl"/>
 			<Item Name="TimeStampedMessageQueue.ctl" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Shared/TimeStampedMessageQueue.ctl"/>
 			<Item Name="ToRIO.ctl" Type="VI" URL="../Sailboat/RIO-OCU_Comm/ToRIO.ctl"/>
-			<Item Name="TurningSailSuggestion.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/TurningSailSuggestion.vi"/>
-			<Item Name="TurtleModeSailSuggestion.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/TurtleModeSailSuggestion.vi"/>
-			<Item Name="WindToSailLookup.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/WindToSailLookup.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
