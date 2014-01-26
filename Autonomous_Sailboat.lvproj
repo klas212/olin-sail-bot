@@ -35,95 +35,96 @@
 				<Item Name="niFPGA I32xI32 Dot Product - 2 elements I64.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA I32xI32 Dot Product - 2 elements I64.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 			</Item>
-			<Item Name="0-Do Overlays.vi" Type="VI" URL="../Sailboat/TempStorage/mission input/0-Do Overlays.vi"/>
-			<Item Name="0-Load Map.vi" Type="VI" URL="../Sailboat/TempStorage/mission input/0-Load Map.vi"/>
-			<Item Name="0-Read MDF.vi" Type="VI" URL="../Sailboat/TempStorage/mission input/0-Read MDF.vi"/>
-			<Item Name="0-Save Image.vi" Type="VI" URL="../Sailboat/TempStorage/mission input/0-Save Image.vi"/>
-			<Item Name="0-Write MDF.vi" Type="VI" URL="../Sailboat/TempStorage/mission input/0-Write MDF.vi"/>
-			<Item Name="1A Helper - Init Sensor.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/1A Helper - Init Sensor.vi"/>
-			<Item Name="1A Helper - LatLong to UTM.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/1A Helper - LatLong to UTM.vi"/>
-			<Item Name="1A Read Sensor Data.vi" Type="VI" URL="../1,3 A-Competition Platform/1,3 A Code/1A Read Sensor Data.vi"/>
-			<Item Name="2 Global.vi" Type="VI" URL="../2-Think/2 Globals/2 Global.vi"/>
-			<Item Name="2 XYPointsToDistanceAndAngle.vi" Type="VI" URL="../2-Think/2 Code/2 XYPointsToDistanceAndAngle.vi"/>
-			<Item Name="absolute water current vector.ctl" Type="VI" URL="../2-Think/2 Typedefs/absolute water current vector.ctl"/>
-			<Item Name="absolute wind direction.ctl" Type="VI" URL="../2-Think/2 Typedefs/absolute wind direction.ctl"/>
-			<Item Name="absolute wind speed.ctl" Type="VI" URL="../2-Think/2 Typedefs/absolute wind speed.ctl"/>
+			<Item Name="0-Do Overlays.vi" Type="VI" URL="../../../trunk/Software/0-OCU/0 Code/mission input/0-Do Overlays.vi"/>
+			<Item Name="0-Load Map.vi" Type="VI" URL="../../../trunk/Software/0-OCU/0 Code/mission input/0-Load Map.vi"/>
+			<Item Name="0-Read MDF.vi" Type="VI" URL="../../../trunk/Software/0-OCU/0 Code/mission input/0-Read MDF.vi"/>
+			<Item Name="0-Save Image.vi" Type="VI" URL="../../../trunk/Software/0-OCU/0 Code/mission input/0-Save Image.vi"/>
+			<Item Name="0-Write MDF.vi" Type="VI" URL="../../../trunk/Software/0-OCU/0 Code/mission input/0-Write MDF.vi"/>
+			<Item Name="1A Helper - Init Sensor.vi" Type="VI" URL="../../../trunk/Software/1,3 A-Competition Platform/1,3 A Code/1A Helper - Init Sensor.vi"/>
+			<Item Name="1A Helper - LatLong to UTM.vi" Type="VI" URL="../../../trunk/Software/1,3 A-Competition Platform/1,3 A Code/1A Helper - LatLong to UTM.vi"/>
+			<Item Name="1A Read Sensor Data.vi" Type="VI" URL="../../../trunk/Software/1,3 A-Competition Platform/1,3 A Code/1A Read Sensor Data.vi"/>
+			<Item Name="2 Global.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Globals/2 Global.vi"/>
+			<Item Name="2 XYPointsToDistanceAndAngle.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Code/2 XYPointsToDistanceAndAngle.vi"/>
+			<Item Name="absolute water current vector.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/absolute water current vector.ctl"/>
+			<Item Name="absolute wind direction.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/absolute wind direction.ctl"/>
+			<Item Name="absolute wind speed.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/absolute wind speed.ctl"/>
 			<Item Name="AddMission.vi" Type="VI" URL="../Sailboat/OCU/AddMission.vi"/>
-			<Item Name="apparent wind direction.ctl" Type="VI" URL="../2-Think/2 Typedefs/apparent wind direction.ctl"/>
-			<Item Name="Apparent Wind Point of Sail.ctl" Type="VI" URL="../Sailboat/0 Typedefs/Apparent Wind Point of Sail.ctl"/>
-			<Item Name="apparent wind speed.ctl" Type="VI" URL="../2-Think/2 Typedefs/apparent wind speed.ctl"/>
-			<Item Name="apparent wind.ctl" Type="VI" URL="../2-Think/2 Typedefs/apparent wind.ctl"/>
-			<Item Name="Close.vi" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Classes/NetworkStreams/Reader/Close.vi"/>
-			<Item Name="Close.vi" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Classes/NetworkStreams/Writer/Close.vi"/>
-			<Item Name="Control values.ctl" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Typedefs/Control values.ctl"/>
-			<Item Name="Current Waypoint.ctl" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Typedefs/Current Waypoint.ctl"/>
-			<Item Name="Deserialize Waypoint Array.vi" Type="VI" URL="../2-Think/2 Classes/Waypoint/Deserialize Waypoint Array.vi"/>
-			<Item Name="deserializeMissionArray.vi" Type="VI" URL="../2-Think/2 Classes/Missions/Shared/deserializeMissionArray.vi"/>
-			<Item Name="eStopCommand.ctl" Type="VI" URL="../2-Think/2 Typedefs/eStopCommand.ctl"/>
-			<Item Name="eStopShared.vi" Type="VI" URL="../2-Think/2 Code/eStopShared.vi"/>
+			<Item Name="apparent wind direction.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/apparent wind direction.ctl"/>
+			<Item Name="Apparent Wind Point of Sail.ctl" Type="VI" URL="../../../trunk/Software/0-OCU/0 Typedefs/Apparent Wind Point of Sail.ctl"/>
+			<Item Name="apparent wind speed.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/apparent wind speed.ctl"/>
+			<Item Name="apparent wind.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/apparent wind.ctl"/>
+			<Item Name="Close.vi" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Classes/NetworkStreams/Reader/Close.vi"/>
+			<Item Name="Close.vi" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Classes/NetworkStreams/Writer/Close.vi"/>
+			<Item Name="Control values.ctl" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Typedefs/Control values.ctl"/>
+			<Item Name="Current Waypoint.ctl" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Typedefs/Current Waypoint.ctl"/>
+			<Item Name="Deserialize Waypoint Array.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Classes/Waypoint/Deserialize Waypoint Array.vi"/>
+			<Item Name="deserializeMissionArray.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Classes/Missions/Shared/deserializeMissionArray.vi"/>
+			<Item Name="eStopCommand.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/eStopCommand.ctl"/>
+			<Item Name="eStopShared.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Code/eStopShared.vi"/>
 			<Item Name="function1.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Act/GoToWaypoint/function1.vi"/>
 			<Item Name="function2.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Act/GoToWaypoint/function2.vi"/>
 			<Item Name="function3.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Act/GoToWaypoint/function3.vi"/>
 			<Item Name="function4.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Act/GoToWaypoint/function4.vi"/>
-			<Item Name="generalized actuator status.ctl" Type="VI" URL="../2-Think/2 Typedefs/generalized actuator status.ctl"/>
-			<Item Name="generalized sensor status.ctl" Type="VI" URL="../2-Think/2 Typedefs/generalized sensor status.ctl"/>
-			<Item Name="GenericMission.lvclass" Type="LVClass" URL="../2-Think/2 Classes/Missions/GenericMission/GenericMission.lvclass"/>
+			<Item Name="generalized actuator status.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/generalized actuator status.ctl"/>
+			<Item Name="generalized sensor status.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/generalized sensor status.ctl"/>
 			<Item Name="GenericMission.lvclass" Type="LVClass" URL="../Sailboat/cRIO_Code/Logic/Classes/Missions/GenericMission.lvclass"/>
-			<Item Name="Goodness Fns Indicator.ctl" Type="VI" URL="../2-Think/2 Typedefs/Goodness Fns Indicator.ctl"/>
-			<Item Name="Goodness Weightings.ctl" Type="VI" URL="../2-Think/2 Typedefs/Goodness Weightings.ctl"/>
-			<Item Name="heading.ctl" Type="VI" URL="../2-Think/2 Typedefs/heading.ctl"/>
-			<Item Name="Helper - goodness polar plot.vi" Type="VI" URL="../Sailboat/TempStorage/Helper - goodness polar plot.vi"/>
-			<Item Name="Helper - Image To UTM.vi" Type="VI" URL="../2-Think/2 Code/Helper - Image To UTM.vi"/>
-			<Item Name="Helper - InterpretKeyPress.vi" Type="VI" URL="../Sailboat/TempStorage/Helper - InterpretKeyPress.vi"/>
-			<Item Name="Helper - ToggleOverrides.vi" Type="VI" URL="../Sailboat/TempStorage/Helper - ToggleOverrides.vi"/>
-			<Item Name="helper - UTM line to Square.vi" Type="VI" URL="../Sailboat/TempStorage/helper - UTM line to Square.vi"/>
-			<Item Name="helper- line ROI to 2 UTM Pts.vi" Type="VI" URL="../Sailboat/TempStorage/helper- line ROI to 2 UTM Pts.vi"/>
-			<Item Name="indicator LED.ctl" Type="VI" URL="../2-Think/2 Typedefs/indicator LED.ctl"/>
-			<Item Name="init_waypoint.vi" Type="VI" URL="../2-Think/2 Classes/Waypoint/init_waypoint.vi"/>
-			<Item Name="Initialize.vi" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Classes/NetworkStreams/Reader/Initialize.vi"/>
-			<Item Name="Initialize.vi" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Classes/NetworkStreams/Writer/Initialize.vi"/>
-			<Item Name="Initialize.vi" Type="VI" URL="../2-Think/2 Classes/Missions/Drive/Initialize.vi"/>
-			<Item Name="Initialize.vi" Type="VI" URL="../2-Think/2 Classes/Missions/PassBuoys/Initialize.vi"/>
-			<Item Name="Initialize.vi" Type="VI" URL="../2-Think/2 Classes/Missions/RoundBuoy/Initialize.vi"/>
-			<Item Name="Initialize.vi" Type="VI" URL="../2-Think/2 Classes/Missions/StationKeeping/Initialize.vi"/>
+			<Item Name="GenericMission.lvclass" Type="LVClass" URL="../../../trunk/Software/2-Think/2 Classes/Missions/GenericMission/GenericMission.lvclass"/>
+			<Item Name="Goodness Fns Indicator.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/Goodness Fns Indicator.ctl"/>
+			<Item Name="Goodness Weightings.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/Goodness Weightings.ctl"/>
+			<Item Name="heading.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/heading.ctl"/>
+			<Item Name="Helper - goodness polar plot.vi" Type="VI" URL="../../../trunk/Software/0-OCU/0 Code/Helper - goodness polar plot.vi"/>
+			<Item Name="Helper - Image To UTM.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Code/Helper - Image To UTM.vi"/>
+			<Item Name="Helper - InterpretKeyPress.vi" Type="VI" URL="../../../trunk/Software/0-OCU/0 Code/Helper - InterpretKeyPress.vi"/>
+			<Item Name="Helper - ToggleOverrides.vi" Type="VI" URL="../../../trunk/Software/0-OCU/0 Code/Helper - ToggleOverrides.vi"/>
+			<Item Name="helper - UTM line to Square.vi" Type="VI" URL="../../../trunk/Software/0-OCU/0 Code/helper - UTM line to Square.vi"/>
+			<Item Name="helper- line ROI to 2 UTM Pts.vi" Type="VI" URL="../../../trunk/Software/0-OCU/0 Code/helper- line ROI to 2 UTM Pts.vi"/>
+			<Item Name="indicator LED.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/indicator LED.ctl"/>
+			<Item Name="init_waypoint.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Classes/Waypoint/init_waypoint.vi"/>
 			<Item Name="Initialize.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Classes/Missions/Initialize.vi"/>
-			<Item Name="IsConnected.vi" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Classes/NetworkStreams/Reader/IsConnected.vi"/>
-			<Item Name="Location of Think.ctl" Type="VI" URL="../Sailboat/0 Typedefs/Location of Think.ctl"/>
+			<Item Name="Initialize.vi" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Classes/NetworkStreams/Reader/Initialize.vi"/>
+			<Item Name="Initialize.vi" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Classes/NetworkStreams/Writer/Initialize.vi"/>
+			<Item Name="Initialize.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Classes/Missions/Drive/Initialize.vi"/>
+			<Item Name="Initialize.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Classes/Missions/PassBuoys/Initialize.vi"/>
+			<Item Name="Initialize.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Classes/Missions/RoundBuoy/Initialize.vi"/>
+			<Item Name="Initialize.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Classes/Missions/StationKeeping/Initialize.vi"/>
+			<Item Name="IsConnected.vi" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Classes/NetworkStreams/Reader/IsConnected.vi"/>
+			<Item Name="Location of Think.ctl" Type="VI" URL="../../../trunk/Software/0-OCU/0 Typedefs/Location of Think.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="manual override.ctl" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Typedefs/manual override.ctl"/>
-			<Item Name="Maps.ctl" Type="VI" URL="../Sailboat/0 Typedefs/Maps.ctl"/>
-			<Item Name="Mission Type Radio Buttons.ctl" Type="VI" URL="../Sailboat/0 Typedefs/Mission Type Radio Buttons.ctl"/>
+			<Item Name="manual override.ctl" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Typedefs/manual override.ctl"/>
+			<Item Name="Maps.ctl" Type="VI" URL="../../../trunk/Software/0-OCU/0 Typedefs/Maps.ctl"/>
+			<Item Name="Mission Type Radio Buttons.ctl" Type="VI" URL="../../../trunk/Software/0-OCU/0 Typedefs/Mission Type Radio Buttons.ctl"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
 			<Item Name="niFpgaSimulationCallBeginRW.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/Simulation/niFpgaSimulationCallBeginRW.vi"/>
 			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="ocuCommands.ctl" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Typedefs/ocuCommands.ctl"/>
-			<Item Name="ocuMessage.ctl" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Typedefs/ocuMessage.ctl"/>
-			<Item Name="OCUtoSim.vi" Type="VI" URL="../0x2-OCU-Think Comm/OCUtoSim.vi"/>
-			<Item Name="ocuWaypoint.ctl" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Typedefs/ocuWaypoint.ctl"/>
-			<Item Name="PI Constants.ctl" Type="VI" URL="../2-Think/2 Typedefs/PI Constants.ctl"/>
-			<Item Name="pitch and roll.ctl" Type="VI" URL="../2-Think/2 Typedefs/pitch and roll.ctl"/>
-			<Item Name="rate of turn.ctl" Type="VI" URL="../2-Think/2 Typedefs/rate of turn.ctl"/>
-			<Item Name="Read.vi" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Classes/NetworkStreams/Reader/Read.vi"/>
-			<Item Name="readType.ctl" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Classes/NetworkStreams/Reader/readType.ctl"/>
-			<Item Name="RIO-OCU update controls.ctl" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Typedefs/RIO-OCU update controls.ctl"/>
-			<Item Name="robot velocity.ctl" Type="VI" URL="../2-Think/2 Typedefs/robot velocity.ctl"/>
-			<Item Name="rudder angle.ctl" Type="VI" URL="../2-Think/2 Typedefs/rudder angle.ctl"/>
-			<Item Name="Rudder Position.ctl" Type="VI" URL="../Sailboat/0 Typedefs/Rudder Position.ctl"/>
-			<Item Name="Sail Position.ctl" Type="VI" URL="../Sailboat/0 Typedefs/Sail Position.ctl"/>
-			<Item Name="sail setpt.ctl" Type="VI" URL="../2-Think/2 Typedefs/sail setpt.ctl"/>
-			<Item Name="Sail Setting Tuning.ctl" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Typedefs/Sail Setting Tuning.ctl"/>
-			<Item Name="setpoints to boat.ctl" Type="VI" URL="../2-Think/2 Typedefs/setpoints to boat.ctl"/>
-			<Item Name="tacking attempt.ctl" Type="VI" URL="../2-Think/2 Typedefs/tacking attempt.ctl"/>
-			<Item Name="UTM Circle.ctl" Type="VI" URL="../2-Think/2 Typedefs/UTM Circle.ctl"/>
-			<Item Name="UTM Location.ctl" Type="VI" URL="../2-Think/2 Typedefs/UTM Location.ctl"/>
-			<Item Name="Velocity Converter- dx-dy to magnitude-heading.vi" Type="VI" URL="../2-Think/2 Code/Velocity Converter- dx-dy to magnitude-heading.vi"/>
-			<Item Name="Velocity.ctl" Type="VI" URL="../2-Think/2 Typedefs/Velocity.ctl"/>
-			<Item Name="Waypoint.lvclass" Type="LVClass" URL="../2-Think/2 Classes/Waypoint/Waypoint.lvclass"/>
-			<Item Name="Waypoints List.ctl" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Typedefs/Waypoints List.ctl"/>
-			<Item Name="Which Boat.ctl" Type="VI" URL="../2-Think/2 Typedefs/Which Boat.ctl"/>
-			<Item Name="Write.vi" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Classes/NetworkStreams/Writer/Write.vi"/>
+			<Item Name="ocuCommands.ctl" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Typedefs/ocuCommands.ctl"/>
+			<Item Name="ocuMessage.ctl" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Typedefs/ocuMessage.ctl"/>
+			<Item Name="OCUtoSim.vi" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/OCUtoSim.vi"/>
+			<Item Name="ocuWaypoint.ctl" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Typedefs/ocuWaypoint.ctl"/>
+			<Item Name="PI Constants.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/PI Constants.ctl"/>
+			<Item Name="pitch and roll.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/pitch and roll.ctl"/>
+			<Item Name="rate of turn.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/rate of turn.ctl"/>
+			<Item Name="Read.vi" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Classes/NetworkStreams/Reader/Read.vi"/>
+			<Item Name="readType.ctl" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Classes/NetworkStreams/Reader/readType.ctl"/>
+			<Item Name="RIO-OCU update controls.ctl" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Typedefs/RIO-OCU update controls.ctl"/>
+			<Item Name="robot velocity.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/robot velocity.ctl"/>
+			<Item Name="rudder angle.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/rudder angle.ctl"/>
+			<Item Name="Rudder Position.ctl" Type="VI" URL="../../../trunk/Software/0-OCU/0 Typedefs/Rudder Position.ctl"/>
+			<Item Name="Sail Position.ctl" Type="VI" URL="../../../trunk/Software/0-OCU/0 Typedefs/Sail Position.ctl"/>
+			<Item Name="sail setpt.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/sail setpt.ctl"/>
+			<Item Name="Sail Setting Tuning.ctl" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Typedefs/Sail Setting Tuning.ctl"/>
+			<Item Name="setpoints to boat.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/setpoints to boat.ctl"/>
+			<Item Name="tacking attempt.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/tacking attempt.ctl"/>
+			<Item Name="UTM Circle.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/UTM Circle.ctl"/>
+			<Item Name="UTM Location.ctl" Type="VI" URL="../../Sailbot Trunk/Software/2-Think/2 Typedefs/UTM Location.ctl"/>
+			<Item Name="UTM Location.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/UTM Location.ctl"/>
+			<Item Name="Velocity Converter- dx-dy to magnitude-heading.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Code/Velocity Converter- dx-dy to magnitude-heading.vi"/>
+			<Item Name="Velocity.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/Velocity.ctl"/>
+			<Item Name="Waypoint.lvclass" Type="LVClass" URL="../../../trunk/Software/2-Think/2 Classes/Waypoint/Waypoint.lvclass"/>
+			<Item Name="Waypoints List.ctl" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Typedefs/Waypoints List.ctl"/>
+			<Item Name="Which Boat.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/Which Boat.ctl"/>
+			<Item Name="Write.vi" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Classes/NetworkStreams/Writer/Write.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -530,6 +531,7 @@ KeepAliveTimeout 60
 			<Item Name="TimeStampedMessage.ctl" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Shared/TimeStampedMessage.ctl"/>
 			<Item Name="TimeStampedMessageQueue.ctl" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Shared/TimeStampedMessageQueue.ctl"/>
 			<Item Name="ToRIO.ctl" Type="VI" URL="../Sailboat/RIO-OCU_Comm/ToRIO.ctl"/>
+			<Item Name="UTM Location.ctl" Type="VI" URL="../../Sailbot Trunk/Software/2-Think/2 Typedefs/UTM Location.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
