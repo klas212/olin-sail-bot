@@ -53,7 +53,6 @@
 			<Item Name="Apparent Wind Point of Sail.ctl" Type="VI" URL="../Sailboat/0 Typedefs/Apparent Wind Point of Sail.ctl"/>
 			<Item Name="apparent wind speed.ctl" Type="VI" URL="../2-Think/2 Typedefs/apparent wind speed.ctl"/>
 			<Item Name="apparent wind.ctl" Type="VI" URL="../2-Think/2 Typedefs/apparent wind.ctl"/>
-			<Item Name="ArbitrationType.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Act/cRIO_Code/Logic/ArbitrationType.ctl"/>
 			<Item Name="Close.vi" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Classes/NetworkStreams/Reader/Close.vi"/>
 			<Item Name="Close.vi" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Classes/NetworkStreams/Writer/Close.vi"/>
 			<Item Name="Control values.ctl" Type="VI" URL="../0x2-OCU-Think Comm/0x2 Typedefs/Control values.ctl"/>
@@ -62,10 +61,6 @@
 			<Item Name="deserializeMissionArray.vi" Type="VI" URL="../2-Think/2 Classes/Missions/Shared/deserializeMissionArray.vi"/>
 			<Item Name="eStopCommand.ctl" Type="VI" URL="../2-Think/2 Typedefs/eStopCommand.ctl"/>
 			<Item Name="eStopShared.vi" Type="VI" URL="../2-Think/2 Code/eStopShared.vi"/>
-			<Item Name="function1.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Act/GoToWaypoint/function1.vi"/>
-			<Item Name="function2.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Act/GoToWaypoint/function2.vi"/>
-			<Item Name="function3.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Act/GoToWaypoint/function3.vi"/>
-			<Item Name="function4.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Act/GoToWaypoint/function4.vi"/>
 			<Item Name="generalized actuator status.ctl" Type="VI" URL="../2-Think/2 Typedefs/generalized actuator status.ctl"/>
 			<Item Name="generalized sensor status.ctl" Type="VI" URL="../2-Think/2 Typedefs/generalized sensor status.ctl"/>
 			<Item Name="GenericMission.lvclass" Type="LVClass" URL="../2-Think/2 Classes/Missions/GenericMission/GenericMission.lvclass"/>
@@ -513,14 +508,9 @@ KeepAliveTimeout 60
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 			</Item>
-			<Item Name="ArbitrationType.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Act/cRIO_Code/Logic/ArbitrationType.ctl"/>
 			<Item Name="ClearDisconnectError.vi" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Shared/ClearDisconnectError.vi"/>
 			<Item Name="ClearReconnectError.vi" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Shared/ClearReconnectError.vi"/>
 			<Item Name="ElapsedTimeMessage.ctl" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Shared/ElapsedTimeMessage.ctl"/>
-			<Item Name="function1.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Act/GoToWaypoint/function1.vi"/>
-			<Item Name="function2.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Act/GoToWaypoint/function2.vi"/>
-			<Item Name="function3.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Act/GoToWaypoint/function3.vi"/>
-			<Item Name="function4.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Act/GoToWaypoint/function4.vi"/>
 			<Item Name="GenericMission.lvclass" Type="LVClass" URL="../Sailboat/cRIO_Code/Logic/Classes/Missions/GenericMission.lvclass"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NetworkStreamReader.lvclass" Type="LVClass" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Reader/NetworkStreamReader.lvclass"/>
