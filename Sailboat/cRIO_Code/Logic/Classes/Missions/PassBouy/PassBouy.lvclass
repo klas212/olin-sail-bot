@@ -22,13 +22,13 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="getWaypoints.vi" Type="VI" URL="../getWaypoints.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"A!!!!!A!%!!!!6!$Q!!Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!"Y!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!"!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$Z!!!!"1!%!!!!+E"Q!"Y!!")16W&amp;Z='^J&lt;H1O&lt;(:D&lt;'&amp;T=Q!!$&amp;&gt;B?8"P;7ZU)%^V&gt;!!!-E"Q!"Y!!")15'&amp;T=U*P&gt;8EO&lt;(:D&lt;'&amp;T=Q!!&amp;&amp;"B=X.#&lt;X6Z,GRW9WRB=X-A&lt;X6U!!!Q1(!!(A!!%B"198.T1G^V?3ZM&gt;G.M98.T!!!45'&amp;T=U*P&gt;8EO&lt;(:D&lt;'&amp;T=S"J&lt;A"B!0!!$!!!!!!!!1!#!!!!!!!!!!!!!!!!!!!!!Q)!!(A!!!!!!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!$1!!!!Q!!!!!!!!!!!!!!1!%!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">268435456</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 	</Item>
 	<Item Name="initialize.vi" Type="VI" URL="../initialize.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$;!!!!#1!%!!!!%U!+!!V5&lt;WRF=G&amp;O9W5A+'UJ!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!":!5!!$!!)!!Q!%#%6S=G^S)%FO!!!S1(!!(A!!%B"198.T1G^V?3ZM&gt;G.M98.T!!!55'&amp;T=U*P&gt;8EO&lt;(:D&lt;'&amp;T=S"P&gt;81!!":!5!!$!!)!!Q!%#56S=G^S)%^V&gt;!!W!0!!"Q!!!!!!!1!&amp;!!!!"A!(!A!!Q!!!!!!!!!!!!!!)!!!!#!!!!!!!!!!*!!!!$1-!!!!"!!A!!!!!</Property>
