@@ -98,7 +98,6 @@
 			<Item Name="ocuCommands.ctl" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Typedefs/ocuCommands.ctl"/>
 			<Item Name="ocuMessage.ctl" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Typedefs/ocuMessage.ctl"/>
 			<Item Name="OCUtoSim.vi" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/OCUtoSim.vi"/>
-			<Item Name="PassBouy.lvclass" Type="LVClass" URL="../Sailboat/cRIO_Code/Logic/Classes/Missions/PassBouy/private/PassBouy.lvclass"/>
 			<Item Name="PI Constants.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/PI Constants.ctl"/>
 			<Item Name="pitch and roll.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/pitch and roll.ctl"/>
 			<Item Name="rate of turn.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/rate of turn.ctl"/>
@@ -110,13 +109,10 @@
 			<Item Name="sail setpt.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/sail setpt.ctl"/>
 			<Item Name="Sail Setting Tuning.ctl" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Typedefs/Sail Setting Tuning.ctl"/>
 			<Item Name="setpoints to boat.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/setpoints to boat.ctl"/>
-			<Item Name="ShouldWeAdjustAngle.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/SailOptimizationFunctions/ShouldWeAdjustAngle.vi"/>
 			<Item Name="tacking attempt.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/tacking attempt.ctl"/>
 			<Item Name="UTM Circle.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/UTM Circle.ctl"/>
-			<Item Name="UTM Location.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/UTM Location.ctl"/>
 			<Item Name="Velocity Converter- dx-dy to magnitude-heading.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Code/Velocity Converter- dx-dy to magnitude-heading.vi"/>
 			<Item Name="Velocity.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/Velocity.ctl"/>
-			<Item Name="Waypoint.lvclass" Type="LVClass" URL="../Sailboat/cRIO_Code/Logic/Classes/Missions/Waypoint/Waypoint.lvclass"/>
 			<Item Name="Which Boat.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/Which Boat.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
@@ -526,13 +522,9 @@ KeepAliveTimeout 60
 			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="PassBouy.lvclass" Type="LVClass" URL="../Sailboat/cRIO_Code/Logic/Classes/Missions/PassBouy/private/PassBouy.lvclass"/>
-			<Item Name="ShouldWeAdjustAngle.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/SailOptimizationFunctions/ShouldWeAdjustAngle.vi"/>
 			<Item Name="TimeStampedMessage.ctl" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Shared/TimeStampedMessage.ctl"/>
 			<Item Name="TimeStampedMessageQueue.ctl" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Shared/TimeStampedMessageQueue.ctl"/>
 			<Item Name="ToRIO.ctl" Type="VI" URL="../Sailboat/RIO-OCU_Comm/ToRIO.ctl"/>
-			<Item Name="UTM Location.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/UTM Location.ctl"/>
-			<Item Name="Waypoint.lvclass" Type="LVClass" URL="../Sailboat/cRIO_Code/Logic/Classes/Missions/Waypoint/Waypoint.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
