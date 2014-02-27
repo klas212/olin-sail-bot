@@ -95,8 +95,6 @@
 			<Item Name="Apparent Wind Point of Sail.ctl" Type="VI" URL="../../../trunk/Software/0-OCU/0 Typedefs/Apparent Wind Point of Sail.ctl"/>
 			<Item Name="apparent wind speed.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/apparent wind speed.ctl"/>
 			<Item Name="apparent wind.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/apparent wind.ctl"/>
-			<Item Name="BalanceRudderSailSuggestion.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/SailOptimizationFunctions-OLD/BalanceRudderSailSuggestion.vi"/>
-			<Item Name="BalanceRudderSailSuggestion.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/SailOptimizationFunctions-OLD/BalanceRudderSailSuggestion.vi"/>
 			<Item Name="Control values.ctl" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Typedefs/Control values.ctl"/>
 			<Item Name="Current Waypoint.ctl" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Typedefs/Current Waypoint.ctl"/>
 			<Item Name="Deserialize Waypoint Array.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Classes/Waypoint/Deserialize Waypoint Array.vi"/>
@@ -124,15 +122,10 @@
 			<Item Name="Initialize.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Classes/Missions/StationKeeping/Initialize.vi"/>
 			<Item Name="InStuckInIronsMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions/InStuckInIronsMode.vi"/>
 			<Item Name="InTurnBoatMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions/InTurnBoatMode.vi"/>
-			<Item Name="InTurtleMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions/InTurtleMode.vi"/>
-			<Item Name="JibeSailSuggestion.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/SailOptimizationFunctions/JibeSailSuggestion.vi"/>
 			<Item Name="LuffSuggestionTest.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Midbrain Tests/LuffSuggestionTest.vi"/>
-			<Item Name="LuffToSailSuggestion.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/SailOptimizationFunctions/LuffToSailSuggestion.vi"/>
-			<Item Name="LuffToSailSuggestion.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/SailOptimizationFunctions/LuffToSailSuggestion.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="manual override.ctl" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Typedefs/manual override.ctl"/>
 			<Item Name="Maps.ctl" Type="VI" URL="../../../trunk/Software/0-OCU/0 Typedefs/Maps.ctl"/>
-			<Item Name="MB Think to Act Bundled Sail Commands.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Data/TypeDefs/MB Think to Act Bundled Sail Commands.ctl"/>
 			<Item Name="MB Think to Act Bundled Sail Commands.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/MB Think to Act Bundled Sail Commands.ctl"/>
 			<Item Name="Mission Type Radio Buttons.ctl" Type="VI" URL="../../../trunk/Software/0-OCU/0 Typedefs/Mission Type Radio Buttons.ctl"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
@@ -147,30 +140,21 @@
 			<Item Name="PI Constants.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/PI Constants.ctl"/>
 			<Item Name="pitch and roll.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/pitch and roll.ctl"/>
 			<Item Name="rate of turn.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/rate of turn.ctl"/>
-			<Item Name="RecoverFromIronsSuggestion.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/SailOptimizationFunctions/RecoverFromIronsSuggestion.vi"/>
 			<Item Name="RIO-OCU update controls.ctl" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Typedefs/RIO-OCU update controls.ctl"/>
 			<Item Name="robot velocity.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/robot velocity.ctl"/>
 			<Item Name="rudder angle.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/rudder angle.ctl"/>
 			<Item Name="Rudder Position.ctl" Type="VI" URL="../../../trunk/Software/0-OCU/0 Typedefs/Rudder Position.ctl"/>
-			<Item Name="Rudder Set Suggestions.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/Rudder Set Suggestions.ctl"/>
 			<Item Name="RudderForceBalanceTest.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Midbrain Tests/RudderForceBalanceTest.vi"/>
 			<Item Name="Sail Position.ctl" Type="VI" URL="../../../trunk/Software/0-OCU/0 Typedefs/Sail Position.ctl"/>
-			<Item Name="Sail Set Suggestions.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/Sail Set Suggestions.ctl"/>
 			<Item Name="sail setpt.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/sail setpt.ctl"/>
 			<Item Name="Sail Setting Tuning.ctl" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Typedefs/Sail Setting Tuning.ctl"/>
 			<Item Name="Sailing State of Boat.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/Sailing State of Boat.ctl"/>
 			<Item Name="setpoints to boat.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/setpoints to boat.ctl"/>
-			<Item Name="SpeedAndAngleToVectorSpeed.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Utilities/Math/SpeedAndAngleToVectorSpeed.vi"/>
 			<Item Name="tacking attempt.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/tacking attempt.ctl"/>
-			<Item Name="TackingSailSuggestion.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/SailOptimizationFunctions/TackingSailSuggestion.vi"/>
-			<Item Name="TurningSailSuggestion.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/SailOptimizationFunctions/TurningSailSuggestion.vi"/>
-			<Item Name="TurtleModeSailSuggestion.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/SailOptimizationFunctions/TurtleModeSailSuggestion.vi"/>
 			<Item Name="UTM Circle.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/UTM Circle.ctl"/>
 			<Item Name="Velocity Converter- dx-dy to magnitude-heading.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Code/Velocity Converter- dx-dy to magnitude-heading.vi"/>
 			<Item Name="Velocity.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/Velocity.ctl"/>
 			<Item Name="Which Boat.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/Which Boat.ctl"/>
-			<Item Name="WindToSailLookup.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/SailOptimizationFunctions/WindToSailLookup.vi"/>
-			<Item Name="WindToSailLookup.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/SailOptimizationFunctions/WindToSailLookup.vi"/>
 			<Item Name="WindToSailLookupTest.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Midbrain Tests/WindToSailLookupTest.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
