@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="12008004">
+<Project Type="Project" LVVersion="13008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str">LabVIEW project by the Olin College SailBot team, started in 2011. Allows running of sailbot code on multiple targets, but as a result, classes cannot be edited from within this project. For editing classes or for faster loading, use Sailbot - no RIOs.lvproj.</Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -26,12 +26,34 @@
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Close Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Close Panel.vi"/>
+				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
+				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
+				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
+				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
+				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="ex_Modify Signal Name.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_Modify Signal Name.vi"/>
+				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Flush And Wait Empty Condition.ctl" Type="VI" URL="/&lt;vilib&gt;/dex/Flush And Wait Empty Condition.ctl"/>
+				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
+				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
+				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get Instrument State.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Get Instrument State.vi"/>
+				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
+				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
+				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
+				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
+				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
@@ -39,11 +61,21 @@
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="NI_Robotics_FPGA Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/utilities/FPGA Utilities/NI_Robotics_FPGA Utilities.lvlib"/>
 				<Item Name="niFPGA I32xI32 Dot Product - 2 elements I64.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA I32xI32 Dot Product - 2 elements I64.vi"/>
-				<Item Name="nirviCommon.vi" Type="VI" URL="/&lt;vilib&gt;/express/rvi/timingcommon/nirviCommon.vi"/>
+				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Open Panel.vi"/>
 				<Item Name="scalingTypes.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/scalingTypes.ctl"/>
+				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="subReformatInterpPoints.vi" Type="VI" URL="/&lt;vilib&gt;/express/express arith-compare/ScaleandMapBlock.llb/subReformatInterpPoints.vi"/>
 				<Item Name="subScaling.vi" Type="VI" URL="/&lt;vilib&gt;/express/express arith-compare/ScaleandMapBlock.llb/subScaling.vi"/>
+				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
+				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="0-Do Overlays.vi" Type="VI" URL="../../../trunk/Software/0-OCU/0 Code/mission input/0-Do Overlays.vi"/>
 			<Item Name="0-Load Map.vi" Type="VI" URL="../../../trunk/Software/0-OCU/0 Code/mission input/0-Load Map.vi"/>
@@ -63,10 +95,12 @@
 			<Item Name="Apparent Wind Point of Sail.ctl" Type="VI" URL="../../../trunk/Software/0-OCU/0 Typedefs/Apparent Wind Point of Sail.ctl"/>
 			<Item Name="apparent wind speed.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/apparent wind speed.ctl"/>
 			<Item Name="apparent wind.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/apparent wind.ctl"/>
+			<Item Name="BalanceRudderSailSuggestion.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/SailOptimizationFunctions/BalanceRudderSailSuggestion.vi"/>
 			<Item Name="Control values.ctl" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Typedefs/Control values.ctl"/>
 			<Item Name="Current Waypoint.ctl" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Typedefs/Current Waypoint.ctl"/>
 			<Item Name="Deserialize Waypoint Array.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Classes/Waypoint/Deserialize Waypoint Array.vi"/>
 			<Item Name="deserializeMissionArray.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Classes/Missions/Shared/deserializeMissionArray.vi"/>
+			<Item Name="DetermineStateOfBoat.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/DetermineStateOfBoat.vi"/>
 			<Item Name="eStopCommand.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/eStopCommand.ctl"/>
 			<Item Name="eStopShared.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Code/eStopShared.vi"/>
 			<Item Name="generalized actuator status.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/generalized actuator status.ctl"/>
@@ -80,18 +114,27 @@
 			<Item Name="Helper - ToggleOverrides.vi" Type="VI" URL="../../../trunk/Software/0-OCU/0 Code/Helper - ToggleOverrides.vi"/>
 			<Item Name="helper - UTM line to Square.vi" Type="VI" URL="../../../trunk/Software/0-OCU/0 Code/helper - UTM line to Square.vi"/>
 			<Item Name="helper- line ROI to 2 UTM Pts.vi" Type="VI" URL="../../../trunk/Software/0-OCU/0 Code/helper- line ROI to 2 UTM Pts.vi"/>
+			<Item Name="InApproachManeuverMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/DetermineStateOfBoatFunctions/InApproachManeuverMode.vi"/>
 			<Item Name="indicator LED.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/indicator LED.ctl"/>
 			<Item Name="init_waypoint.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Classes/Waypoint/init_waypoint.vi"/>
 			<Item Name="Initialize.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Classes/Missions/Drive/Initialize.vi"/>
 			<Item Name="Initialize.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Classes/Missions/PassBuoys/Initialize.vi"/>
 			<Item Name="Initialize.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Classes/Missions/RoundBuoy/Initialize.vi"/>
 			<Item Name="Initialize.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Classes/Missions/StationKeeping/Initialize.vi"/>
+			<Item Name="InStuckInIronsMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/DetermineStateOfBoatFunctions/InStuckInIronsMode.vi"/>
+			<Item Name="InTurnBoatMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/DetermineStateOfBoatFunctions/InTurnBoatMode.vi"/>
+			<Item Name="InTurtleMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/DetermineStateOfBoatFunctions/InTurtleMode.vi"/>
+			<Item Name="JibeSailSuggestion.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/SailOptimizationFunctions/JibeSailSuggestion.vi"/>
+			<Item Name="LuffSuggestionTest.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Midbrain Tests/LuffSuggestionTest.vi"/>
+			<Item Name="LuffToSailSuggestion.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/SailOptimizationFunctions/LuffToSailSuggestion.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="manual override.ctl" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Typedefs/manual override.ctl"/>
 			<Item Name="Maps.ctl" Type="VI" URL="../../../trunk/Software/0-OCU/0 Typedefs/Maps.ctl"/>
+			<Item Name="MB Think to Act Bundled Sail Commands.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Data/TypeDefs/MB Think to Act Bundled Sail Commands.ctl"/>
 			<Item Name="Mission Type Radio Buttons.ctl" Type="VI" URL="../../../trunk/Software/0-OCU/0 Typedefs/Mission Type Radio Buttons.ctl"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
 			<Item Name="niFpgaSimulationCallBeginRW.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/Simulation/niFpgaSimulationCallBeginRW.vi"/>
+			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
 			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
@@ -101,19 +144,27 @@
 			<Item Name="PI Constants.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/PI Constants.ctl"/>
 			<Item Name="pitch and roll.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/pitch and roll.ctl"/>
 			<Item Name="rate of turn.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/rate of turn.ctl"/>
+			<Item Name="RecoverFromIronsSuggestion.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/SailOptimizationFunctions/RecoverFromIronsSuggestion.vi"/>
 			<Item Name="RIO-OCU update controls.ctl" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Typedefs/RIO-OCU update controls.ctl"/>
 			<Item Name="robot velocity.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/robot velocity.ctl"/>
 			<Item Name="rudder angle.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/rudder angle.ctl"/>
 			<Item Name="Rudder Position.ctl" Type="VI" URL="../../../trunk/Software/0-OCU/0 Typedefs/Rudder Position.ctl"/>
+			<Item Name="RudderForceBalanceTest.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Midbrain Tests/RudderForceBalanceTest.vi"/>
 			<Item Name="Sail Position.ctl" Type="VI" URL="../../../trunk/Software/0-OCU/0 Typedefs/Sail Position.ctl"/>
 			<Item Name="sail setpt.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/sail setpt.ctl"/>
 			<Item Name="Sail Setting Tuning.ctl" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Typedefs/Sail Setting Tuning.ctl"/>
+			<Item Name="Sailing State of Boat.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Data/TypeDefs/Sailing State of Boat.ctl"/>
 			<Item Name="setpoints to boat.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/setpoints to boat.ctl"/>
 			<Item Name="tacking attempt.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/tacking attempt.ctl"/>
+			<Item Name="TackingSailSuggestion.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/SailOptimizationFunctions/TackingSailSuggestion.vi"/>
+			<Item Name="TurningSailSuggestion.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/SailOptimizationFunctions/TurningSailSuggestion.vi"/>
+			<Item Name="TurtleModeSailSuggestion.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/SailOptimizationFunctions/TurtleModeSailSuggestion.vi"/>
 			<Item Name="UTM Circle.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/UTM Circle.ctl"/>
 			<Item Name="Velocity Converter- dx-dy to magnitude-heading.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Code/Velocity Converter- dx-dy to magnitude-heading.vi"/>
 			<Item Name="Velocity.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/Velocity.ctl"/>
 			<Item Name="Which Boat.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/Which Boat.ctl"/>
+			<Item Name="WindToSailLookup.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/SailOptimizationFunctions/WindToSailLookup.vi"/>
+			<Item Name="WindToSailLookupTest.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Midbrain Tests/WindToSailLookupTest.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
