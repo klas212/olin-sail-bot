@@ -24,6 +24,7 @@
 		<Item Name="Sailboat" Type="Folder" URL="../Sailboat">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="MissionQueue.lvclass" Type="LVClass" URL="../../../trunk/Software/2-Think/2 Classes/MissionQueue/MissionQueue.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -240,7 +241,6 @@
 			<Item Name="MB Think to Act Bundled Sail Commands.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/MB Think to Act Bundled Sail Commands.ctl"/>
 			<Item Name="MDF data cluster.ctl" Type="VI" URL="../../../trunk/Software/0-OCU/0 Typedefs/MDF data cluster.ctl"/>
 			<Item Name="Mission Type Radio Buttons.ctl" Type="VI" URL="../../../trunk/Software/0-OCU/0 Typedefs/Mission Type Radio Buttons.ctl"/>
-			<Item Name="MissionQueue.lvclass" Type="LVClass" URL="../../../trunk/Software/2-Think/2 Classes/MissionQueue/MissionQueue.lvclass"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
 			<Item Name="niFpgaSimulationCallBeginRW.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/Simulation/niFpgaSimulationCallBeginRW.vi"/>
 			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
@@ -691,6 +691,7 @@ DirectoryIndex index.htm
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
+				<Item Name="IMAQ Overlay Bitmap" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Bitmap"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
@@ -726,6 +727,7 @@ DirectoryIndex index.htm
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
+			<Item Name="0-Helper-Overlay Waypoint Type Symbol.vi" Type="VI" URL="../../../trunk/Software/0-OCU/0 Code/mission input/0-Helper-Overlay Waypoint Type Symbol.vi"/>
 			<Item Name="0-Image Descriptor.ctl" Type="VI" URL="../../../trunk/Software/0-OCU/0 Code/mission input/0-Image Descriptor.ctl"/>
 			<Item Name="2 Global.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Globals/2 Global.vi"/>
 			<Item Name="2 Message Logger.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Globals/2 Message Logger.vi"/>
@@ -751,8 +753,11 @@ DirectoryIndex index.htm
 			<Item Name="GenericMission.lvclass" Type="LVClass" URL="../../../trunk/Software/2-Think/2 Classes/Missions/GenericMission/GenericMission.lvclass"/>
 			<Item Name="Goodness Fns Indicator.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/Goodness Fns Indicator.ctl"/>
 			<Item Name="heading.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/heading.ctl"/>
+			<Item Name="Helper - UTM To Image.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Code/Helper - UTM To Image.vi"/>
+			<Item Name="Idle.lvclass" Type="LVClass" URL="../../../trunk/Software/2-Think/2 Classes/Missions/Idle/Idle.lvclass"/>
 			<Item Name="InApproachManeuverMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions-OLD/InApproachManeuverMode.vi"/>
 			<Item Name="indicator LED.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/indicator LED.ctl"/>
+			<Item Name="init_waypoint.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Classes/Waypoint/init_waypoint.vi"/>
 			<Item Name="InStuckInIronsMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions/InStuckInIronsMode.vi"/>
 			<Item Name="InTurnBoatMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions/InTurnBoatMode.vi"/>
 			<Item Name="Logger.lvclass" Type="LVClass" URL="../../../trunk/Software/2-Think/2 Classes/Logger/Logger.lvclass"/>
@@ -760,6 +765,7 @@ DirectoryIndex index.htm
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="manual override.ctl" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Typedefs/manual override.ctl"/>
 			<Item Name="MB Think to Act Bundled Sail Commands.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/MB Think to Act Bundled Sail Commands.ctl"/>
+			<Item Name="MissionQueue.lvclass" Type="LVClass" URL="../../../trunk/Software/2-Think/2 Classes/MissionQueue/MissionQueue.lvclass"/>
 			<Item Name="NetworkStreamReader.lvclass" Type="LVClass" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Reader/NetworkStreamReader.lvclass"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
 			<Item Name="niFpgaSimulationCallBeginRW.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/Simulation/niFpgaSimulationCallBeginRW.vi"/>
@@ -767,6 +773,9 @@ DirectoryIndex index.htm
 			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
+			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="PhidgetClose.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Common Functions/PhidgetClose.vi"/>
 			<Item Name="pitch and roll.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/pitch and roll.ctl"/>
 			<Item Name="rate of turn.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/rate of turn.ctl"/>
@@ -783,6 +792,7 @@ DirectoryIndex index.htm
 			<Item Name="UTM Circle.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/UTM Circle.ctl"/>
 			<Item Name="Velocity.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/Velocity.ctl"/>
 			<Item Name="Waypoints List.ctl" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Typedefs/Waypoints List.ctl"/>
+			<Item Name="waypointTypes.ctl" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Typedefs/waypointTypes.ctl"/>
 			<Item Name="Which Boat.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/Which Boat.ctl"/>
 			<Item Name="WindToSailLookupTest.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Midbrain Tests/WindToSailLookupTest.vi"/>
 		</Item>
