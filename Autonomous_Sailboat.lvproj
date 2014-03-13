@@ -24,7 +24,6 @@
 		<Item Name="Sailboat" Type="Folder" URL="../Sailboat">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="MissionQueue.lvclass" Type="LVClass" URL="../../../trunk/Software/2-Think/2 Classes/MissionQueue/MissionQueue.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -36,7 +35,6 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
@@ -57,6 +55,7 @@
 				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
+				<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
@@ -97,7 +96,6 @@
 			<Item Name="1A Helper - LatLong to UTM.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Hardware_Interfaces/Sensors/WeatherStation/1A Helper - LatLong to UTM.vi"/>
 			<Item Name="1A Read Sensor Data.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Hardware_Interfaces/Sensors/WeatherStation/1A Read Sensor Data.vi"/>
 			<Item Name="2 Global.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Hardware_Interfaces/2-Think/2 Globals/2 Global.vi"/>
-			<Item Name="2 Global.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Globals/2 Global.vi"/>
 			<Item Name="2 XYPointsToDistanceAndAngle.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Code/2 XYPointsToDistanceAndAngle.vi"/>
 			<Item Name="absolute water current vector.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/absolute water current vector.ctl"/>
 			<Item Name="absolute wind direction.ctl" Type="VI" URL="../../../trunk/Software/2-Think/2 Typedefs/absolute wind direction.ctl"/>
@@ -129,6 +127,7 @@
 			<Item Name="Helper - goodness polar plot.vi" Type="VI" URL="../../../trunk/Software/0-OCU/0 Code/Helper - goodness polar plot.vi"/>
 			<Item Name="Helper - Image To UTM.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Code/Helper - Image To UTM.vi"/>
 			<Item Name="Helper - InterpretKeyPress.vi" Type="VI" URL="../../../trunk/Software/0-OCU/0 Code/Helper - InterpretKeyPress.vi"/>
+			<Item Name="helper - open and config serial port.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Hardware_Interfaces/2-Think/2 Code/helper - open and config serial port.vi"/>
 			<Item Name="Helper - ToggleOverrides.vi" Type="VI" URL="../../../trunk/Software/0-OCU/0 Code/Helper - ToggleOverrides.vi"/>
 			<Item Name="helper - UTM line to Square.vi" Type="VI" URL="../../../trunk/Software/0-OCU/0 Code/helper - UTM line to Square.vi"/>
 			<Item Name="helper- line ROI to 2 UTM Pts.vi" Type="VI" URL="../../../trunk/Software/0-OCU/0 Code/helper- line ROI to 2 UTM Pts.vi"/>
@@ -147,12 +146,6 @@
 			<Item Name="Maps.ctl" Type="VI" URL="../../../trunk/Software/0-OCU/0 Typedefs/Maps.ctl"/>
 			<Item Name="MB Think to Act Bundled Sail Commands.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/MB Think to Act Bundled Sail Commands.ctl"/>
 			<Item Name="Mission Type Radio Buttons.ctl" Type="VI" URL="../../../trunk/Software/0-OCU/0 Typedefs/Mission Type Radio Buttons.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niFpgaSimulationCallBeginRW.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/Simulation/niFpgaSimulationCallBeginRW.vi"/>
-			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="ocuCommands.ctl" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Typedefs/ocuCommands.ctl"/>
 			<Item Name="ocuMessage.ctl" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/0x2 Typedefs/ocuMessage.ctl"/>
 			<Item Name="OCUtoSim.vi" Type="VI" URL="../../../trunk/Software/0x2-OCU-Think Comm/OCUtoSim.vi"/>
@@ -515,6 +508,7 @@ DirectoryIndex index.htm
 					<Item Name="vi.lib" Type="Folder">
 						<Item Name="NI_Robotics_FPGA Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/utilities/FPGA Utilities/NI_Robotics_FPGA Utilities.lvlib"/>
 						<Item Name="niFPGA I32xI32 Dot Product - 2 elements I64.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA I32xI32 Dot Product - 2 elements I64.vi"/>
+						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 					</Item>
 					<Item Name="niFpgaGetScratchAppInstance.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaGetScratchAppInstance.vi"/>
 					<Item Name="nirviEmuReportErrorAndStop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuReportErrorAndStop.vi"/>
@@ -542,14 +536,6 @@ DirectoryIndex index.htm
 					<Item Name="nirvififoEmulationCreateLock.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/FIFO/Fifo_Resource/nirvififoEmulationCreateLock.vi"/>
 					<Item Name="nirviWaitOnOccurrenceBase.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/occurrence/nirviWaitOnOccurrenceBase.vi"/>
 					<Item Name="niFpgaEmulationVisToLoad.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaEmulationVisToLoad.vi"/>
-					<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
-					<Item Name="nirviLSCWaitTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/rvi/timingcommon/nirviLSCWaitTime.vi"/>
-					<Item Name="nirviCommon.vi" Type="VI" URL="/&lt;vilib&gt;/express/rvi/timingcommon/nirviCommon.vi"/>
-					<Item Name="niFpgaExecutionStage.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaExecutionStage.ctl"/>
-					<Item Name="EIO_ResourceConfig.ctl" Type="VI" URL="/&lt;vilib&gt;/eio/EIO_ResourceConfig.ctl"/>
-					<Item Name="nirviEmuClasses.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuClasses.ctl"/>
-					<Item Name="niLvFpgaEmuInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/sdk/emulation/public/niLvFpgaEmuInfo.ctl"/>
-					<Item Name="nirviEmuTemplateMethod_errors.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuTemplateMethod_errors.vi"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="FPGA_Main" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -597,7 +583,6 @@ DirectoryIndex index.htm
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
@@ -645,7 +630,6 @@ DirectoryIndex index.htm
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
-			<Item Name="2 Global.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Globals/2 Global.vi"/>
 			<Item Name="BridgeGetValue.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeGetValue.vi"/>
 			<Item Name="BridgeInputCount.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeInputCount.vi"/>
 			<Item Name="BridgeOpen.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeOpen.vi"/>
@@ -657,6 +641,7 @@ DirectoryIndex index.htm
 			<Item Name="DetermineStateOfBoat.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/DetermineStateOfBoat.vi"/>
 			<Item Name="ElapsedTimeMessage.ctl" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Shared/ElapsedTimeMessage.ctl"/>
 			<Item Name="ErrorHandler.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Common Functions/ErrorHandler.vi"/>
+			<Item Name="helper - open and config serial port.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Hardware_Interfaces/2-Think/2 Code/helper - open and config serial port.vi"/>
 			<Item Name="InApproachManeuverMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions-OLD/InApproachManeuverMode.vi"/>
 			<Item Name="InStuckInIronsMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions/InStuckInIronsMode.vi"/>
 			<Item Name="InTurnBoatMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions/InTurnBoatMode.vi"/>
@@ -664,12 +649,6 @@ DirectoryIndex index.htm
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="MB Think to Act Bundled Sail Commands.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/MB Think to Act Bundled Sail Commands.ctl"/>
 			<Item Name="NetworkStreamReader.lvclass" Type="LVClass" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Reader/NetworkStreamReader.lvclass"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niFpgaSimulationCallBeginRW.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/Simulation/niFpgaSimulationCallBeginRW.vi"/>
-			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="PhidgetClose.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Common Functions/PhidgetClose.vi"/>
 			<Item Name="RudderForceBalanceTest.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Midbrain Tests/RudderForceBalanceTest.vi"/>
 			<Item Name="Sailing State of Boat.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/Sailing State of Boat.ctl"/>
@@ -695,7 +674,6 @@ DirectoryIndex index.htm
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -2216,6 +2194,7 @@ AddOutputFilter chunkFilter
 				</Item>
 				<Item Name="Dependencies" Type="Dependencies">
 					<Item Name="vi.lib" Type="Folder">
+						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 						<Item Name="NI_Robotics_FPGA Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/utilities/FPGA Utilities/NI_Robotics_FPGA Utilities.lvlib"/>
 						<Item Name="niFPGA I32xI32 Dot Product - 2 elements I64.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA I32xI32 Dot Product - 2 elements I64.vi"/>
 					</Item>
@@ -2261,7 +2240,6 @@ AddOutputFilter chunkFilter
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
@@ -2309,7 +2287,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
-			<Item Name="2 Global.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Globals/2 Global.vi"/>
 			<Item Name="BridgeGetValue.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeGetValue.vi"/>
 			<Item Name="BridgeInputCount.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeInputCount.vi"/>
 			<Item Name="BridgeOpen.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeOpen.vi"/>
@@ -2321,6 +2298,7 @@ AddOutputFilter chunkFilter
 			<Item Name="DetermineStateOfBoat.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/DetermineStateOfBoat.vi"/>
 			<Item Name="ElapsedTimeMessage.ctl" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Shared/ElapsedTimeMessage.ctl"/>
 			<Item Name="ErrorHandler.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Common Functions/ErrorHandler.vi"/>
+			<Item Name="helper - open and config serial port.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Hardware_Interfaces/2-Think/2 Code/helper - open and config serial port.vi"/>
 			<Item Name="InApproachManeuverMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions-OLD/InApproachManeuverMode.vi"/>
 			<Item Name="InStuckInIronsMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions/InStuckInIronsMode.vi"/>
 			<Item Name="InTurnBoatMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions/InTurnBoatMode.vi"/>
@@ -2328,12 +2306,6 @@ AddOutputFilter chunkFilter
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="MB Think to Act Bundled Sail Commands.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/MB Think to Act Bundled Sail Commands.ctl"/>
 			<Item Name="NetworkStreamReader.lvclass" Type="LVClass" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Reader/NetworkStreamReader.lvclass"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niFpgaSimulationCallBeginRW.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/Simulation/niFpgaSimulationCallBeginRW.vi"/>
-			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="PhidgetClose.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Common Functions/PhidgetClose.vi"/>
 			<Item Name="RudderForceBalanceTest.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Midbrain Tests/RudderForceBalanceTest.vi"/>
 			<Item Name="Sailing State of Boat.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/Sailing State of Boat.ctl"/>
