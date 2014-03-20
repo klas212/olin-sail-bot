@@ -194,19 +194,18 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
-			<Item Name="AddMission.vi" Type="VI" URL="../Sailboat/OCU/AddMission.vi"/>
 			<Item Name="BridgeGetValue.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeGetValue.vi"/>
 			<Item Name="BridgeInputCount.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeInputCount.vi"/>
 			<Item Name="BridgeOpen.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeOpen.vi"/>
 			<Item Name="BridgeSetDataRate.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeSetDataRate.vi"/>
 			<Item Name="BridgeSetEnabled.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeSetEnabled.vi"/>
 			<Item Name="BridgeSetGain.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeSetGain.vi"/>
-			<Item Name="CommandDynamixelPosition.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Act/CommandDynamixelPosition.vi"/>
-			<Item Name="CommandServoPosition.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Act/CommandServoPosition.vi"/>
 			<Item Name="DetermineStateOfBoat.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/DetermineStateOfBoat.vi"/>
+			<Item Name="DistanceBetweenPoints.vi" Type="VI" URL="../Sailboat/TempStorage/DistanceBetweenPoints.vi"/>
 			<Item Name="ErrorHandler.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Common Functions/ErrorHandler.vi"/>
 			<Item Name="helper - open and config serial port.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Hardware_Interfaces/2-Think/2 Code/helper - open and config serial port.vi"/>
 			<Item Name="InApproachManeuverMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions-OLD/InApproachManeuverMode.vi"/>
+			<Item Name="indicator LED.ctl" Type="VI" URL="../../OLD Boat Code (2012)/Software/2-Think/2 Typedefs/indicator LED.ctl"/>
 			<Item Name="InStuckInIronsMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions/InStuckInIronsMode.vi"/>
 			<Item Name="InTurnBoatMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions/InTurnBoatMode.vi"/>
 			<Item Name="LuffSuggestionTest.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Midbrain Tests/LuffSuggestionTest.vi"/>
@@ -215,8 +214,8 @@
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="ocuWaypoint.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Data/TypeDefs/ocuWaypoint.ctl"/>
 			<Item Name="PhidgetClose.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Common Functions/PhidgetClose.vi"/>
-			<Item Name="ReadAirmarData.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Sense/ReadAirmarData.vi"/>
 			<Item Name="RudderForceBalanceTest.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Midbrain Tests/RudderForceBalanceTest.vi"/>
 			<Item Name="Sailing State of Boat.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/Sailing State of Boat.ctl"/>
 			<Item Name="WindToSailLookupTest.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Midbrain Tests/WindToSailLookupTest.vi"/>
@@ -797,15 +796,15 @@ DirectoryIndex index.htm
 			<Item Name="BridgeSetGain.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeSetGain.vi"/>
 			<Item Name="ClearDisconnectError.vi" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Shared/ClearDisconnectError.vi"/>
 			<Item Name="ClearReconnectError.vi" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Shared/ClearReconnectError.vi"/>
-			<Item Name="CommandDynamixelPosition.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Act/CommandDynamixelPosition.vi"/>
-			<Item Name="CommandServoPosition.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Act/CommandServoPosition.vi"/>
 			<Item Name="DetermineStateOfBoat.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/DetermineStateOfBoat.vi"/>
 			<Item Name="ElapsedTimeMessage.ctl" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Shared/ElapsedTimeMessage.ctl"/>
 			<Item Name="ErrorHandler.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Common Functions/ErrorHandler.vi"/>
 			<Item Name="helper - open and config serial port.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Hardware_Interfaces/2-Think/2 Code/helper - open and config serial port.vi"/>
 			<Item Name="InApproachManeuverMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions-OLD/InApproachManeuverMode.vi"/>
+			<Item Name="indicator LED.ctl" Type="VI" URL="../../OLD Boat Code (2012)/Software/2-Think/2 Typedefs/indicator LED.ctl"/>
 			<Item Name="InStuckInIronsMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions/InStuckInIronsMode.vi"/>
 			<Item Name="InTurnBoatMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions/InTurnBoatMode.vi"/>
+			<Item Name="Location of Think.ctl" Type="VI" URL="../Sailboat/OCU/Location of Think.ctl"/>
 			<Item Name="LuffSuggestionTest.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Midbrain Tests/LuffSuggestionTest.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="MB Think to Act Bundled Sail Commands.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/MB Think to Act Bundled Sail Commands.ctl"/>
@@ -814,7 +813,6 @@ DirectoryIndex index.htm
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="PhidgetClose.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Common Functions/PhidgetClose.vi"/>
-			<Item Name="ReadAirmarData.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Sense/ReadAirmarData.vi"/>
 			<Item Name="RudderForceBalanceTest.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Midbrain Tests/RudderForceBalanceTest.vi"/>
 			<Item Name="Sailing State of Boat.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/Sailing State of Boat.ctl"/>
 			<Item Name="TimeStampedMessage.ctl" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Shared/TimeStampedMessage.ctl"/>
@@ -839,6 +837,7 @@ DirectoryIndex index.htm
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
+		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -2568,41 +2567,23 @@ AddOutputFilter chunkFilter
 			<Item Name="BridgeSetGain.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeSetGain.vi"/>
 			<Item Name="ClearDisconnectError.vi" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Shared/ClearDisconnectError.vi"/>
 			<Item Name="ClearReconnectError.vi" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Shared/ClearReconnectError.vi"/>
-			<Item Name="CommandDynamixelPosition.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Act/CommandDynamixelPosition.vi"/>
-			<Item Name="CommandServoPosition.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Act/CommandServoPosition.vi"/>
 			<Item Name="DetermineStateOfBoat.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/DetermineStateOfBoat.vi"/>
 			<Item Name="ElapsedTimeMessage.ctl" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Shared/ElapsedTimeMessage.ctl"/>
 			<Item Name="ErrorHandler.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Common Functions/ErrorHandler.vi"/>
 			<Item Name="helper - open and config serial port.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Hardware_Interfaces/2-Think/2 Code/helper - open and config serial port.vi"/>
 			<Item Name="InApproachManeuverMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions-OLD/InApproachManeuverMode.vi"/>
+			<Item Name="indicator LED.ctl" Type="VI" URL="../../OLD Boat Code (2012)/Software/2-Think/2 Typedefs/indicator LED.ctl"/>
 			<Item Name="InStuckInIronsMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions/InStuckInIronsMode.vi"/>
 			<Item Name="InTurnBoatMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions/InTurnBoatMode.vi"/>
+			<Item Name="Location of Think.ctl" Type="VI" URL="../Sailboat/OCU/Location of Think.ctl"/>
 			<Item Name="LuffSuggestionTest.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Midbrain Tests/LuffSuggestionTest.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="MB Think to Act Bundled Sail Commands.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/MB Think to Act Bundled Sail Commands.ctl"/>
 			<Item Name="NetworkStreamReader.lvclass" Type="LVClass" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Reader/NetworkStreamReader.lvclass"/>
-			<Item Name="niFpgaDynamicAddResources.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/dynamic/niFpgaDynamicAddResources.vi"/>
-			<Item Name="niFpgaHostInterfaceSession.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/Targets/NI/FPGA/StockFPGA_IntfPrivate/ScriptTemplates/niFpgaHostInterfaceSession.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niFpgaSimulationCallBeginRW.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/Simulation/niFpgaSimulationCallBeginRW.vi"/>
-			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
-			<Item Name="niLvFpga_Close_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Close_Dynamic.vi"/>
-			<Item Name="niLvFpga_Open_myRIO-1900.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/myRIO-1900/niLvFpga_Open_myRIO-1900.vi"/>
-			<Item Name="niLvFpga_Open_myRIO-1950.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/myRIO-1950/niLvFpga_Open_myRIO-1950.vi"/>
-			<Item Name="niLvFpga_Reset_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Reset_Dynamic.vi"/>
-			<Item Name="niLvFpga_Run_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Run_Dynamic.vi"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
-			<Item Name="niLvFpgaErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaErrorClusterFromErrorCode.vi"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
-			<Item Name="nirviErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/RVI Host/nirviSupport.llb/nirviErrorClusterFromErrorCode.vi"/>
-			<Item Name="nirviWhatTheDeviceIsDoing.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/nirviWhatTheDeviceIsDoing.ctl"/>
 			<Item Name="PhidgetClose.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Common Functions/PhidgetClose.vi"/>
-			<Item Name="ReadAirmarData.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Sense/ReadAirmarData.vi"/>
 			<Item Name="RudderForceBalanceTest.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Midbrain Tests/RudderForceBalanceTest.vi"/>
 			<Item Name="Sailing State of Boat.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/Sailing State of Boat.ctl"/>
 			<Item Name="TimeStampedMessage.ctl" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Shared/TimeStampedMessage.ctl"/>
