@@ -63,13 +63,13 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1082929664</Property>
 		</Item>
 		<Item Name="AddCartesianVectors.vi" Type="VI" URL="../AddCartesianVectors.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%L!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$:!=!!?!!!:&amp;U.B=H2F=WFB&lt;F:F9X2P=CZM&gt;G.M98.T!".$98*U:8.J97Z7:7.U&lt;X)A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!/%"Q!"Y!!"E81W&amp;S&gt;'6T;7&amp;O6G6D&gt;'^S,GRW9WRB=X-!&amp;%.B=H2F=WFB&lt;F:F9X2P=C"J&lt;C""!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!%A!!!!!"!!A!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'"!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$U!+!!F:)#B/&lt;X*U;#E!$U!+!!B9)#B&amp;98.U+1!!.E"Q!"Y!!"E81W&amp;S&gt;'6T;7&amp;O6G6D&gt;'^S,GRW9WRB=X-!%U.B=H2F=WFB&lt;F:F9X2P=C"P&gt;81!"!!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!/%"Q!"Y!!"E81W&amp;S&gt;'6T;7&amp;O6G6D&gt;'^S,GRW9WRB=X-!&amp;%.B=H2F=WFB&lt;F:F9X2P=C"J&lt;C"#!!!Y1(!!(A!!'2&gt;$98*U:8.J97Z7:7.U&lt;X)O&lt;(:D&lt;'&amp;T=Q!51W&amp;S&gt;'6T;7&amp;O6G6D&gt;'^S)'FO)%%!!&amp;1!]!!-!!-!"!!&amp;!!9!"Q!(!!=!"Q!)!!=!#1!+!A!!?!!!$1A!!!E!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!A!!!!3!!!!!!%!#Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">268435456</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
 		</Item>
 	</Item>
 	<Item Name="Protected Methods" Type="Folder">
