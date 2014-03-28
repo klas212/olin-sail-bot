@@ -195,6 +195,8 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
+			<Item Name="2 Smooth controls.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/3Act/olin-sail-bot/Software/2-Think/2 Code/2 Smooth controls.vi"/>
+			<Item Name="3A Helper - DegreetoPWM.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/3Act/olin-sail-bot/Software/1,3 A-Competition Platform/1,3 A Code/3A Helper - DegreetoPWM.vi"/>
 			<Item Name="BridgeGetValue.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeGetValue.vi"/>
 			<Item Name="BridgeInputCount.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeInputCount.vi"/>
 			<Item Name="BridgeOpen.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeOpen.vi"/>
@@ -806,6 +808,8 @@ DirectoryIndex index.htm
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
+			<Item Name="2 Smooth controls.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/3Act/olin-sail-bot/Software/2-Think/2 Code/2 Smooth controls.vi"/>
+			<Item Name="3A Helper - DegreetoPWM.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/3Act/olin-sail-bot/Software/1,3 A-Competition Platform/1,3 A Code/3A Helper - DegreetoPWM.vi"/>
 			<Item Name="BridgeGetValue.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeGetValue.vi"/>
 			<Item Name="BridgeInputCount.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeInputCount.vi"/>
 			<Item Name="BridgeOpen.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeOpen.vi"/>
@@ -823,6 +827,7 @@ DirectoryIndex index.htm
 			<Item Name="InApproachManeuverMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions-OLD/InApproachManeuverMode.vi"/>
 			<Item Name="InStuckInIronsMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions/InStuckInIronsMode.vi"/>
 			<Item Name="InTurnBoatMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions/InTurnBoatMode.vi"/>
+			<Item Name="Location of Think.ctl" Type="VI" URL="../Sailboat/OCU/Location of Think.ctl"/>
 			<Item Name="LuffSuggestionTest.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Midbrain Tests/LuffSuggestionTest.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="MB Think to Act Bundled Sail Commands.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/MB Think to Act Bundled Sail Commands.ctl"/>
@@ -2577,6 +2582,8 @@ AddOutputFilter chunkFilter
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
+			<Item Name="2 Smooth controls.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/3Act/olin-sail-bot/Software/2-Think/2 Code/2 Smooth controls.vi"/>
+			<Item Name="3A Helper - DegreetoPWM.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/3Act/olin-sail-bot/Software/1,3 A-Competition Platform/1,3 A Code/3A Helper - DegreetoPWM.vi"/>
 			<Item Name="BridgeGetValue.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeGetValue.vi"/>
 			<Item Name="BridgeInputCount.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeInputCount.vi"/>
 			<Item Name="BridgeOpen.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeOpen.vi"/>
@@ -2594,6 +2601,7 @@ AddOutputFilter chunkFilter
 			<Item Name="InApproachManeuverMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions-OLD/InApproachManeuverMode.vi"/>
 			<Item Name="InStuckInIronsMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions/InStuckInIronsMode.vi"/>
 			<Item Name="InTurnBoatMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions/InTurnBoatMode.vi"/>
+			<Item Name="Location of Think.ctl" Type="VI" URL="../Sailboat/OCU/Location of Think.ctl"/>
 			<Item Name="LuffSuggestionTest.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Midbrain Tests/LuffSuggestionTest.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="MB Think to Act Bundled Sail Commands.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/MB Think to Act Bundled Sail Commands.ctl"/>
