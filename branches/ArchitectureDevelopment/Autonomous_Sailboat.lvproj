@@ -225,10 +225,27 @@
 			<Item Name="LuffSuggestionTest.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Midbrain Tests/LuffSuggestionTest.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
+			<Item Name="matscript.dll" Type="Document"/>
 			<Item Name="MB Think to Act Bundled Sail Commands.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/MB Think to Act Bundled Sail Commands.ctl"/>
+			<Item Name="niFpgaDynamicAddResources.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/dynamic/niFpgaDynamicAddResources.vi"/>
+			<Item Name="niFpgaHostInterfaceSession.ctl" Type="VI" URL="../../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/Targets/NI/FPGA/StockFPGA_IntfPrivate/ScriptTemplates/niFpgaHostInterfaceSession.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
+			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
+			<Item Name="niLvFpga_Close_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Close_Dynamic.vi"/>
+			<Item Name="niLvFpga_Open_myRIO-1900.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/myRIO-1900/niLvFpga_Open_myRIO-1900.vi"/>
+			<Item Name="niLvFpga_Open_myRIO-1950.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/myRIO-1950/niLvFpga_Open_myRIO-1950.vi"/>
+			<Item Name="niLvFpga_Reset_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Reset_Dynamic.vi"/>
+			<Item Name="niLvFpga_Run_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Run_Dynamic.vi"/>
+			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+			<Item Name="niLvFpgaErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaErrorClusterFromErrorCode.vi"/>
+			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
+			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
+			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
+			<Item Name="nirviErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/RVI Host/nirviSupport.llb/nirviErrorClusterFromErrorCode.vi"/>
+			<Item Name="nirviWhatTheDeviceIsDoing.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/nirviWhatTheDeviceIsDoing.ctl"/>
 			<Item Name="ocuWaypoint.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Data/TypeDefs/ocuWaypoint.ctl"/>
 			<Item Name="PhidgetClose.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Common Functions/PhidgetClose.vi"/>
 			<Item Name="remapWinch.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/3Act/remapWinch.vi"/>
@@ -844,6 +861,7 @@ DirectoryIndex index.htm
 			<Item Name="LuffSuggestionTest.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Midbrain Tests/LuffSuggestionTest.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
+			<Item Name="matscript.dll" Type="Document"/>
 			<Item Name="MB Think to Act Bundled Sail Commands.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/MB Think to Act Bundled Sail Commands.ctl"/>
 			<Item Name="NetworkStreamReader.lvclass" Type="LVClass" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Reader/NetworkStreamReader.lvclass"/>
 			<Item Name="NetworkStreamWriter.lvclass" Type="LVClass" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Writer/NetworkStreamWriter.lvclass"/>
@@ -2639,6 +2657,7 @@ AddOutputFilter chunkFilter
 			<Item Name="LuffSuggestionTest.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Midbrain Tests/LuffSuggestionTest.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
+			<Item Name="matscript.dll" Type="Document"/>
 			<Item Name="MB Think to Act Bundled Sail Commands.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/MB Think to Act Bundled Sail Commands.ctl"/>
 			<Item Name="NetworkStreamReader.lvclass" Type="LVClass" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Reader/NetworkStreamReader.lvclass"/>
 			<Item Name="NetworkStreamWriter.lvclass" Type="LVClass" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Writer/NetworkStreamWriter.lvclass"/>
