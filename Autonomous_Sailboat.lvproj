@@ -102,6 +102,7 @@
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
 				<Item Name="IMAQ Merge Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Merge Overlay"/>
 				<Item Name="IMAQ Overlay Bitmap" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Bitmap"/>
+				<Item Name="IMAQ Overlay Line" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Line"/>
 				<Item Name="IMAQ Overlay Oval" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Oval"/>
 				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
 				<Item Name="Initialize Joystick.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Initialize Joystick.vi"/>
@@ -238,7 +239,6 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="Maps.ctl" Type="VI" URL="../../../trunk/Software/0-OCU/0 Typedefs/Maps.ctl"/>
-			<Item Name="matscript.dll" Type="Document"/>
 			<Item Name="MB Think to Act Bundled Sail Commands.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/MB Think to Act Bundled Sail Commands.ctl"/>
 			<Item Name="niFpgaDynamicAddResources.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/dynamic/niFpgaDynamicAddResources.vi"/>
 			<Item Name="niFpgaHostInterfaceSession.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/Targets/NI/FPGA/StockFPGA_IntfPrivate/ScriptTemplates/niFpgaHostInterfaceSession.ctl"/>
@@ -246,7 +246,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niFpgaSimulationCallBeginRW.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/Simulation/niFpgaSimulationCallBeginRW.vi"/>
 			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
 			<Item Name="niLvFpga_Close_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Close_Dynamic.vi"/>
 			<Item Name="niLvFpga_Open_myRIO-1900.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/myRIO-1900/niLvFpga_Open_myRIO-1900.vi"/>
@@ -877,7 +876,6 @@ DirectoryIndex index.htm
 			<Item Name="Location of Think.ctl" Type="VI" URL="../Sailboat/OCU/Location of Think.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
-			<Item Name="matscript.dll" Type="Document"/>
 			<Item Name="MB Think to Act Bundled Sail Commands.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/MB Think to Act Bundled Sail Commands.ctl"/>
 			<Item Name="NetworkStreamReader.lvclass" Type="LVClass" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Reader/NetworkStreamReader.lvclass"/>
 			<Item Name="NetworkStreamWriter.lvclass" Type="LVClass" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Writer/NetworkStreamWriter.lvclass"/>
@@ -2700,7 +2698,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Location of Think.ctl" Type="VI" URL="../Sailboat/OCU/Location of Think.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
-			<Item Name="matscript.dll" Type="Document"/>
 			<Item Name="MB Think to Act Bundled Sail Commands.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/MB Think to Act Bundled Sail Commands.ctl"/>
 			<Item Name="NetworkStreamReader.lvclass" Type="LVClass" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Reader/NetworkStreamReader.lvclass"/>
 			<Item Name="NetworkStreamWriter.lvclass" Type="LVClass" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Writer/NetworkStreamWriter.lvclass"/>
