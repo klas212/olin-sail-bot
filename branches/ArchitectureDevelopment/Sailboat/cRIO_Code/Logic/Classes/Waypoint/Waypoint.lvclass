@@ -42,7 +42,7 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 	</Item>
 	<Item Name="InitializeWaypoint.vi" Type="VI" URL="../InitializeWaypoint.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%E!!!!#A!%!!!!+E"Q!"Y!!")16W&amp;Z='^J&lt;H1O&lt;(:D&lt;'&amp;T=Q!!$&amp;&gt;B?8"P;7ZU)%^V&gt;!!!#E!B"52P&lt;G5`!"F!#A!46'^M:8*B&lt;G.F)#BN:82F=H-`+1!01!I!#&amp;6543";&lt;WZF!!!@1"9!!A6/&lt;X*U;!64&lt;X6U;!!+3'6N;8.Q;'6S:1!!#U!+!!2&amp;98.U!!!,1!I!"5ZP=H2I!$-!]=OO''!!!!!"%&amp;6543"-&lt;W.B&gt;'FP&lt;CZD&gt;'Q!'E"1!!1!"!!&amp;!!9!"Q:$&lt;W^S:(-!!&amp;1!]!!-!!!!!!!!!!%!!!!!!!!!!!!!!!)!!Q!)!A!!?!!!!!!!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!A!!!!)!!!!!!%!#1!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%M!!!!#A!%!!!!+E"Q!"Y!!")16W&amp;Z='^J&lt;H1O&lt;(:D&lt;'&amp;T=Q!!$&amp;&gt;B?8"P;7ZU)%^V&gt;!!!$E!B#52P&lt;G5`)#B'+1!&gt;1!I!&amp;V2P&lt;'6S97ZD:3!I&lt;76U:8*T0SEA+$!J!!^!#A!)662.)&amp;JP&lt;G5!!"^!&amp;A!#"5ZP=H2I"6.P&gt;82I!!J):7VJ=X"I:8*F!!!,1!I!"%6B=X1!!!N!#A!&amp;4G^S&gt;'A!-Q$RS[Y99!!!!!%1662.)%RP9W&amp;U;7^O,G.U&lt;!!;1&amp;!!"!!%!!5!"A!("E.P&lt;X*E=Q!!6!$Q!!Q!!!!!!!!!!1!!!!!!!!!!!!!!!A!$!!A#!!"Y!!!!!!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!#!!!!!A!!!!!!1!*!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">268435456</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
