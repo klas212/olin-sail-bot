@@ -240,6 +240,7 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="Maps.ctl" Type="VI" URL="../../../trunk/Software/0-OCU/0 Typedefs/Maps.ctl"/>
+			<Item Name="matscript.dll" Type="Document"/>
 			<Item Name="MB Think to Act Bundled Sail Commands.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/MB Think to Act Bundled Sail Commands.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -258,7 +259,6 @@
 			<Item Name="SB get tug location.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Miniboat/Labview for little boat/SB get tug location.vi"/>
 			<Item Name="SB parse navigation string.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Miniboat/1Sense/Miniboat/SB parse navigation string.vi"/>
 			<Item Name="WillHeadingHitObstacles.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Classes/Obstacle/WillHeadingHitObstacles.vi"/>
-			<Item Name="write_basic_log.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logging/write_basic_log.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -1920,6 +1920,35 @@ AddOutputFilter chunkFilter
 						<Property Name="TargetName" Type="Str">FPGA Target</Property>
 						<Property Name="TopLevelVI" Type="Ref">/SailbotMyRIO/Chassis/FPGA Target/FPGA_Code/DamnYankeeFPGA_analog_test.vi</Property>
 					</Item>
+					<Item Name="myRIO_PWM_Decoder" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
+						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
+						<Property Name="BuildSpecDecription" Type="Str"></Property>
+						<Property Name="BuildSpecName" Type="Str">myRIO_PWM_Decoder</Property>
+						<Property Name="Comp.BitfileName" Type="Str">AutonomousSailbo_FPGATarget_myRIOPWMDecoder_uSRMj+uIEmA.lvbitx</Property>
+						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
+						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
+						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
+						<Property Name="Comp.Version.Build" Type="Int">0</Property>
+						<Property Name="Comp.Version.Fix" Type="Int">0</Property>
+						<Property Name="Comp.Version.Major" Type="Int">1</Property>
+						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
+						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
+						<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
+						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
+						<Property Name="Comp.Xilinx.SynthEffort" Type="Str">normal</Property>
+						<Property Name="Comp.Xilinx.SynthGoal" Type="Str">speed</Property>
+						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
+						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
+						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+						<Property Name="ProjectPath" Type="Path">/C/Users/emahon/Documents/ArchitectureDevelopment/Autonomous_Sailboat.lvproj</Property>
+						<Property Name="RelativePath" Type="Bool">true</Property>
+						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
+						<Property Name="SupportDownload" Type="Bool">true</Property>
+						<Property Name="SupportResourceEstimation" Type="Bool">true</Property>
+						<Property Name="TargetName" Type="Str">FPGA Target</Property>
+						<Property Name="TopLevelVI" Type="Ref">/SailbotMyRIO/Chassis/FPGA Target/FPGA_Code/myRIO_PWM_Decoder.vi</Property>
+					</Item>
 				</Item>
 			</Item>
 		</Item>
@@ -2125,12 +2154,30 @@ AddOutputFilter chunkFilter
 			<Item Name="Location of Think.ctl" Type="VI" URL="../Sailboat/OCU/Location of Think.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
+			<Item Name="matscript.dll" Type="Document"/>
 			<Item Name="MB Think to Act Bundled Sail Commands.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/MB Think to Act Bundled Sail Commands.ctl"/>
 			<Item Name="NetworkStreamReader.lvclass" Type="LVClass" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Reader/NetworkStreamReader.lvclass"/>
 			<Item Name="NetworkStreamWriter.lvclass" Type="LVClass" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Writer/NetworkStreamWriter.lvclass"/>
+			<Item Name="niFpgaDynamicAddResources.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/dynamic/niFpgaDynamicAddResources.vi"/>
+			<Item Name="niFpgaHostInterfaceSession.ctl" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/Targets/NI/FPGA/StockFPGA_IntfPrivate/ScriptTemplates/niFpgaHostInterfaceSession.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
+			<Item Name="niFpgaSimulationCallBeginRW.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/Simulation/niFpgaSimulationCallBeginRW.vi"/>
+			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
+			<Item Name="niLvFpga_Close_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Close_Dynamic.vi"/>
+			<Item Name="niLvFpga_Open_myRIO-1900.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/myRIO-1900/niLvFpga_Open_myRIO-1900.vi"/>
+			<Item Name="niLvFpga_Open_myRIO-1950.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/myRIO-1950/niLvFpga_Open_myRIO-1950.vi"/>
+			<Item Name="niLvFpga_Reset_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Reset_Dynamic.vi"/>
+			<Item Name="niLvFpga_Run_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Run_Dynamic.vi"/>
+			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+			<Item Name="niLvFpgaErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaErrorClusterFromErrorCode.vi"/>
+			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
+			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
+			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
+			<Item Name="nirviErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/RVI Host/nirviSupport.llb/nirviErrorClusterFromErrorCode.vi"/>
+			<Item Name="nirviWhatTheDeviceIsDoing.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/nirviWhatTheDeviceIsDoing.ctl"/>
 			<Item Name="PhidgetClose.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Common Functions/PhidgetClose.vi"/>
 			<Item Name="ReaderEStopFGV.vi" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Examples/HelperVIs/ReaderEStopFGV.vi"/>
 			<Item Name="remapWinch.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/3Act/remapWinch.vi"/>
@@ -2143,7 +2190,7 @@ AddOutputFilter chunkFilter
 			<Item Name="TimeStampedMessageQueue.ctl" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Shared/TimeStampedMessageQueue.ctl"/>
 			<Item Name="ToRIO.ctl" Type="VI" URL="../Sailboat/RIO-OCU_Comm/ToRIO.ctl"/>
 			<Item Name="WillHeadingHitObstacles.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Classes/Obstacle/WillHeadingHitObstacles.vi"/>
-			<Item Name="write_basic_log.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logging/write_basic_log.vi"/>
+			<Item Name="write_basic_log.vi" Type="VI" URL="../Sailboat/Logging/write_basic_log.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
