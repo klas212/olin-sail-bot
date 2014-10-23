@@ -220,35 +220,26 @@
 			<Item Name="0-Image Descriptor.ctl" Type="VI" URL="../../../trunk/Software/0-OCU/0 Code/mission input/0-Image Descriptor.ctl"/>
 			<Item Name="2 Smooth controls.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/3Act/olin-sail-bot/Software/2-Think/2 Code/2 Smooth controls.vi"/>
 			<Item Name="3A Helper - DegreetoPWM.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/3Act/olin-sail-bot/Software/1,3 A-Competition Platform/1,3 A Code/3A Helper - DegreetoPWM.vi"/>
-			<Item Name="AirmarStatus.ctl" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Data/TypeDefs/AirmarStatus.ctl"/>
-			<Item Name="BasicLogging.ctl" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Data/TypeDefs/BasicLogging.ctl"/>
-			<Item Name="BasicLogReading.ctl" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Data/TypeDefs/BasicLogReading.ctl"/>
 			<Item Name="BridgeGetValue.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeGetValue.vi"/>
 			<Item Name="BridgeInputCount.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeInputCount.vi"/>
 			<Item Name="BridgeOpen.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeOpen.vi"/>
 			<Item Name="BridgeSetDataRate.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeSetDataRate.vi"/>
 			<Item Name="BridgeSetEnabled.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeSetEnabled.vi"/>
 			<Item Name="BridgeSetGain.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeSetGain.vi"/>
-			<Item Name="destring_notifier_values.vi" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Utilities/Communication/destring_notifier_values.vi"/>
 			<Item Name="DetermineStateOfBoat.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/DetermineStateOfBoat.vi"/>
 			<Item Name="DistanceBetweenPoints.vi" Type="VI" URL="../Sailboat/TempStorage/DistanceBetweenPoints.vi"/>
-			<Item Name="DynamixelCycleTracker.ctl" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Data/TypeDefs/DynamixelCycleTracker.ctl"/>
-			<Item Name="DynamixelSetupInfo.ctl" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Data/TypeDefs/DynamixelSetupInfo.ctl"/>
 			<Item Name="ErrorHandler.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Common Functions/ErrorHandler.vi"/>
-			<Item Name="extract_log_item.vi" Type="VI" URL="../Sailboat/Logging/extract_log_item.vi"/>
+			<Item Name="extract_log_item.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logging/extract_log_item.vi"/>
 			<Item Name="GPS Sensor Status.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Data/TypeDefs/GPS Sensor Status.ctl"/>
-			<Item Name="HardwareOnline.ctl" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Data/TypeDefs/HardwareOnline.ctl"/>
 			<Item Name="Helper - Load Image Descriptor.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Code/Helper - Load Image Descriptor.vi"/>
 			<Item Name="helper - open and config serial port.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Hardware_Interfaces/2-Think/2 Code/helper - open and config serial port.vi"/>
 			<Item Name="InApproachManeuverMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions-OLD/InApproachManeuverMode.vi"/>
 			<Item Name="InStuckInIronsMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions/InStuckInIronsMode.vi"/>
 			<Item Name="InTurnBoatMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions/InTurnBoatMode.vi"/>
-			<Item Name="Log_Data.ctl" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Data/TypeDefs/Log_Data.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="Maps.ctl" Type="VI" URL="../../../trunk/Software/0-OCU/0 Typedefs/Maps.ctl"/>
 			<Item Name="MB Think to Act Bundled Sail Commands.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/MB Think to Act Bundled Sail Commands.ctl"/>
-			<Item Name="MotorSetup.ctl" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Data/TypeDefs/MotorSetup.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -258,21 +249,13 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Notifiers.ctl" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Data/TypeDefs/Notifiers.ctl"/>
 			<Item Name="ocuWaypoint.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Data/TypeDefs/ocuWaypoint.ctl"/>
-			<Item Name="OverrideInformation.ctl" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Data/TypeDefs/OverrideInformation.ctl"/>
-			<Item Name="OverrideMode.ctl" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Data/TypeDefs/OverrideMode.ctl"/>
 			<Item Name="PhidgetClose.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Common Functions/PhidgetClose.vi"/>
-			<Item Name="RC Input Values.ctl" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Data/TypeDefs/RC Input Values.ctl"/>
 			<Item Name="remapWinch.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/3Act/remapWinch.vi"/>
 			<Item Name="rudder angle.ctl" Type="VI" URL="../../OLD Boat Code (2012)/Software/2-Think/2 Typedefs/rudder angle.ctl"/>
-			<Item Name="Rudder Set Suggestions.ctl" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Data/TypeDefs/Rudder Set Suggestions.ctl"/>
-			<Item Name="Sail Set Suggestions.ctl" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Data/TypeDefs/Sail Set Suggestions.ctl"/>
 			<Item Name="Sailing State of Boat.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/Sailing State of Boat.ctl"/>
 			<Item Name="SB get tug location.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Miniboat/Labview for little boat/SB get tug location.vi"/>
 			<Item Name="SB parse navigation string.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Miniboat/1Sense/Miniboat/SB parse navigation string.vi"/>
-			<Item Name="UTM Location.ctl" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Data/TypeDefs/UTM Location.ctl"/>
-			<Item Name="Waypoint.lvclass" Type="LVClass" URL="../Sailboat/cRIO_Code/cRIO_Code/Logic/Classes/Waypoint/Waypoint.lvclass"/>
 			<Item Name="WillHeadingHitObstacles.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Classes/Obstacle/WillHeadingHitObstacles.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
@@ -2145,9 +2128,6 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="2 Smooth controls.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/3Act/olin-sail-bot/Software/2-Think/2 Code/2 Smooth controls.vi"/>
 			<Item Name="3A Helper - DegreetoPWM.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/3Act/olin-sail-bot/Software/1,3 A-Competition Platform/1,3 A Code/3A Helper - DegreetoPWM.vi"/>
-			<Item Name="AirmarStatus.ctl" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Data/TypeDefs/AirmarStatus.ctl"/>
-			<Item Name="BasicLogging.ctl" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Data/TypeDefs/BasicLogging.ctl"/>
-			<Item Name="BasicLogReading.ctl" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Data/TypeDefs/BasicLogReading.ctl"/>
 			<Item Name="BridgeGetValue.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeGetValue.vi"/>
 			<Item Name="BridgeInputCount.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeInputCount.vi"/>
 			<Item Name="BridgeOpen.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Bridge/BridgeOpen.vi"/>
@@ -2157,41 +2137,30 @@ AddOutputFilter chunkFilter
 			<Item Name="ClearDisconnectError.vi" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Shared/ClearDisconnectError.vi"/>
 			<Item Name="ClearReconnectError.vi" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Shared/ClearReconnectError.vi"/>
 			<Item Name="CommandMessages.ctl" Type="VI" URL="../Sailboat/OCU/CommandMessages.ctl"/>
-			<Item Name="destring_notifier_values.vi" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Utilities/Communication/destring_notifier_values.vi"/>
 			<Item Name="DetermineStateOfBoat.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/DetermineStateOfBoat.vi"/>
-			<Item Name="DynamixelCycleTracker.ctl" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Data/TypeDefs/DynamixelCycleTracker.ctl"/>
-			<Item Name="DynamixelSetupInfo.ctl" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Data/TypeDefs/DynamixelSetupInfo.ctl"/>
 			<Item Name="ElapsedTimeMessage.ctl" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Shared/ElapsedTimeMessage.ctl"/>
 			<Item Name="ErrorHandler.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Common Functions/ErrorHandler.vi"/>
 			<Item Name="EStopAction.ctl" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Examples/HelperVIs/EStopAction.ctl"/>
+			<Item Name="extract_log_item.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logging/extract_log_item.vi"/>
 			<Item Name="GPS Sensor Status.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Data/TypeDefs/GPS Sensor Status.ctl"/>
-			<Item Name="HardwareOnline.ctl" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Data/TypeDefs/HardwareOnline.ctl"/>
 			<Item Name="Helper - Elapsed Time.vi" Type="VI" URL="../Sailboat/Simulator_Code/Helper - Elapsed Time.vi"/>
 			<Item Name="helper - open and config serial port.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Hardware_Interfaces/2-Think/2 Code/helper - open and config serial port.vi"/>
 			<Item Name="InApproachManeuverMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions-OLD/InApproachManeuverMode.vi"/>
 			<Item Name="InStuckInIronsMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions/InStuckInIronsMode.vi"/>
 			<Item Name="InTurnBoatMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions/InTurnBoatMode.vi"/>
 			<Item Name="Location of Think.ctl" Type="VI" URL="../Sailboat/OCU/Location of Think.ctl"/>
-			<Item Name="Log_Data.ctl" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Data/TypeDefs/Log_Data.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="MB Think to Act Bundled Sail Commands.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/MB Think to Act Bundled Sail Commands.ctl"/>
-			<Item Name="MotorSetup.ctl" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Data/TypeDefs/MotorSetup.ctl"/>
 			<Item Name="NetworkStreamReader.lvclass" Type="LVClass" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Reader/NetworkStreamReader.lvclass"/>
 			<Item Name="NetworkStreamWriter.lvclass" Type="LVClass" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Writer/NetworkStreamWriter.lvclass"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Notifiers.ctl" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Data/TypeDefs/Notifiers.ctl"/>
-			<Item Name="OverrideInformation.ctl" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Data/TypeDefs/OverrideInformation.ctl"/>
-			<Item Name="OverrideMode.ctl" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Data/TypeDefs/OverrideMode.ctl"/>
 			<Item Name="PhidgetClose.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Library/Common Functions/PhidgetClose.vi"/>
-			<Item Name="RC Input Values.ctl" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Data/TypeDefs/RC Input Values.ctl"/>
 			<Item Name="ReaderEStopFGV.vi" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Examples/HelperVIs/ReaderEStopFGV.vi"/>
 			<Item Name="remapWinch.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/3Act/remapWinch.vi"/>
 			<Item Name="rudder angle.ctl" Type="VI" URL="../../OLD Boat Code (2012)/Software/2-Think/2 Typedefs/rudder angle.ctl"/>
-			<Item Name="Rudder Set Suggestions.ctl" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Data/TypeDefs/Rudder Set Suggestions.ctl"/>
-			<Item Name="Sail Set Suggestions.ctl" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Data/TypeDefs/Sail Set Suggestions.ctl"/>
 			<Item Name="Sailing State of Boat.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/Sailing State of Boat.ctl"/>
 			<Item Name="SB get tug location.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Miniboat/Labview for little boat/SB get tug location.vi"/>
 			<Item Name="SB parse navigation string.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Miniboat/1Sense/Miniboat/SB parse navigation string.vi"/>
@@ -2199,10 +2168,7 @@ AddOutputFilter chunkFilter
 			<Item Name="TimeStampedMessage.ctl" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Shared/TimeStampedMessage.ctl"/>
 			<Item Name="TimeStampedMessageQueue.ctl" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Shared/TimeStampedMessageQueue.ctl"/>
 			<Item Name="ToRIO.ctl" Type="VI" URL="../Sailboat/RIO-OCU_Comm/ToRIO.ctl"/>
-			<Item Name="UTM Location.ctl" Type="VI" URL="../Sailboat/cRIO_Code/cRIO_Code/Data/TypeDefs/UTM Location.ctl"/>
-			<Item Name="Waypoint.lvclass" Type="LVClass" URL="../Sailboat/cRIO_Code/cRIO_Code/Logic/Classes/Waypoint/Waypoint.lvclass"/>
 			<Item Name="WillHeadingHitObstacles.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Classes/Obstacle/WillHeadingHitObstacles.vi"/>
-			<Item Name="write_basic_log.vi" Type="VI" URL="../Sailboat/Logging/write_basic_log.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
