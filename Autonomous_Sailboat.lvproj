@@ -234,7 +234,6 @@
 			<Item Name="Helper - Load Image Descriptor.vi" Type="VI" URL="../../../trunk/Software/2-Think/2 Code/Helper - Load Image Descriptor.vi"/>
 			<Item Name="helper - open and config serial port.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Hardware_Interfaces/2-Think/2 Code/helper - open and config serial port.vi"/>
 			<Item Name="InApproachManeuverMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions-OLD/InApproachManeuverMode.vi"/>
-			<Item Name="InitializeWaypoint.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Forebrain/Classes/Waypoint/InitializeWaypoint.vi"/>
 			<Item Name="InStuckInIronsMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions/InStuckInIronsMode.vi"/>
 			<Item Name="InTurnBoatMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions/InTurnBoatMode.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
@@ -257,8 +256,6 @@
 			<Item Name="Sailing State of Boat.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/Sailing State of Boat.ctl"/>
 			<Item Name="SB get tug location.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Miniboat/Labview for little boat/SB get tug location.vi"/>
 			<Item Name="SB parse navigation string.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Miniboat/1Sense/Miniboat/SB parse navigation string.vi"/>
-			<Item Name="UTM Location.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/UTM Location.ctl"/>
-			<Item Name="Waypoint.lvclass" Type="LVClass" URL="../Sailboat/cRIO_Code/Logic/Forebrain/Classes/Waypoint/Waypoint.lvclass"/>
 			<Item Name="WillHeadingHitObstacles.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Classes/Obstacle/WillHeadingHitObstacles.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
@@ -2149,7 +2146,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Helper - Elapsed Time.vi" Type="VI" URL="../Sailboat/Simulator_Code/Helper - Elapsed Time.vi"/>
 			<Item Name="helper - open and config serial port.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Hindbrain/Hardware_Interfaces/2-Think/2 Code/helper - open and config serial port.vi"/>
 			<Item Name="InApproachManeuverMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions-OLD/InApproachManeuverMode.vi"/>
-			<Item Name="InitializeWaypoint.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Forebrain/Classes/Waypoint/InitializeWaypoint.vi"/>
 			<Item Name="InStuckInIronsMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions/InStuckInIronsMode.vi"/>
 			<Item Name="InTurnBoatMode.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Midbrain/Think/OLD-Interesting_Code/DetermineStateOfBoatFunctions/InTurnBoatMode.vi"/>
 			<Item Name="Location of Think.ctl" Type="VI" URL="../Sailboat/OCU/Location of Think.ctl"/>
@@ -2172,8 +2168,6 @@ AddOutputFilter chunkFilter
 			<Item Name="TimeStampedMessage.ctl" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Shared/TimeStampedMessage.ctl"/>
 			<Item Name="TimeStampedMessageQueue.ctl" Type="VI" URL="../Sailboat/RIO-OCU_Comm/NetworkStreams/Shared/TimeStampedMessageQueue.ctl"/>
 			<Item Name="ToRIO.ctl" Type="VI" URL="../Sailboat/RIO-OCU_Comm/ToRIO.ctl"/>
-			<Item Name="UTM Location.ctl" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Data/TypeDefs/UTM Location.ctl"/>
-			<Item Name="Waypoint.lvclass" Type="LVClass" URL="../Sailboat/cRIO_Code/Logic/Forebrain/Classes/Waypoint/Waypoint.lvclass"/>
 			<Item Name="WillHeadingHitObstacles.vi" Type="VI" URL="../Sailboat/cRIO_Code/Logic/Classes/Obstacle/WillHeadingHitObstacles.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
